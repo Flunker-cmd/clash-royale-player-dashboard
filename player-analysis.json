@@ -7,7 +7,7 @@
     "arena": "Magic Academy"
   },
   "sampleSize": 40,
-  "decks": [
+  "regularDecks": [
     {
       "label": "Bomber, Boss Bandit, Royal Hogs, Wall Breakers, Mega Knight, Bats, Barbarian Barrel, Fireball",
       "category": "regular",
@@ -123,7 +123,9 @@
       "battles": 19,
       "wins": 10,
       "winRate": 52.6
-    },
+    }
+  ],
+  "warDecks": [
     {
       "label": "Royal Hogs, Witch, Elite Barbarians, Hog Rider, Mega Knight, Balloon, Mini P.E.K.K.A, Wizard, Barbarians, Valkyrie, P.E.K.K.A, Boss Bandit",
       "category": "war",
@@ -4464,15 +4466,6 @@
       "level": 9,
       "maxLevel": 14,
       "gap": 5
-    }
-  ],
-  "metaAvailable": false,
-  "metaDecks": [],
-  "recommendations": [
-    {
-      "title": "Keep testing your strongest observed deck",
-      "text": "67% wins across 3 recorded battles. Treat this as a signal, not a final verdict.",
-      "kind": "positive"
     }
   ]
 }
