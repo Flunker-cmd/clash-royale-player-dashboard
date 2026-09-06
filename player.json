@@ -16,9 +16,9 @@
   "tournamentBattleCount": 39,
   "currentWinLoseStreak": -1,
   "role": "coLeader",
-  "donations": 466,
+  "donations": 474,
   "donationsReceived": 680,
-  "totalDonations": 25984,
+  "totalDonations": 25992,
   "warDayWins": 0,
   "clanCardsCollected": 0,
   "clan": {
@@ -205,7 +205,7 @@
       "name": "ClanDonations",
       "level": 6,
       "maxLevel": 8,
-      "progress": 25984,
+      "progress": 25992,
       "target": 50000,
       "iconUrls": {
         "large": "https://api-assets.clashroyale.com/playerbadges/512/vPTwqJDRx-UyJSQWddV6oUkkyl7Ymgi9w5jshyuTgpM.png"
@@ -1161,7 +1161,7 @@
     {
       "name": "Friend in Need",
       "stars": 3,
-      "value": 25984,
+      "value": 25992,
       "target": 2500,
       "info": "Donate 2500 cards",
       "completionInfo": null
@@ -1241,7 +1241,7 @@
     {
       "name": "Friend in Need II",
       "stars": 3,
-      "value": 25984,
+      "value": 25992,
       "target": 25000,
       "info": "Donate 25000 cards",
       "completionInfo": null
@@ -1765,7 +1765,7 @@
       "maxLevel": 16,
       "maxEvolutionLevel": 1,
       "rarity": "common",
-      "count": 7639,
+      "count": 7631,
       "elixirCost": 4,
       "iconUrls": {
         "medium": "https://api-assets.clashroyale.com/cards/300/lPOSw6H7YOHq2miSCrf7ZDL3ANjhJdPPDYOTujdNrVE.png",
@@ -2929,18 +2929,6 @@
       }
     },
     {
-      "name": "Boss Bandit",
-      "id": 26000103,
-      "level": 5,
-      "maxLevel": 6,
-      "rarity": "champion",
-      "count": 0,
-      "elixirCost": 6,
-      "iconUrls": {
-        "medium": "https://api-assets.clashroyale.com/cards/300/nuceG9o7rAyvyc7D3sp2QSiRYtSOEgraq0NJkDf729s.png"
-      }
-    },
-    {
       "name": "Royal Hogs",
       "id": 26000059,
       "level": 14,
@@ -3053,7 +3041,7 @@
     },
     "rarity": "legendary"
   },
-  "starPoints": 272544,
+  "starPoints": 272552,
   "expPoints": 63225,
   "legacyTrophyRoadHighScore": 3250,
   "currentPathOfLegendSeasonResult": {
