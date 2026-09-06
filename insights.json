@@ -10,6 +10,7 @@
   "decks": [
     {
       "label": "Bomber, Boss Bandit, Royal Hogs, Wall Breakers, Mega Knight, Bats, Barbarian Barrel, Fireball",
+      "category": "regular",
       "cards": [
         {
           "name": "Bomber",
@@ -125,6 +126,7 @@
     },
     {
       "label": "Royal Hogs, Witch, Elite Barbarians, Hog Rider, Mega Knight, Balloon, Mini P.E.K.K.A, Wizard, Barbarians, Valkyrie, P.E.K.K.A, Boss Bandit",
+      "category": "war",
       "cards": [
         {
           "name": "Royal Hogs",
@@ -300,6 +302,7 @@
     },
     {
       "label": "Royal Hogs, Boss Bandit, Cannon, Vines, Archers, Giant Snowball, Wizard, Wall Breakers",
+      "category": "war",
       "cards": [
         {
           "name": "Royal Hogs",
@@ -414,6 +417,7 @@
     },
     {
       "label": "Witch, Tombstone, Mini P.E.K.K.A, Graveyard, Valkyrie, Barbarian Barrel, Balloon, Minion Horde",
+      "category": "war",
       "cards": [
         {
           "name": "Witch",
@@ -533,6 +537,7 @@
     },
     {
       "label": "Firecracker, Hog Rider, Bomber, Mega Knight, Tesla, Fireball, Bats, Skeletons",
+      "category": "war",
       "cards": [
         {
           "name": "Firecracker",
@@ -649,6 +654,7 @@
     },
     {
       "label": "Goblin Barrel, Princess, Knight, Goblin Gang, Ronin, Inferno Tower, The Log, Prince, Firecracker, Hog Rider, Bomber, Mega Knight, Tesla, Fireball, Bats, Skeletons",
+      "category": "war",
       "cards": [
         {
           "name": "Goblin Barrel",
@@ -866,6 +872,7 @@
     },
     {
       "label": "Witch, Tombstone, Mini P.E.K.K.A, Graveyard, Valkyrie, Barbarian Barrel, Baby Dragon, Minion Horde",
+      "category": "war",
       "cards": [
         {
           "name": "Witch",
@@ -985,6 +992,7 @@
     },
     {
       "label": "Goblin Barrel, Princess, Knight, Goblin Gang, Ronin, Inferno Tower, The Log, Prince, Firecracker, Hog Rider, Bomber, Mega Knight, Tesla, Fireball, Bats, Skeletons, Witch, Tombstone, Mini P.E.K.K.A, Graveyard, Valkyrie, Barbarian Barrel, Balloon, Minion Horde",
+      "category": "war",
       "cards": [
         {
           "name": "Goblin Barrel",
@@ -1313,6 +1321,7 @@
     },
     {
       "label": "Witch, Tombstone, Mini P.E.K.K.A, Graveyard, Valkyrie, Barbarian Barrel, Balloon, Minion Horde, Goblin Barrel, Princess, Knight, Goblin Gang, Ronin, Inferno Tower, The Log, Prince",
+      "category": "war",
       "cards": [
         {
           "name": "Witch",
@@ -1533,6 +1542,7 @@
     },
     {
       "label": "Goblin Barrel, Princess, Knight, Goblin Gang, Ronin, Inferno Tower, The Log, Prince",
+      "category": "war",
       "cards": [
         {
           "name": "Goblin Barrel",
@@ -1753,6 +1763,7 @@
         }
       ],
       "deckLabel": "Bomber, Boss Bandit, Royal Hogs, Wall Breakers, Mega Knight, Bats, Barbarian Barrel, Fireball",
+      "category": "regular",
       "won": false,
       "type": "PvP",
       "date": "20260906T092604.000Z"
@@ -1868,6 +1879,7 @@
         }
       ],
       "deckLabel": "Bomber, Boss Bandit, Royal Hogs, Wall Breakers, Mega Knight, Bats, Barbarian Barrel, Fireball",
+      "category": "regular",
       "won": false,
       "type": "PvP",
       "date": "20260906T081113.000Z"
@@ -1983,6 +1995,7 @@
         }
       ],
       "deckLabel": "Bomber, Boss Bandit, Royal Hogs, Wall Breakers, Mega Knight, Bats, Barbarian Barrel, Fireball",
+      "category": "regular",
       "won": true,
       "type": "PvP",
       "date": "20260906T054534.000Z"
@@ -2097,6 +2110,7 @@
         }
       ],
       "deckLabel": "Royal Hogs, Boss Bandit, Cannon, Vines, Archers, Giant Snowball, Wizard, Wall Breakers",
+      "category": "war",
       "won": true,
       "type": "riverRacePvP",
       "date": "20260905T162052.000Z"
@@ -2216,6 +2230,7 @@
         }
       ],
       "deckLabel": "Witch, Tombstone, Mini P.E.K.K.A, Graveyard, Valkyrie, Barbarian Barrel, Balloon, Minion Horde",
+      "category": "war",
       "won": true,
       "type": "riverRacePvP",
       "date": "20260905T161713.000Z"
@@ -2433,6 +2448,7 @@
         }
       ],
       "deckLabel": "Goblin Barrel, Princess, Knight, Goblin Gang, Ronin, Inferno Tower, The Log, Prince, Firecracker, Hog Rider, Bomber, Mega Knight, Tesla, Fireball, Bats, Skeletons",
+      "category": "war",
       "won": true,
       "type": "riverRaceDuelColosseum",
       "date": "20260905T161105.000Z"
@@ -2548,6 +2564,7 @@
         }
       ],
       "deckLabel": "Bomber, Boss Bandit, Royal Hogs, Wall Breakers, Mega Knight, Bats, Barbarian Barrel, Fireball",
+      "category": "regular",
       "won": false,
       "type": "PvP",
       "date": "20260905T133247.000Z"
@@ -2663,6 +2680,7 @@
         }
       ],
       "deckLabel": "Bomber, Boss Bandit, Royal Hogs, Wall Breakers, Mega Knight, Bats, Barbarian Barrel, Fireball",
+      "category": "regular",
       "won": false,
       "type": "PvP",
       "date": "20260905T132622.000Z"
@@ -2778,6 +2796,7 @@
         }
       ],
       "deckLabel": "Bomber, Boss Bandit, Royal Hogs, Wall Breakers, Mega Knight, Bats, Barbarian Barrel, Fireball",
+      "category": "regular",
       "won": true,
       "type": "PvP",
       "date": "20260905T051302.000Z"
@@ -2893,6 +2912,7 @@
         }
       ],
       "deckLabel": "Bomber, Boss Bandit, Royal Hogs, Wall Breakers, Mega Knight, Bats, Barbarian Barrel, Fireball",
+      "category": "regular",
       "won": false,
       "type": "PvP",
       "date": "20260904T175640.000Z"
@@ -3008,6 +3028,7 @@
         }
       ],
       "deckLabel": "Bomber, Boss Bandit, Royal Hogs, Wall Breakers, Mega Knight, Bats, Barbarian Barrel, Fireball",
+      "category": "regular",
       "won": false,
       "type": "PvP",
       "date": "20260904T145510.000Z"
@@ -3123,6 +3144,7 @@
         }
       ],
       "deckLabel": "Bomber, Boss Bandit, Royal Hogs, Wall Breakers, Mega Knight, Bats, Barbarian Barrel, Fireball",
+      "category": "regular",
       "won": true,
       "type": "PvP",
       "date": "20260904T125943.000Z"
@@ -3238,6 +3260,7 @@
         }
       ],
       "deckLabel": "Bomber, Boss Bandit, Royal Hogs, Wall Breakers, Mega Knight, Bats, Barbarian Barrel, Fireball",
+      "category": "regular",
       "won": true,
       "type": "PvP",
       "date": "20260904T124807.000Z"
@@ -3352,6 +3375,7 @@
         }
       ],
       "deckLabel": "Royal Hogs, Boss Bandit, Cannon, Vines, Archers, Giant Snowball, Wizard, Wall Breakers",
+      "category": "war",
       "won": false,
       "type": "riverRacePvP",
       "date": "20260904T114705.000Z"
@@ -3680,6 +3704,7 @@
         }
       ],
       "deckLabel": "Goblin Barrel, Princess, Knight, Goblin Gang, Ronin, Inferno Tower, The Log, Prince, Firecracker, Hog Rider, Bomber, Mega Knight, Tesla, Fireball, Bats, Skeletons, Witch, Tombstone, Mini P.E.K.K.A, Graveyard, Valkyrie, Barbarian Barrel, Balloon, Minion Horde",
+      "category": "war",
       "won": false,
       "type": "riverRaceDuelColosseum",
       "date": "20260904T105927.000Z"
@@ -3795,6 +3820,7 @@
         }
       ],
       "deckLabel": "Bomber, Boss Bandit, Royal Hogs, Wall Breakers, Mega Knight, Bats, Barbarian Barrel, Fireball",
+      "category": "regular",
       "won": true,
       "type": "PvP",
       "date": "20260904T095135.000Z"
@@ -3910,6 +3936,7 @@
         }
       ],
       "deckLabel": "Bomber, Boss Bandit, Royal Hogs, Wall Breakers, Mega Knight, Bats, Barbarian Barrel, Fireball",
+      "category": "regular",
       "won": false,
       "type": "PvP",
       "date": "20260904T093612.000Z"
@@ -4025,6 +4052,7 @@
         }
       ],
       "deckLabel": "Bomber, Boss Bandit, Royal Hogs, Wall Breakers, Mega Knight, Bats, Barbarian Barrel, Fireball",
+      "category": "regular",
       "won": true,
       "type": "PvP",
       "date": "20260904T093059.000Z"
@@ -4140,6 +4168,7 @@
         }
       ],
       "deckLabel": "Bomber, Boss Bandit, Royal Hogs, Wall Breakers, Mega Knight, Bats, Barbarian Barrel, Fireball",
+      "category": "regular",
       "won": false,
       "type": "PvP",
       "date": "20260904T052659.000Z"
@@ -4255,6 +4284,7 @@
         }
       ],
       "deckLabel": "Bomber, Boss Bandit, Royal Hogs, Wall Breakers, Mega Knight, Bats, Barbarian Barrel, Fireball",
+      "category": "regular",
       "won": false,
       "type": "PvP",
       "date": "20260903T205538.000Z"
