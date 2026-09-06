@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Player Deck Lab</title>
+  <style>
+    :root { --ink:#18242b; --muted:#65747a; --paper:#f6f2e9; --panel:#fffdf8; --line:#d8d0c2; --accent:#e56b45; --green:#397b68; --shadow:0 18px 45px #31404718; }
+    * { box-sizing:border-box; }
+    body { margin:0; color:var(--ink); background:radial-gradient(circle at 8% 0%,#f0d7b8 0 18%,transparent 42%),linear-gradient(135deg,#f6f2e9,#e5eee8); font:16px/1.5 Georgia, 'Times New Roman', serif; }
+    main { width:min(1180px,calc(100% - 32px)); margin:0 auto; padding:48px 0 72px; }
+    header { display:flex; justify-content:space-between; align-items:end; gap:24px; margin-bottom:32px; }
+    .eyebrow { color:var(--accent); font:700 12px/1.2 Arial,sans-serif; letter-spacing:2px; text-transform:uppercase; }
+    h1 { margin:8px 0 0; font-size:clamp(42px,7vw,78px); line-height:.95; font-weight:700; letter-spacing:0; }
+    h2 { margin:0 0 16px; font-size:25px; }
+    .stamp { color:var(--muted); font:13px Arial,sans-serif; text-align:right; }
+    .grid { display:grid; grid-template-columns:repeat(12,1fr); gap:16px; }
+    section { background:color-mix(in srgb,var(--panel) 94%,transparent); border:1px solid var(--line); box-shadow:var(--shadow); padding:24px; border-radius:8px; }
+    .profile { grid-column:span 7; display:flex; justify-content:space-between; gap:24px; align-items:center; }
+    .profile h2 { font-size:34px; margin:4px 0; }
+    .tag { color:var(--muted); font:14px Arial,sans-serif; }
+    .score { color:var(--green); font-size:52px; font-weight:bold; white-space:nowrap; }
+    .stats { grid-column:span 5; display:grid; grid-template-columns:1fr 1fr; gap:18px; }
+    .stat strong { display:block; font-size:29px; }
+    .stat span { color:var(--muted); font:12px Arial,sans-serif; text-transform:uppercase; letter-spacing:1px; }
+    .wide { grid-column:span 8; }
+    .side { grid-column:span 4; }
+    .deck-list { display:grid; gap:12px; }
+    .deck { border-top:1px solid var(--line); padding-top:14px; }
+    .deck:first-child { border-top:0; padding-top:0; }
+    .deck-head { display:flex; justify-content:space-between; gap:12px; font-size:18px; }
+    .rate { color:var(--green); font-weight:bold; white-space:nowrap; }
+    .bar { height:8px; background:#e8e0d4; margin-top:10px; overflow:hidden; border-radius:4px; }
+    .bar i { display:block; height:100%; background:var(--accent); border-radius:4px; }
+    .cards { display:flex; flex-wrap:wrap; gap:8px; }
+    .card { background:#e9f0ec; border:1px solid #c6d9d0; padding:7px 10px; border-radius:5px; font:13px Arial,sans-serif; }
+    .card small { color:var(--muted); }
+    .recommendation { border-left:4px solid var(--accent); padding:12px 14px; margin:12px 0; background:#fff7ed; }
+    .recommendation strong { display:block; }
+    .empty { color:var(--muted); }
+    .error { color:#9e3e31; font-family:Arial,sans-serif; }
+    @media (max-width:760px) { main { padding-top:28px; } header { display:block; } .stamp { text-align:left; margin-top:16px; } .profile,.stats,.wide,.side { grid-column:1/-1; } .profile { display:block; } .score { margin-top:16px; } }
+  </style>
+</head>
+<body>
+  <main>
+    <header><div><div class="eyebrow">Personal Clash Royale analytics</div><h1>Player Deck Lab</h1></div><div class="stamp" id="updated">Loading snapshot...</div></header>
+    <div class="grid" id="app"><section class="profile"><div><div class="eyebrow">Player</div><h2 id="name">Loading...</h2><div class="tag" id="tag"></div><div class="tag" id="arena"></div></div><div class="score" id="trophies">-</div></section><section class="stats"><div class="stat"><strong id="battles">-</strong><span>Observed battles</span></div><div class="stat"><strong id="decks">-</strong><span>Observed decks</span></div><div class="stat"><strong id="best">-</strong><span>Best trophies</span></div><div class="stat"><strong id="meta">Ready</strong><span>Meta comparison</span></div></section><section class="wide"><h2>Observed decks</h2><div class="deck-list" id="deck-list"></div></section><section class="side"><h2>What to test next</h2><div id="recommendations"></div></section><section class="wide"><h2>Upgrade candidates</h2><div class="cards" id="upgrades"></div></section><section class="side"><h2>Data notes</h2><p class="empty">Decks are inferred from the available battle log. Small samples are signals, not proof. Meta comparison becomes available when a reviewed <code>meta.json</code> snapshot is added.</p></section></div>
+  </main>
+  <script>
+    const get = id => document.getElementById(id);
+    const number = value => Number(value || 0).toLocaleString();
+    function render(data, metadata) {
+      const p = data.player || {};
+      get('name').textContent = p.name || 'Unknown player'; get('tag').textContent = p.tag || ''; get('arena').textContent = p.arena || 'Unknown arena';
+      get('trophies').textContent = number(p.trophies); get('best').textContent = number(p.bestTrophies); get('battles').textContent = number(data.sampleSize); get('decks').textContent = number((data.decks || []).length); get('meta').textContent = data.metaAvailable ? 'Loaded' : 'Not loaded';
+      get('updated').textContent = metadata.fetchedAt ? `Snapshot: ${new Date(metadata.fetchedAt).toLocaleString()}` : 'Snapshot loaded';
+      const decks = get('deck-list'); decks.innerHTML = data.decks?.length ? data.decks.map(deck => `<article class="deck"><div class="deck-head"><span>${deck.label}</span><span class="rate">${deck.winRate}% wins</span></div><div class="tag">${deck.battles} recorded battles</div><div class="bar"><i style="width:${Math.min(deck.winRate,100)}%"></i></div></article>`).join('') : '<p class="empty">No usable decks found yet. Play matches and refresh the snapshot.</p>';
+      get('recommendations').innerHTML = (data.recommendations || []).map(item => `<div class="recommendation"><strong>${item.title}</strong><span>${item.text}</span></div>`).join('');
+      get('upgrades').innerHTML = data.upgradeCandidates?.length ? data.upgradeCandidates.map(card => `<span class="card">${card.name} <small>${card.level}/${card.maxLevel}</small></span>`).join('') : '<span class="empty">No card level data available.</span>';
+    }
+    Promise.all([fetch('insights.json'), fetch('metadata.json')]).then(async ([insights, metadata]) => { if (!insights.ok || !metadata.ok) throw new Error('Snapshot files are missing'); render(await insights.json(), await metadata.json()); }).catch(error => { get('app').innerHTML = `<section class="error"><h2>Dashboard unavailable</h2><p>${error.message}. Run the data workflow first.</p></section>`; });
+  </script>
+</body>
+</html>

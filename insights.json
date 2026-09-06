@@ -1,0 +1,20 @@
+{
+  "player": {
+    "tag": "#URUQ09LVG",
+    "name": "Waiting for first snapshot",
+    "trophies": 0,
+    "bestTrophies": 0,
+    "arena": "Unknown arena"
+  },
+  "sampleSize": 0,
+  "decks": [],
+  "recentBattles": [],
+  "upgradeCandidates": [],
+  "recommendations": [
+    {
+      "title": "Run the data workflow",
+      "text": "Trigger Fetch Player Data in GitHub Actions to replace this starter snapshot.",
+      "kind": "info"
+    }
+  ]
+}

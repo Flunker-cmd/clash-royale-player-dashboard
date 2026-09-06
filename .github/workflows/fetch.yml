@@ -1,0 +1,41 @@
+name: Fetch Player Data
+
+on:
+  schedule:
+    - cron: '0 */2 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: fetch-player-data
+  cancel-in-progress: true
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Fetch player snapshots
+        env:
+          CLASH_ROYALE_TOKEN: ${{ secrets.CLASH_ROYALE_TOKEN }}
+          CLASH_ROYALE_PLAYER_TAG: '#URUQ09LVG'
+        run: python fetch_data.py
+
+      - name: Generate insights
+        run: python generate_insights.py
+
+      - name: Commit updated snapshots
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add player.json battlelog.json cards.json metadata.json insights.json meta.json
+          git diff --cached --quiet || (git commit -m "Auto-update player data" && git push)
