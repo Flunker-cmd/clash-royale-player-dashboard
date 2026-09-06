@@ -3,14 +3,14 @@
 Use this data to analyze the player's current observed decks. Do not invent cards, battles, or conclusions beyond the supplied sample.
 
 Player: wisely (#URUQ09LVG)
-Trophies: 12130
+Trophies: 12101
 Observed battles: 36
 Meta data available: no
 Meta source: not supplied
 Meta fetched at: not supplied
 
 ## Regular decks
-- Bomber (level 16), Boss Bandit (level 5), Royal Hogs (level 14), Wall Breakers (level 11), Mega Knight (level 8), Bats (level 15), Barbarian Barrel (level 10), Fireball (level 13) - 10/19 wins (52.6%)
+- Bomber (level 16), Boss Bandit (level 5), Royal Hogs (level 14), Wall Breakers (level 11), Mega Knight (level 8), Bats (level 15), Barbarian Barrel (level 10), Fireball (level 13) - 9/19 wins (47.4%)
 
 ## War decks
 - Firecracker (level 15), Hog Rider (level 13), Bomber (level 16), Mega Knight (level 8), Tesla (level 15), Fireball (level 13), Bats (level 15), Skeletons (level 15) - 3/4 wins (75.0%)
