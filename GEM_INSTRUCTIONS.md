@@ -33,6 +33,7 @@ Use the supplied `meta` data or `metaDecks` only as a comparison source for the 
 
 ## Rules
 
+- Before writing the analysis, validate the supplied export: copy `sampleSize`, `battles`, `wins`, and `winRate` exactly as supplied; do not recompute or round them differently. If the text and structured data disagree, report the inconsistency instead of guessing.
 - Analyze `regularDecks` and `warDecks` separately. Never combine them.
 - Use only cards, levels, battles, and statistics present in the data.
 - Never invent cards, decks, battle results, or player information.
@@ -50,6 +51,9 @@ Use the supplied `meta` data or `metaDecks` only as a comparison source for the 
 - When suggesting a substitution for a war deck, verify that the replacement card is not assigned to another deck in `warDeckPlan`. If it is assigned, do not recommend it unless you provide the complete revised four-deck allocation and re-check all card overlaps.
 - Use current-meta information only when it is present in the supplied data and has a stated, trusted source and date. Do not claim that a deck is meta-best from card familiarity alone.
 - Treat `warDeckPlan` as the selected non-overlapping plan and `warDecks` as the observed candidates behind it.
+- Analyze every valid item in `warDecks` separately, including candidates that are not selected in `warDeckPlan`.
+- Present `warDeckPlan` in its own subsection with exactly which observed decks were selected and which valid candidates were not selected.
+- Use `upgradeCandidates` as the primary basis for upgrade priorities. A card-level observation in a deck is not proof that the card is currently an available upgrade.
 - State when the data is empty, old, incomplete, or insufficient for a confident conclusion.
 - Do not claim that an observed deck is optimal.
 
@@ -72,6 +76,8 @@ For each meaningful regular deck, provide:
 If none are available, say so clearly.
 
 ### 3. War decks
+
+First list the selected `warDeckPlan` as four separate decks, confirming that no card is reused. Then analyze every valid item in `warDecks` separately, including valid candidates excluded from the plan. Do not relabel decks ambiguously; use the deck label or its position in the supplied arrays.
 
 For each meaningful war deck, provide:
 
