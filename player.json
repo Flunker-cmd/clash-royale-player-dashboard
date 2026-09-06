@@ -7,14 +7,14 @@
   "trophies": 12130,
   "bestTrophies": 12245,
   "wins": 4603,
-  "losses": 5163,
-  "battleCount": 9766,
+  "losses": 5164,
+  "battleCount": 9767,
   "threeCrownWins": 1604,
   "challengeCardsWon": 3,
   "challengeMaxWins": 0,
   "tournamentCardsWon": 0,
   "tournamentBattleCount": 39,
-  "currentWinLoseStreak": 1,
+  "currentWinLoseStreak": -1,
   "role": "coLeader",
   "donations": 466,
   "donationsReceived": 680,
@@ -1778,7 +1778,7 @@
       "level": 6,
       "maxLevel": 11,
       "rarity": "epic",
-      "count": 159,
+      "count": 162,
       "iconUrls": {
         "medium": "https://api-assets.clashroyale.com/cards/300/wC6Cm9rKLEOk72zTsukVwxewKIoO4ZcMJun54zCPWvA.png"
       }
@@ -2926,6 +2926,18 @@
       "iconUrls": {
         "medium": "https://api-assets.clashroyale.com/cards/300/12n1CesxKIcqVYntjxcF36EFA-ONw7Z-DoL0_rQrbdo.png",
         "evolutionMedium": "https://api-assets.clashroyale.com/cardevolutions/300/12n1CesxKIcqVYntjxcF36EFA-ONw7Z-DoL0_rQrbdo.png"
+      }
+    },
+    {
+      "name": "Boss Bandit",
+      "id": 26000103,
+      "level": 5,
+      "maxLevel": 6,
+      "rarity": "champion",
+      "count": 0,
+      "elixirCost": 6,
+      "iconUrls": {
+        "medium": "https://api-assets.clashroyale.com/cards/300/nuceG9o7rAyvyc7D3sp2QSiRYtSOEgraq0NJkDf729s.png"
       }
     },
     {
