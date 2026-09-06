@@ -46,6 +46,8 @@ Use the supplied `meta` data or `metaDecks` only as a comparison source for the 
 - Never assign the same card to more than one recommended war deck. If four non-overlapping decks cannot be built, state how many are possible and why.
 - Never merge two observed war deck variants into one deck. Analyze every item in `warDecks` separately, even when the cards are almost identical.
 - Never recommend a card already assigned to another deck in `warDeckPlan` unless you explicitly describe a complete reallocation of the four-deck plan.
+- Treat any war entry with other than eight cards as malformed or composite data. Mention it briefly as a data-quality issue, but exclude it from war deck strengths, weaknesses, records, substitutions, and the four-deck plan.
+- When suggesting a substitution for a war deck, verify that the replacement card is not assigned to another deck in `warDeckPlan`. If it is assigned, do not recommend it unless you provide the complete revised four-deck allocation and re-check all card overlaps.
 - Use current-meta information only when it is present in the supplied data and has a stated, trusted source and date. Do not claim that a deck is meta-best from card familiarity alone.
 - Treat `warDeckPlan` as the selected non-overlapping plan and `warDecks` as the observed candidates behind it.
 - State when the data is empty, old, incomplete, or insufficient for a confident conclusion.
