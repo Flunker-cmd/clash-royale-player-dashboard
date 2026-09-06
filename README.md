@@ -8,11 +8,12 @@ Personal Clash Royale deck analytics for player `#URUQ09LVG`.
 
 - Fetches player profile, battle log, and card data through GitHub Actions.
 - Shows observed decks and win-rate signals from the available battle log.
+- Builds a four-deck war plan without reusing cards between war decks when the sample supports it.
 - Highlights cards that have room for upgrades.
 - Produces `player-analysis.json` and `player-analysis.md` for use with an external LLM or custom Gem/Agent.
 - Keeps API credentials out of the browser.
 
-Deck recommendations are intentionally cautious: the official API exposes a limited battle log, so a small sample cannot prove that one deck is better than another. Meta comparison is prepared as an optional reviewed `meta.json` data source and is not invented from the official API response.
+Deck recommendations are intentionally cautious: the official API exposes a limited battle log, so a small sample cannot prove that one deck is better than another. War planning selects up to four observed eight-card decks without card reuse. Meta comparison is prepared as an optional reviewed `meta.json` data source and is not invented from the official API response.
 
 `meta.json` is intentionally empty in the starter project. Populate it only from a trusted, permitted data source before using meta-based suggestions.
 

@@ -84,6 +84,49 @@ class GenerateInsightsTests(unittest.TestCase):
         self.assertIn("## War decks", markdown)
         self.assertIn("Knight", markdown)
 
+    def test_war_rounds_are_exported_as_separate_decks(self):
+        def cards(start):
+            return [{"id": index, "name": f"Card {index}"} for index in range(start, start + 8)]
+
+        battle = {
+            "deckSelection": "warDeckPick",
+            "team": [{
+                "tag": "#PLAYER",
+                "rounds": [
+                    {"crowns": 1, "cards": cards(1)},
+                    {"crowns": 0, "cards": cards(9)},
+                ],
+            }],
+            "opponent": [{"rounds": [{"crowns": 0}, {"crowns": 1}]}],
+        }
+
+        insights = build_insights({"tag": "#PLAYER", "name": "Test"}, [battle])
+
+        war_decks = [deck for deck in insights["decks"] if deck["category"] == "war"]
+        self.assertEqual(len(war_decks), 2)
+        self.assertTrue(all(len(deck["cards"]) == 8 for deck in war_decks))
+        self.assertEqual([deck["wins"] for deck in war_decks], [1, 0])
+        self.assertEqual(len(insights["warDeckPlan"]), 2)
+
+    def test_war_deck_plan_never_reuses_a_card(self):
+        def deck(start):
+            return [{"id": index, "name": f"Card {index}"} for index in range(start, start + 8)]
+
+        battles = []
+        for start in (1, 9, 17, 25):
+            battles.append({
+                "deckSelection": "warDeckPick",
+                "team": [{"tag": "#PLAYER", "rounds": [{"crowns": 1, "cards": deck(start)}]}],
+                "opponent": [{"rounds": [{"crowns": 0}]}],
+            })
+
+        insights = build_insights({"tag": "#PLAYER", "name": "Test"}, battles)
+        selected = insights["warDeckPlan"]
+        selected_ids = [card["id"] for item in selected for card in item["cards"]]
+
+        self.assertEqual(len(selected), 4)
+        self.assertEqual(len(selected_ids), len(set(selected_ids)))
+
 
 if __name__ == "__main__":
     unittest.main()

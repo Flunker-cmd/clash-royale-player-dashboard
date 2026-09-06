@@ -4,21 +4,24 @@ Use this data to analyze the player's current observed decks. Do not invent card
 
 Player: wisely (#URUQ09LVG)
 Trophies: 12130
-Observed battles: 40
+Observed battles: 45
 
 ## Regular decks
 - Bomber, Boss Bandit, Royal Hogs, Wall Breakers, Mega Knight, Bats, Barbarian Barrel, Fireball - 10/19 wins (52.6%)
 
 ## War decks
 - Royal Hogs, Witch, Elite Barbarians, Hog Rider, Mega Knight, Balloon, Mini P.E.K.K.A, Wizard, Barbarians, Valkyrie, P.E.K.K.A, Boss Bandit - 4/9 wins (44.4%)
+- Goblin Barrel, Princess, Knight, Goblin Gang, Ronin, Inferno Tower, The Log, Prince - 1/5 wins (20.0%)
+- Firecracker, Hog Rider, Bomber, Mega Knight, Tesla, Fireball, Bats, Skeletons - 3/4 wins (75.0%)
+- Witch, Tombstone, Mini P.E.K.K.A, Graveyard, Valkyrie, Barbarian Barrel, Balloon, Minion Horde - 2/4 wins (50.0%)
 - Royal Hogs, Boss Bandit, Cannon, Vines, Archers, Giant Snowball, Wizard, Wall Breakers - 2/3 wins (66.7%)
-- Witch, Tombstone, Mini P.E.K.K.A, Graveyard, Valkyrie, Barbarian Barrel, Balloon, Minion Horde - 2/2 wins (100.0%)
-- Goblin Barrel, Princess, Knight, Goblin Gang, Ronin, Inferno Tower, The Log, Prince, Firecracker, Hog Rider, Bomber, Mega Knight, Tesla, Fireball, Bats, Skeletons - 1/2 wins (50.0%)
-- Firecracker, Hog Rider, Bomber, Mega Knight, Tesla, Fireball, Bats, Skeletons - 1/1 wins (100.0%)
 - Witch, Tombstone, Mini P.E.K.K.A, Graveyard, Valkyrie, Barbarian Barrel, Baby Dragon, Minion Horde - 1/1 wins (100.0%)
-- Goblin Barrel, Princess, Knight, Goblin Gang, Ronin, Inferno Tower, The Log, Prince, Firecracker, Hog Rider, Bomber, Mega Knight, Tesla, Fireball, Bats, Skeletons, Witch, Tombstone, Mini P.E.K.K.A, Graveyard, Valkyrie, Barbarian Barrel, Balloon, Minion Horde - 0/1 wins (0.0%)
-- Witch, Tombstone, Mini P.E.K.K.A, Graveyard, Valkyrie, Barbarian Barrel, Balloon, Minion Horde, Goblin Barrel, Princess, Knight, Goblin Gang, Ronin, Inferno Tower, The Log, Prince - 0/1 wins (0.0%)
-- Goblin Barrel, Princess, Knight, Goblin Gang, Ronin, Inferno Tower, The Log, Prince - 0/1 wins (0.0%)
+
+## Recommended four-deck war plan
+- Goblin Barrel, Princess, Knight, Goblin Gang, Ronin, Inferno Tower, The Log, Prince - 1/5 wins (20.0%)
+- Firecracker, Hog Rider, Bomber, Mega Knight, Tesla, Fireball, Bats, Skeletons - 3/4 wins (75.0%)
+- Royal Hogs, Boss Bandit, Cannon, Vines, Archers, Giant Snowball, Wizard, Wall Breakers - 2/3 wins (66.7%)
+- Witch, Tombstone, Mini P.E.K.K.A, Graveyard, Valkyrie, Barbarian Barrel, Baby Dragon, Minion Horde - 1/1 wins (100.0%)
 
 ## Upgrade candidates
 - Goblin Demolisher: level 7/14

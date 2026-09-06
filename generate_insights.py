@@ -1,4 +1,6 @@
 import json
+import itertools
+import math
 from collections import defaultdict
 from pathlib import Path
 
@@ -20,6 +22,24 @@ def extract_player_deck(battle, tag):
         if participant.get("cards"):
             return participant.get("cards", [])
     return []
+
+
+def extract_war_rounds(battle, tag):
+    player = next((item for item in battle.get("team", []) or [] if item.get("tag") == tag), None)
+    opponent = (battle.get("opponent", []) or [None])[0]
+    rounds = (player or {}).get("rounds", []) or []
+    opponent_rounds = (opponent or {}).get("rounds", []) or []
+    observations = []
+    for index, round_data in enumerate(rounds):
+        deck = round_data.get("cards", []) or []
+        if not deck:
+            continue
+        enemy_round = opponent_rounds[index] if index < len(opponent_rounds) else {}
+        won = None
+        if "crowns" in round_data and "crowns" in enemy_round:
+            won = round_data["crowns"] > enemy_round["crowns"]
+        observations.append((deck, won))
+    return observations
 
 
 def battle_won(battle, tag):
@@ -50,9 +70,60 @@ def deck_label(deck):
 def battle_category(battle):
     deck_selection = str(battle.get("deckSelection", "")).lower()
     battle_type = str(battle.get("type", "")).lower()
-    if deck_selection == "wardeck" or battle_type.startswith("riverrace") or battle_type == "boatbattle":
+    if deck_selection in {"wardeck", "wardeckpick"} or battle_type.startswith("riverrace") or battle_type == "boatbattle":
         return "war"
     return "regular"
+
+
+def observed_decks(battle, tag):
+    if battle_category(battle) == "war" and str(battle.get("deckSelection", "")).lower() == "wardeckpick":
+        return extract_war_rounds(battle, tag)
+    deck = extract_player_deck(battle, tag)
+    return [(deck, battle_won(battle, tag))] if deck else []
+
+
+def meta_match_score(deck, meta_decks):
+    deck_ids = {card_id(card) for card in deck.get("cards", [])}
+    best_score = 0.0
+    for meta_deck in meta_decks:
+        meta_ids = {card_id(card) for card in meta_deck.get("cards", [])}
+        if not meta_ids:
+            continue
+        overlap = len(deck_ids & meta_ids) / max(len(deck_ids), len(meta_ids))
+        best_score = max(best_score, overlap * float(meta_deck.get("weight", 1)))
+    return round(best_score, 3)
+
+
+def choose_war_decks(decks, meta_decks=None, limit=4):
+    candidates = [deck for deck in decks if deck.get("category") == "war" and len(deck.get("cards", [])) == 8]
+    if not candidates:
+        return []
+    ranked = []
+    for deck in candidates:
+        card_ids = {card_id(card) for card in deck["cards"]}
+        meta_score = meta_match_score(deck, meta_decks or [])
+        evidence_score = deck["winRate"] + min(deck["battles"], 10) * 2
+        deck["metaScore"] = meta_score
+        ranked.append((deck, card_ids, evidence_score + meta_score * 10))
+    best = []
+    best_score = (-1, -1.0)
+    for count in range(1, min(limit, len(ranked)) + 1):
+        for combination in itertools.combinations(ranked, count):
+            used = set()
+            valid = True
+            for _, card_ids, _ in combination:
+                if used.intersection(card_ids):
+                    valid = False
+                    break
+                used.update(card_ids)
+            if not valid:
+                continue
+            score = sum(item[2] for item in combination)
+            ranking = (count, score)
+            if ranking > best_score:
+                best_score = ranking
+                best = [item[0] for item in combination]
+    return best
 
 
 def build_insights(player, battlelog, meta=None):
@@ -62,25 +133,22 @@ def build_insights(player, battlelog, meta=None):
     observed_battles = []
 
     for battle in battles:
-        deck = extract_player_deck(battle, tag)
-        if not deck:
-            continue
-        won = battle_won(battle, tag)
         category = battle_category(battle)
-        key = (category, deck_key(deck))
-        stats = deck_stats[key]
-        stats["battles"] += 1
-        stats["deck"] = deck
-        if won is True:
-            stats["wins"] += 1
-        observed_battles.append({
-            "deck": deck,
-            "deckLabel": deck_label(deck),
-            "category": category,
-            "won": won,
-            "type": battle.get("type") or battle.get("gameMode", {}).get("name"),
-            "date": battle.get("battleTime") or battle.get("date"),
-        })
+        for deck, won in observed_decks(battle, tag):
+            key = (category, deck_key(deck))
+            stats = deck_stats[key]
+            stats["battles"] += 1
+            stats["deck"] = deck
+            if won is True:
+                stats["wins"] += 1
+            observed_battles.append({
+                "deck": deck,
+                "deckLabel": deck_label(deck),
+                "category": category,
+                "won": won,
+                "type": battle.get("type") or battle.get("gameMode", {}).get("name"),
+                "date": battle.get("battleTime") or battle.get("date"),
+            })
 
     decks = []
     for key, stats in deck_stats.items():
@@ -94,6 +162,8 @@ def build_insights(player, battlelog, meta=None):
         })
     decks.sort(key=lambda item: (-item["battles"], -item["winRate"]))
 
+    meta_decks = (meta or {}).get("decks", [])
+    war_deck_plan = choose_war_decks(decks, meta_decks)
     recommendations = []
     if not observed_battles:
         recommendations.append({
@@ -144,6 +214,7 @@ def build_insights(player, battlelog, meta=None):
         "upgradeCandidates": upgrade_candidates[:12],
         "metaAvailable": bool(meta and meta.get("decks")),
         "metaDecks": (meta or {}).get("decks", [])[:10],
+        "warDeckPlan": war_deck_plan,
         "recommendations": recommendations,
     }
 
@@ -155,6 +226,7 @@ def build_analysis_export(insights):
         "sampleSize": insights["sampleSize"],
         "regularDecks": [deck for deck in decks if deck.get("category") == "regular"],
         "warDecks": [deck for deck in decks if deck.get("category") == "war"],
+        "warDeckPlan": insights.get("warDeckPlan", []),
         "recentBattles": insights["recentBattles"],
         "upgradeCandidates": insights["upgradeCandidates"],
     }
@@ -185,6 +257,11 @@ def build_analysis_markdown(export):
     lines.extend(markdown_deck(deck) for deck in export["warDecks"])
     if not export["warDecks"]:
         lines.append("- No war decks observed.")
+    lines.extend(["", "## Recommended four-deck war plan"])
+    if export.get("warDeckPlan"):
+        lines.extend(markdown_deck(deck) for deck in export["warDeckPlan"])
+    else:
+        lines.append("- No four-deck plan available from the current sample.")
     lines.extend(["", "## Upgrade candidates"])
     lines.extend(
         f"- {card['name']}: level {card['level']}/{card['maxLevel']}"

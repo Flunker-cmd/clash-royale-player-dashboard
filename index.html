@@ -35,6 +35,15 @@
     .bar i { display:block; height:100%; background:var(--accent); border-radius:4px; }
     .cards { display:flex; flex-wrap:wrap; gap:8px; }
     .card { background:#e9f0ec; border:1px solid #c6d9d0; padding:7px 10px; border-radius:5px; font:13px Arial,sans-serif; }
+    .war-plan { grid-column:1/-1; background:#18242b; color:#f6f2e9; border:0; }
+    .war-plan h2 { color:#fffdf8; }
+    .war-note { color:#c7d2cf; margin-top:-6px; }
+    .war-grid { display:grid; grid-template-columns:repeat(4,1fr); gap:12px; }
+    .war-deck { min-width:0; padding:16px; background:#24373b; border:1px solid #3d5557; border-radius:6px; }
+    .war-deck strong { display:block; margin-bottom:8px; color:#f0d7b8; }
+    .war-deck .cards { gap:6px; }
+    .war-deck .card { padding:5px 7px; color:#18242b; font-size:12px; }
+    .war-deck .tag { margin-top:10px; color:#c7d2cf; }
     .card small { color:var(--muted); }
     .recommendation { border-left:4px solid var(--accent); padding:12px 14px; margin:12px 0; background:#fff7ed; }
     .recommendation strong { display:block; }
@@ -45,13 +54,14 @@
     .copy-status { flex-basis:100%; color:var(--muted); font:12px Arial,sans-serif; }
     .empty { color:var(--muted); }
     .error { color:#9e3e31; font-family:Arial,sans-serif; }
-    @media (max-width:760px) { main { padding-top:28px; } header { display:block; } .stamp { text-align:left; margin-top:16px; } .profile,.stats,.wide,.side { grid-column:1/-1; } .profile { display:block; } .score { margin-top:16px; } }
+    @media (max-width:900px) { .war-grid { grid-template-columns:repeat(2,1fr); } }
+    @media (max-width:760px) { main { padding-top:28px; } header { display:block; } .stamp { text-align:left; margin-top:16px; } .profile,.stats,.wide,.side { grid-column:1/-1; } .profile { display:block; } .score { margin-top:16px; } .war-grid { grid-template-columns:1fr; } }
   </style>
 </head>
 <body>
   <main>
     <header><div><div class="eyebrow">Personal Clash Royale analytics</div><h1>Player Deck Lab</h1></div><div class="stamp" id="updated">Loading snapshot...</div></header>
-    <div class="grid" id="app"><section class="profile"><div><div class="eyebrow">Player</div><h2 id="name">Loading...</h2><div class="tag" id="tag"></div><div class="tag" id="arena"></div></div><div class="score" id="trophies">-</div></section><section class="stats"><div class="stat"><strong id="battles">-</strong><span>Observed battles</span></div><div class="stat"><strong id="decks">-</strong><span>Observed decks</span></div><div class="stat"><strong id="best">-</strong><span>Best trophies</span></div><div class="stat"><strong id="meta">Ready</strong><span>Meta comparison</span></div></section><section class="wide"><h2>Observed decks</h2><div class="deck-list" id="deck-list"></div></section><section class="side"><h2>What to test next</h2><div id="recommendations"></div></section><section class="wide"><h2>Upgrade candidates</h2><div class="cards" id="upgrades"></div></section><section class="side"><h2>Data notes</h2><p class="empty">Decks are inferred from the available battle log. Small samples are signals, not proof. Meta comparison becomes available when a reviewed <code>meta.json</code> snapshot is added.</p><p class="export-links"><a href="player-analysis.md">Copy-ready Markdown</a><a href="player-analysis.json">JSON export</a><button type="button" onclick="copyAnalysis()">Copy for Gemini</button><span class="copy-status" id="copy-status" role="status" aria-live="polite"></span></p></section></div>
+    <div class="grid" id="app"><section class="profile"><div><div class="eyebrow">Player</div><h2 id="name">Loading...</h2><div class="tag" id="tag"></div><div class="tag" id="arena"></div></div><div class="score" id="trophies">-</div></section><section class="stats"><div class="stat"><strong id="battles">-</strong><span>Observed battles</span></div><div class="stat"><strong id="decks">-</strong><span>Observed decks</span></div><div class="stat"><strong id="best">-</strong><span>Best trophies</span></div><div class="stat"><strong id="meta">Ready</strong><span>Meta comparison</span></div></section><section class="wide"><h2>Observed decks</h2><div class="deck-list" id="deck-list"></div></section><section class="side"><h2>What to test next</h2><div id="recommendations"></div></section><section class="wide"><h2>Upgrade candidates</h2><div class="cards" id="upgrades"></div></section><section class="side"><h2>Data notes</h2><p class="empty">Decks are inferred from the available battle log. Small samples are signals, not proof. Meta comparison becomes available when a reviewed <code>meta.json</code> snapshot is added.</p><p class="export-links"><a href="player-analysis.md">Copy-ready Markdown</a><a href="player-analysis.json">JSON export</a><button type="button" onclick="copyAnalysis()">Copy for Gemini</button><span class="copy-status" id="copy-status" role="status" aria-live="polite"></span></p></section></div><section class="war-plan"><h2>War deck plan</h2><p class="war-note" id="war-note">Four decks are selected without reusing cards.</p><div class="war-grid" id="war-deck-plan"></div></section>
   </main>
   <script>
     const get = id => document.getElementById(id);
@@ -77,6 +87,9 @@
       decks.innerHTML = groupedDecks.length ? groupedDecks.map(group => `<div><div class="deck-category">${group.category === 'war' ? 'War decks' : 'Regular decks'}</div>${group.items.map(deck => `<article class="deck"><div class="deck-head"><span>${deck.label}</span><span class="rate">${deck.winRate}% wins</span></div><div class="tag">${deck.battles} recorded battles</div><div class="bar"><i style="width:${Math.min(deck.winRate,100)}%"></i></div></article>`).join('')}</div>`).join('') : '<p class="empty">No usable decks found yet. Play matches and refresh the snapshot.</p>';
       get('recommendations').innerHTML = (data.recommendations || []).map(item => `<div class="recommendation"><strong>${item.title}</strong><span>${item.text}</span></div>`).join('');
       get('upgrades').innerHTML = data.upgradeCandidates?.length ? data.upgradeCandidates.map(card => `<span class="card">${card.name} <small>${card.level}/${card.maxLevel}</small></span>`).join('') : '<span class="empty">No card level data available.</span>';
+      const warPlan = data.warDeckPlan || [];
+      get('war-note').textContent = warPlan.length === 4 ? 'Four decks selected without reusing cards.' : `Only ${warPlan.length} non-overlapping deck${warPlan.length === 1 ? '' : 's'} found in the current sample.`;
+      get('war-deck-plan').innerHTML = warPlan.length ? warPlan.map((deck, index) => `<article class="war-deck"><strong>War deck ${index + 1}</strong><div class="cards">${deck.cards.map(card => `<span class="card">${card.name}</span>`).join('')}</div><div class="tag">${deck.wins}/${deck.battles} wins (${deck.winRate}%)${data.metaAvailable && deck.metaScore ? ` · meta match ${Math.round(deck.metaScore * 100)}%` : ''}</div></article>`).join('') : '<p class="war-note">No complete non-overlapping plan is available from the current war sample.</p>';
     }
     Promise.all([fetch('insights.json'), fetch('metadata.json')]).then(async ([insights, metadata]) => { if (!insights.ok || !metadata.ok) throw new Error('Snapshot files are missing'); render(await insights.json(), await metadata.json()); }).catch(error => { get('app').innerHTML = `<section class="error"><h2>Dashboard unavailable</h2><p>${error.message}. Run the data workflow first.</p></section>`; });
   </script>

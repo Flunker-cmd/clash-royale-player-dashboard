@@ -10,6 +10,7 @@ https://raw.githubusercontent.com/Flunker-cmd/clash-royale-player-dashboard/main
 - `sampleSize`: number of usable battles included in the analysis.
 - `regularDecks`: observed decks from regular matches.
 - `warDecks`: observed decks from war-related matches.
+- `warDeckPlan`: up to four observed war decks selected without reusing a card between decks.
 - `recentBattles`: recent usable battles with deck category and result.
 - `upgradeCandidates`: cards with a known current level below their known maximum level.
 
@@ -23,6 +24,9 @@ Each item in `regularDecks` or `warDecks` can contain:
 - `battles`: number of observed battles using this card combination in this category.
 - `wins`: observed wins.
 - `winRate`: observed win percentage, not a guaranteed prediction.
+- `metaScore`: optional overlap score against the supplied reviewed meta snapshot; absent or zero means no usable meta match.
+
+`warDeckPlan` uses the same deck fields. It is a proposed collection allocation, not proof that the decks are optimal. If it contains fewer than four decks, the available evidence did not support four non-overlapping candidates.
 
 ## Battle fields
 
