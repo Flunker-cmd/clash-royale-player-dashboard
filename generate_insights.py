@@ -148,11 +148,62 @@ def build_insights(player, battlelog, meta=None):
     }
 
 
+def build_analysis_export(insights):
+    decks = insights.get("decks", [])
+    return {
+        "player": insights["player"],
+        "sampleSize": insights["sampleSize"],
+        "regularDecks": [deck for deck in decks if deck.get("category") == "regular"],
+        "warDecks": [deck for deck in decks if deck.get("category") == "war"],
+        "recentBattles": insights["recentBattles"],
+        "upgradeCandidates": insights["upgradeCandidates"],
+    }
+
+
+def markdown_deck(deck):
+    cards = ", ".join(card.get("name", "Unknown card") for card in deck.get("cards", []))
+    return f"- {cards} - {deck['wins']}/{deck['battles']} wins ({deck['winRate']}%)"
+
+
+def build_analysis_markdown(export):
+    player = export["player"]
+    lines = [
+        "# Clash Royale player analysis input",
+        "",
+        "Use this data to analyze the player's current observed decks. Do not invent cards, battles, or conclusions beyond the supplied sample.",
+        "",
+        f"Player: {player['name']} ({player['tag']})",
+        f"Trophies: {player['trophies']}",
+        f"Observed battles: {export['sampleSize']}",
+        "",
+        "## Regular decks",
+    ]
+    lines.extend(markdown_deck(deck) for deck in export["regularDecks"])
+    if not export["regularDecks"]:
+        lines.append("- No regular decks observed.")
+    lines.extend(["", "## War decks"])
+    lines.extend(markdown_deck(deck) for deck in export["warDecks"])
+    if not export["warDecks"]:
+        lines.append("- No war decks observed.")
+    lines.extend(["", "## Upgrade candidates"])
+    lines.extend(
+        f"- {card['name']}: level {card['level']}/{card['maxLevel']}"
+        for card in export["upgradeCandidates"]
+    )
+    if not export["upgradeCandidates"]:
+        lines.append("- No upgrade data available.")
+    return "\n".join(lines) + "\n"
+
+
 def generate_insights(player_path="player.json", battlelog_path="battlelog.json", output_path="insights.json", meta_path="meta.json"):
     meta_file = Path(meta_path)
     meta = load_json(meta_file) if meta_file.exists() else None
     insights = build_insights(load_json(player_path), load_json(battlelog_path), meta)
     Path(output_path).write_text(json.dumps(insights, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    export = build_analysis_export(insights)
+    output_file = Path(output_path)
+    output_file.with_name("player-analysis.json").write_text(json.dumps(export, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    output_file.with_name("player-analysis.md").write_text(build_analysis_markdown(export), encoding="utf-8")
     return insights
 
 

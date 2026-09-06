@@ -38,6 +38,8 @@
     .card small { color:var(--muted); }
     .recommendation { border-left:4px solid var(--accent); padding:12px 14px; margin:12px 0; background:#fff7ed; }
     .recommendation strong { display:block; }
+    .export-links { display:flex; flex-wrap:wrap; gap:12px; font:14px Arial,sans-serif; }
+    .export-links a { color:var(--green); }
     .empty { color:var(--muted); }
     .error { color:#9e3e31; font-family:Arial,sans-serif; }
     @media (max-width:760px) { main { padding-top:28px; } header { display:block; } .stamp { text-align:left; margin-top:16px; } .profile,.stats,.wide,.side { grid-column:1/-1; } .profile { display:block; } .score { margin-top:16px; } }
@@ -46,7 +48,7 @@
 <body>
   <main>
     <header><div><div class="eyebrow">Personal Clash Royale analytics</div><h1>Player Deck Lab</h1></div><div class="stamp" id="updated">Loading snapshot...</div></header>
-    <div class="grid" id="app"><section class="profile"><div><div class="eyebrow">Player</div><h2 id="name">Loading...</h2><div class="tag" id="tag"></div><div class="tag" id="arena"></div></div><div class="score" id="trophies">-</div></section><section class="stats"><div class="stat"><strong id="battles">-</strong><span>Observed battles</span></div><div class="stat"><strong id="decks">-</strong><span>Observed decks</span></div><div class="stat"><strong id="best">-</strong><span>Best trophies</span></div><div class="stat"><strong id="meta">Ready</strong><span>Meta comparison</span></div></section><section class="wide"><h2>Observed decks</h2><div class="deck-list" id="deck-list"></div></section><section class="side"><h2>What to test next</h2><div id="recommendations"></div></section><section class="wide"><h2>Upgrade candidates</h2><div class="cards" id="upgrades"></div></section><section class="side"><h2>Data notes</h2><p class="empty">Decks are inferred from the available battle log. Small samples are signals, not proof. Meta comparison becomes available when a reviewed <code>meta.json</code> snapshot is added.</p></section></div>
+    <div class="grid" id="app"><section class="profile"><div><div class="eyebrow">Player</div><h2 id="name">Loading...</h2><div class="tag" id="tag"></div><div class="tag" id="arena"></div></div><div class="score" id="trophies">-</div></section><section class="stats"><div class="stat"><strong id="battles">-</strong><span>Observed battles</span></div><div class="stat"><strong id="decks">-</strong><span>Observed decks</span></div><div class="stat"><strong id="best">-</strong><span>Best trophies</span></div><div class="stat"><strong id="meta">Ready</strong><span>Meta comparison</span></div></section><section class="wide"><h2>Observed decks</h2><div class="deck-list" id="deck-list"></div></section><section class="side"><h2>What to test next</h2><div id="recommendations"></div></section><section class="wide"><h2>Upgrade candidates</h2><div class="cards" id="upgrades"></div></section><section class="side"><h2>Data notes</h2><p class="empty">Decks are inferred from the available battle log. Small samples are signals, not proof. Meta comparison becomes available when a reviewed <code>meta.json</code> snapshot is added.</p><p class="export-links"><a href="player-analysis.md">Copy-ready Markdown</a><a href="player-analysis.json">JSON export</a></p></section></div>
   </main>
   <script>
     const get = id => document.getElementById(id);

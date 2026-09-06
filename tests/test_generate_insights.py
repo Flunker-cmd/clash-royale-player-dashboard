@@ -1,6 +1,6 @@
 import unittest
 
-from generate_insights import build_insights
+from generate_insights import build_analysis_export, build_analysis_markdown, build_insights
 
 
 class GenerateInsightsTests(unittest.TestCase):
@@ -65,6 +65,24 @@ class GenerateInsightsTests(unittest.TestCase):
 
         self.assertEqual(len(insights["decks"]), 2)
         self.assertEqual({deck["category"] for deck in insights["decks"]}, {"regular", "war"})
+
+    def test_analysis_export_has_llm_friendly_deck_groups(self):
+        insights = build_insights(
+            {"tag": "#PLAYER", "name": "Test"},
+            [{
+                "deckSelection": "warDeck",
+                "team": [{"tag": "#PLAYER", "crowns": 1, "cards": [{"id": 1, "name": "Knight"}]}],
+                "opponent": [{"tag": "#ENEMY", "crowns": 0}],
+            }],
+        )
+
+        export = build_analysis_export(insights)
+        markdown = build_analysis_markdown(export)
+
+        self.assertEqual(export["regularDecks"], [])
+        self.assertEqual(len(export["warDecks"]), 1)
+        self.assertIn("## War decks", markdown)
+        self.assertIn("Knight", markdown)
 
 
 if __name__ == "__main__":

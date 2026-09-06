@@ -9,6 +9,7 @@ Personal Clash Royale deck analytics for player `#URUQ09LVG`.
 - Fetches player profile, battle log, and card data through GitHub Actions.
 - Shows observed decks and win-rate signals from the available battle log.
 - Highlights cards that have room for upgrades.
+- Produces `player-analysis.json` and `player-analysis.md` for use with an external LLM or custom Gem/Agent.
 - Keeps API credentials out of the browser.
 
 Deck recommendations are intentionally cautious: the official API exposes a limited battle log, so a small sample cannot prove that one deck is better than another. Meta comparison is prepared as an optional reviewed `meta.json` data source and is not invented from the official API response.
@@ -32,3 +33,7 @@ python -m unittest discover -s tests -v
 ```
 
 The live API fetch requires `CLASH_ROYALE_TOKEN`; never put that token in `index.html` or committed JSON fixtures.
+
+## LLM analysis export
+
+After the workflow runs, use `player-analysis.md` for a copy-ready prompt input or `player-analysis.json` for structured agent input. The exports include observed regular decks, war decks, recent battles, and upgrade candidates. They describe the available sample and do not claim that an observed deck is optimal.
