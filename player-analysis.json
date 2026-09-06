@@ -6,7 +6,7 @@
     "bestTrophies": 12245,
     "arena": "Magic Academy"
   },
-  "sampleSize": 45,
+  "sampleSize": 36,
   "regularDecks": [
     {
       "label": "Bomber, Boss Bandit, Royal Hogs, Wall Breakers, Mega Knight, Bats, Barbarian Barrel, Fireball",
@@ -126,182 +126,6 @@
     }
   ],
   "warDecks": [
-    {
-      "label": "Royal Hogs, Witch, Elite Barbarians, Hog Rider, Mega Knight, Balloon, Mini P.E.K.K.A, Wizard, Barbarians, Valkyrie, P.E.K.K.A, Boss Bandit",
-      "category": "war",
-      "cards": [
-        {
-          "name": "Royal Hogs",
-          "id": 26000059,
-          "level": 14,
-          "evolutionLevel": 1,
-          "maxLevel": 14,
-          "maxEvolutionLevel": 1,
-          "rarity": "rare",
-          "elixirCost": 5,
-          "iconUrls": {
-            "medium": "https://api-assets.clashroyale.com/cards/300/ASSQJG_MoVq9e81HZzo4bynMnyLNpNJMfSLb3hqydOw.png",
-            "evolutionMedium": "https://api-assets.clashroyale.com/cardevolutions/300/ASSQJG_MoVq9e81HZzo4bynMnyLNpNJMfSLb3hqydOw.png"
-          }
-        },
-        {
-          "name": "Witch",
-          "id": 26000007,
-          "level": 11,
-          "starLevel": 2,
-          "evolutionLevel": 1,
-          "maxLevel": 11,
-          "maxEvolutionLevel": 1,
-          "rarity": "epic",
-          "elixirCost": 5,
-          "iconUrls": {
-            "medium": "https://api-assets.clashroyale.com/cards/300/cfwk1vzehVyHC-uloEIH6NOI0hOdofCutR5PyhIgO6w.png",
-            "evolutionMedium": "https://api-assets.clashroyale.com/cardevolutions/300/cfwk1vzehVyHC-uloEIH6NOI0hOdofCutR5PyhIgO6w.png"
-          }
-        },
-        {
-          "name": "Elite Barbarians",
-          "id": 26000043,
-          "level": 15,
-          "maxLevel": 16,
-          "maxEvolutionLevel": 1,
-          "rarity": "common",
-          "elixirCost": 6,
-          "iconUrls": {
-            "medium": "https://api-assets.clashroyale.com/cards/300/C88C5JH_F3lLZj6K-tLcMo5DPjrFmvzIb1R2M6xCfTE.png",
-            "evolutionMedium": "https://api-assets.clashroyale.com/cardevolutions/300/C88C5JH_F3lLZj6K-tLcMo5DPjrFmvzIb1R2M6xCfTE.png"
-          }
-        },
-        {
-          "name": "Hog Rider",
-          "id": 26000021,
-          "level": 12,
-          "starLevel": 1,
-          "maxLevel": 14,
-          "rarity": "rare",
-          "elixirCost": 4,
-          "iconUrls": {
-            "medium": "https://api-assets.clashroyale.com/cards/300/Ubu0oUl8tZkusnkZf8Xv9Vno5IO29Y-jbZ4fhoNJ5oc.png"
-          }
-        },
-        {
-          "name": "Mega Knight",
-          "id": 26000055,
-          "level": 8,
-          "starLevel": 2,
-          "maxLevel": 8,
-          "maxEvolutionLevel": 1,
-          "rarity": "legendary",
-          "elixirCost": 7,
-          "iconUrls": {
-            "medium": "https://api-assets.clashroyale.com/cards/300/O2NycChSNhn_UK9nqBXUhhC_lILkiANzPuJjtjoz0CE.png",
-            "evolutionMedium": "https://api-assets.clashroyale.com/cardevolutions/300/O2NycChSNhn_UK9nqBXUhhC_lILkiANzPuJjtjoz0CE.png"
-          }
-        },
-        {
-          "name": "Balloon",
-          "id": 26000006,
-          "level": 9,
-          "starLevel": 1,
-          "maxLevel": 11,
-          "maxEvolutionLevel": 2,
-          "rarity": "epic",
-          "elixirCost": 5,
-          "iconUrls": {
-            "medium": "https://api-assets.clashroyale.com/cards/300/qBipxLo-3hhCnPrApp2Nn3b2NgrSrvwzWytvREev0CY.png",
-            "heroMedium": "https://api-assets.clashroyale.com/cardheroes/300/qBipxLo-3hhCnPrApp2Nn3b2NgrSrvwzWytvREev0CY.png"
-          }
-        },
-        {
-          "name": "Mini P.E.K.K.A",
-          "id": 26000018,
-          "level": 12,
-          "starLevel": 2,
-          "evolutionLevel": 2,
-          "maxLevel": 14,
-          "maxEvolutionLevel": 2,
-          "rarity": "rare",
-          "elixirCost": 4,
-          "iconUrls": {
-            "medium": "https://api-assets.clashroyale.com/cards/300/Fmltc4j3Ve9vO_xhHHPEO3PRP3SmU2oKp2zkZQHRZT4.png",
-            "heroMedium": "https://api-assets.clashroyale.com/cardheroes/300/Fmltc4j3Ve9vO_xhHHPEO3PRP3SmU2oKp2zkZQHRZT4.png"
-          }
-        },
-        {
-          "name": "Wizard",
-          "id": 26000017,
-          "level": 12,
-          "starLevel": 1,
-          "evolutionLevel": 2,
-          "maxLevel": 14,
-          "maxEvolutionLevel": 3,
-          "rarity": "rare",
-          "elixirCost": 5,
-          "iconUrls": {
-            "medium": "https://api-assets.clashroyale.com/cards/300/Mej7vnv4H_3p_8qPs_N6_GKahy6HDr7pU7i9eTHS84U.png",
-            "heroMedium": "https://api-assets.clashroyale.com/cardheroes/300/Mej7vnv4H_3p_8qPs_N6_GKahy6HDr7pU7i9eTHS84U.png",
-            "evolutionMedium": "https://api-assets.clashroyale.com/cardevolutions/300/Mej7vnv4H_3p_8qPs_N6_GKahy6HDr7pU7i9eTHS84U.png"
-          }
-        },
-        {
-          "name": "Barbarians",
-          "id": 26000008,
-          "level": 14,
-          "evolutionLevel": 1,
-          "maxLevel": 16,
-          "maxEvolutionLevel": 1,
-          "rarity": "common",
-          "elixirCost": 5,
-          "iconUrls": {
-            "medium": "https://api-assets.clashroyale.com/cards/300/TvJsuu2S4yhyk1jVYUAQwdKOnW4U77KuWWOTPOWnwfI.png",
-            "evolutionMedium": "https://api-assets.clashroyale.com/cardevolutions/300/TvJsuu2S4yhyk1jVYUAQwdKOnW4U77KuWWOTPOWnwfI.png"
-          }
-        },
-        {
-          "name": "Valkyrie",
-          "id": 26000011,
-          "level": 13,
-          "starLevel": 2,
-          "maxLevel": 14,
-          "maxEvolutionLevel": 3,
-          "rarity": "rare",
-          "elixirCost": 4,
-          "iconUrls": {
-            "medium": "https://api-assets.clashroyale.com/cards/300/0lIoYf3Y_plFTzo95zZL93JVxpfb3MMgFDDhgSDGU9A.png",
-            "heroMedium": "https://api-assets.clashroyale.com/cardheroes/300/0lIoYf3Y_plFTzo95zZL93JVxpfb3MMgFDDhgSDGU9A.png",
-            "evolutionMedium": "https://api-assets.clashroyale.com/cardevolutions/300/0lIoYf3Y_plFTzo95zZL93JVxpfb3MMgFDDhgSDGU9A.png"
-          }
-        },
-        {
-          "name": "P.E.K.K.A",
-          "id": 26000004,
-          "level": 11,
-          "evolutionLevel": 1,
-          "maxLevel": 11,
-          "maxEvolutionLevel": 1,
-          "rarity": "epic",
-          "elixirCost": 7,
-          "iconUrls": {
-            "medium": "https://api-assets.clashroyale.com/cards/300/MlArURKhn_zWAZY-Xj1qIRKLVKquarG25BXDjUQajNs.png",
-            "evolutionMedium": "https://api-assets.clashroyale.com/cardevolutions/300/MlArURKhn_zWAZY-Xj1qIRKLVKquarG25BXDjUQajNs.png"
-          }
-        },
-        {
-          "name": "Boss Bandit",
-          "id": 26000103,
-          "level": 6,
-          "maxLevel": 6,
-          "rarity": "champion",
-          "elixirCost": 6,
-          "iconUrls": {
-            "medium": "https://api-assets.clashroyale.com/cards/300/nuceG9o7rAyvyc7D3sp2QSiRYtSOEgraq0NJkDf729s.png"
-          }
-        }
-      ],
-      "battles": 9,
-      "wins": 4,
-      "winRate": 44.4
-    },
     {
       "label": "Goblin Barrel, Princess, Knight, Goblin Gang, Ronin, Inferno Tower, The Log, Prince",
       "category": "war",
@@ -1366,6 +1190,12 @@
       "metaScore": 0.0
     }
   ],
+  "meta": {
+    "available": false,
+    "source": "",
+    "fetchedAt": "",
+    "decks": []
+  },
   "recentBattles": [
     {
       "deck": [

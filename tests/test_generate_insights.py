@@ -127,6 +127,18 @@ class GenerateInsightsTests(unittest.TestCase):
         self.assertEqual(len(selected), 4)
         self.assertEqual(len(selected_ids), len(set(selected_ids)))
 
+    def test_collection_war_composite_is_not_exported_as_a_deck(self):
+        battle = {
+            "type": "riverRacePvP",
+            "deckSelection": "collection",
+            "team": [{"tag": "#PLAYER", "cards": [{"id": index} for index in range(12)]}],
+            "opponent": [{"crowns": 0}],
+        }
+
+        insights = build_insights({"tag": "#PLAYER", "name": "Test"}, [battle])
+
+        self.assertEqual(insights["decks"], [])
+
 
 if __name__ == "__main__":
     unittest.main()

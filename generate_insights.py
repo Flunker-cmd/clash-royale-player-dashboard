@@ -79,6 +79,12 @@ def observed_decks(battle, tag):
     if battle_category(battle) == "war" and str(battle.get("deckSelection", "")).lower() == "wardeckpick":
         return extract_war_rounds(battle, tag)
     deck = extract_player_deck(battle, tag)
+    if (
+        battle_category(battle) == "war"
+        and str(battle.get("deckSelection", "")).lower() == "collection"
+        and len(deck) != 8
+    ):
+        return []
     return [(deck, battle_won(battle, tag))] if deck else []
 
 
@@ -214,6 +220,8 @@ def build_insights(player, battlelog, meta=None):
         "upgradeCandidates": upgrade_candidates[:12],
         "metaAvailable": bool(meta and meta.get("decks")),
         "metaDecks": (meta or {}).get("decks", [])[:10],
+        "metaSource": (meta or {}).get("source", ""),
+        "metaFetchedAt": (meta or {}).get("fetchedAt", ""),
         "warDeckPlan": war_deck_plan,
         "recommendations": recommendations,
     }
@@ -227,13 +235,24 @@ def build_analysis_export(insights):
         "regularDecks": [deck for deck in decks if deck.get("category") == "regular"],
         "warDecks": [deck for deck in decks if deck.get("category") == "war"],
         "warDeckPlan": insights.get("warDeckPlan", []),
+        "meta": {
+            "available": insights.get("metaAvailable", False),
+            "source": insights.get("metaSource", ""),
+            "fetchedAt": insights.get("metaFetchedAt", ""),
+            "decks": insights.get("metaDecks", []),
+        },
         "recentBattles": insights["recentBattles"],
         "upgradeCandidates": insights["upgradeCandidates"],
     }
 
 
 def markdown_deck(deck):
-    cards = ", ".join(card.get("name", "Unknown card") for card in deck.get("cards", []))
+    cards = ", ".join(
+        f"{card.get('name', 'Unknown card')} (level {card['level']})"
+        if isinstance(card.get("level"), int)
+        else card.get("name", "Unknown card")
+        for card in deck.get("cards", [])
+    )
     return f"- {cards} - {deck['wins']}/{deck['battles']} wins ({deck['winRate']}%)"
 
 
@@ -247,6 +266,9 @@ def build_analysis_markdown(export):
         f"Player: {player['name']} ({player['tag']})",
         f"Trophies: {player['trophies']}",
         f"Observed battles: {export['sampleSize']}",
+        f"Meta data available: {'yes' if export.get('meta', {}).get('available') else 'no'}",
+        f"Meta source: {export.get('meta', {}).get('source') or 'not supplied'}",
+        f"Meta fetched at: {export.get('meta', {}).get('fetchedAt') or 'not supplied'}",
         "",
         "## Regular decks",
     ]
