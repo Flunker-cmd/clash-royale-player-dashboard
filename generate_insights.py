@@ -47,6 +47,14 @@ def deck_label(deck):
     return ", ".join(names) if names else "Observed deck"
 
 
+def battle_category(battle):
+    deck_selection = str(battle.get("deckSelection", "")).lower()
+    battle_type = str(battle.get("type", "")).lower()
+    if deck_selection == "wardeck" or battle_type.startswith("riverrace") or battle_type == "boatbattle":
+        return "war"
+    return "regular"
+
+
 def build_insights(player, battlelog, meta=None):
     tag = player_tag(player)
     battles = battlelog if isinstance(battlelog, list) else battlelog.get("items", [])
@@ -58,7 +66,8 @@ def build_insights(player, battlelog, meta=None):
         if not deck:
             continue
         won = battle_won(battle, tag)
-        key = deck_key(deck)
+        category = battle_category(battle)
+        key = (category, deck_key(deck))
         stats = deck_stats[key]
         stats["battles"] += 1
         stats["deck"] = deck
@@ -67,15 +76,17 @@ def build_insights(player, battlelog, meta=None):
         observed_battles.append({
             "deck": deck,
             "deckLabel": deck_label(deck),
+            "category": category,
             "won": won,
             "type": battle.get("type") or battle.get("gameMode", {}).get("name"),
             "date": battle.get("battleTime") or battle.get("date"),
         })
 
     decks = []
-    for stats in deck_stats.values():
+    for key, stats in deck_stats.items():
         decks.append({
             "label": deck_label(stats["deck"]),
+            "category": key[0],
             "cards": stats["deck"],
             "battles": stats["battles"],
             "wins": stats["wins"],

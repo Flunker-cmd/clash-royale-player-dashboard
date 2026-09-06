@@ -48,6 +48,24 @@ class GenerateInsightsTests(unittest.TestCase):
         self.assertEqual(insights["recommendations"][0]["kind"], "positive")
         self.assertIn("100% wins", insights["recommendations"][0]["text"])
 
+    def test_separates_regular_and_war_decks(self):
+        regular_battle = {
+            "type": "PvP",
+            "team": [{"tag": "#PLAYER", "crowns": 3, "cards": [{"id": 1, "name": "Knight"}]}],
+            "opponent": [{"tag": "#ENEMY", "crowns": 1}],
+        }
+        war_battle = {
+            "type": "riverRacePvP",
+            "deckSelection": "warDeck",
+            "team": [{"tag": "#PLAYER", "crowns": 1, "cards": [{"id": 1, "name": "Knight"}]}],
+            "opponent": [{"tag": "#ENEMY", "crowns": 0}],
+        }
+
+        insights = build_insights({"tag": "#PLAYER", "name": "Test"}, [regular_battle, war_battle])
+
+        self.assertEqual(len(insights["decks"]), 2)
+        self.assertEqual({deck["category"] for deck in insights["decks"]}, {"regular", "war"})
+
 
 if __name__ == "__main__":
     unittest.main()

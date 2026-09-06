@@ -1,6 +1,6 @@
 # clash-royale-player-dashboard
 
-[Open the published dashboard](https://flunker-cmd.github.io/clash-royale-player-dashboard/)
+Live dashboard: https://flunker-cmd.github.io/clash-royale-player-dashboard/
 
 Personal Clash Royale deck analytics for player `#URUQ09LVG`.
 

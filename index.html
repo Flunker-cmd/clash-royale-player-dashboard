@@ -29,6 +29,7 @@
     .deck { border-top:1px solid var(--line); padding-top:14px; }
     .deck:first-child { border-top:0; padding-top:0; }
     .deck-head { display:flex; justify-content:space-between; gap:12px; font-size:18px; }
+    .deck-category { color:var(--accent); font:700 12px Arial,sans-serif; letter-spacing:1px; text-transform:uppercase; }
     .rate { color:var(--green); font-weight:bold; white-space:nowrap; }
     .bar { height:8px; background:#e8e0d4; margin-top:10px; overflow:hidden; border-radius:4px; }
     .bar i { display:block; height:100%; background:var(--accent); border-radius:4px; }
@@ -55,7 +56,9 @@
       get('name').textContent = p.name || 'Unknown player'; get('tag').textContent = p.tag || ''; get('arena').textContent = p.arena || 'Unknown arena';
       get('trophies').textContent = number(p.trophies); get('best').textContent = number(p.bestTrophies); get('battles').textContent = number(data.sampleSize); get('decks').textContent = number((data.decks || []).length); get('meta').textContent = data.metaAvailable ? 'Loaded' : 'Not loaded';
       get('updated').textContent = metadata.fetchedAt ? `Snapshot: ${new Date(metadata.fetchedAt).toLocaleString()}` : 'Snapshot loaded';
-      const decks = get('deck-list'); decks.innerHTML = data.decks?.length ? data.decks.map(deck => `<article class="deck"><div class="deck-head"><span>${deck.label}</span><span class="rate">${deck.winRate}% wins</span></div><div class="tag">${deck.battles} recorded battles</div><div class="bar"><i style="width:${Math.min(deck.winRate,100)}%"></i></div></article>`).join('') : '<p class="empty">No usable decks found yet. Play matches and refresh the snapshot.</p>';
+      const decks = get('deck-list');
+      const groupedDecks = ['regular', 'war'].map(category => ({ category, items: (data.decks || []).filter(deck => deck.category === category) })).filter(group => group.items.length);
+      decks.innerHTML = groupedDecks.length ? groupedDecks.map(group => `<div><div class="deck-category">${group.category === 'war' ? 'War decks' : 'Regular decks'}</div>${group.items.map(deck => `<article class="deck"><div class="deck-head"><span>${deck.label}</span><span class="rate">${deck.winRate}% wins</span></div><div class="tag">${deck.battles} recorded battles</div><div class="bar"><i style="width:${Math.min(deck.winRate,100)}%"></i></div></article>`).join('')}</div>`).join('') : '<p class="empty">No usable decks found yet. Play matches and refresh the snapshot.</p>';
       get('recommendations').innerHTML = (data.recommendations || []).map(item => `<div class="recommendation"><strong>${item.title}</strong><span>${item.text}</span></div>`).join('');
       get('upgrades').innerHTML = data.upgradeCandidates?.length ? data.upgradeCandidates.map(card => `<span class="card">${card.name} <small>${card.level}/${card.maxLevel}</small></span>`).join('') : '<span class="empty">No card level data available.</span>';
     }
