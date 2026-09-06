@@ -96,7 +96,7 @@ def build_insights(player, battlelog, meta=None):
             best = max(reliable_decks, key=lambda item: item["winRate"])
             recommendations.append({
                 "title": "Keep testing your strongest observed deck",
-                "text": f"{best.winRate:.0f}% wins across {best.battles} recorded battles. Treat this as a signal, not a final verdict.",
+                "text": f"{best['winRate']:.0f}% wins across {best['battles']} recorded battles. Treat this as a signal, not a final verdict.",
                 "kind": "positive",
             })
         else:

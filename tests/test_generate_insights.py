@@ -36,6 +36,18 @@ class GenerateInsightsTests(unittest.TestCase):
         self.assertEqual(insights["decks"], [])
         self.assertEqual(insights["recommendations"][0]["kind"], "info")
 
+    def test_reliable_decks_generates_recommendation(self):
+        player = {"tag": "#PLAYER", "name": "Test"}
+        battle = {
+            "team": [{"tag": "#PLAYER", "crowns": 3, "cards": [{"id": 1, "name": "Knight"}]}],
+            "opponent": [{"tag": "#ENEMY", "crowns": 1}],
+        }
+        battlelog = [battle, battle, battle]
+        insights = build_insights(player, battlelog)
+        self.assertEqual(len(insights["recommendations"]), 1)
+        self.assertEqual(insights["recommendations"][0]["kind"], "positive")
+        self.assertIn("100% wins", insights["recommendations"][0]["text"])
+
 
 if __name__ == "__main__":
     unittest.main()
