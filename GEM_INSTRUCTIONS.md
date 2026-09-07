@@ -35,6 +35,11 @@ Use the supplied `meta` data or `metaDecks` only as a comparison source for the 
 
 - Before writing the analysis, validate the supplied export: copy `sampleSize`, `battles`, `wins`, and `winRate` exactly as supplied; do not recompute or round them differently. If the text and structured data disagree, report the inconsistency instead of guessing.
 - Before finalizing, compare every printed deck record against the corresponding item in `warDecks` or `warDeckPlan`. Printed `wins`, `battles`, and `winRate` must match exactly. Never infer these values from sample size or from another deck variant.
+- Check the arithmetic of the export without replacing its values: `sampleSize` should equal the number of supplied recent battles when that field is available, and regular plus war battle counts should explain the total when both categories are present. If they do not, report the discrepancy.
+- Count level claims exactly from the supplied cards. Do not say "three level 16 cards" unless exactly three cards have `level: 16`; count all cards, including win conditions and defensive cards.
+- Do not call a deck "heavy", "cheap", or "fast cycle" from intuition alone. If making an elixir claim, calculate the average from the supplied `elixirCost` values and show the number; otherwise call it a hypothesis to test.
+- Treat statements about synergy, counters, interaction thresholds, and card roles as coaching hypotheses rather than facts proven by this sample. Tie them to the listed cards and label uncertainty when the sample is small.
+- Do not invent a reason why `warDeckPlan` selected one overlapping variant over another. State the observed records and the no-reuse constraint; any strategic preference must be presented as a testable recommendation.
 - Analyze `regularDecks` and `warDecks` separately. Never combine them.
 - Use only cards, levels, battles, and statistics present in the data.
 - Never invent cards, decks, battle results, or player information.
