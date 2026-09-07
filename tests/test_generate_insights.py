@@ -29,6 +29,39 @@ class GenerateInsightsTests(unittest.TestCase):
         self.assertEqual(insights["decks"][0]["winRate"], 50.0)
         self.assertEqual(insights["upgradeCandidates"][0]["name"], "Knight")
 
+    def test_converts_rarity_relative_levels_to_global_levels(self):
+        player = {
+            "tag": "#PLAYER",
+            "name": "Test Player",
+            "cards": [{
+                "id": 26000055,
+                "name": "Mega Knight",
+                "level": 8,
+                "maxLevel": 8,
+                "rarity": "legendary",
+            }],
+        }
+        battlelog = [{
+            "team": [{
+                "tag": "#PLAYER",
+                "cards": [{
+                    "id": 26000055,
+                    "name": "Mega Knight",
+                    "level": 8,
+                    "maxLevel": 8,
+                    "rarity": "legendary",
+                }],
+                "crowns": 1,
+            }],
+            "opponent": [{"crowns": 0}],
+        }]
+
+        insights = build_insights(player, battlelog)
+
+        self.assertEqual(insights["decks"][0]["cards"][0]["level"], 16)
+        self.assertEqual(insights["decks"][0]["cards"][0]["maxLevel"], 16)
+        self.assertEqual(insights["upgradeCandidates"], [])
+
     def test_empty_battlelog_returns_actionable_recommendation(self):
         insights = build_insights({"tag": "#PLAYER", "name": "Test"}, [])
 

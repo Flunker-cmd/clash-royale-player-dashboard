@@ -58,6 +58,21 @@ def card_id(card):
     return str(card.get("id") or card.get("name") or "unknown")
 
 
+def normalize_card_level(card):
+    normalized = dict(card)
+    level = card.get("level")
+    max_level = card.get("maxLevel")
+    if isinstance(level, int) and isinstance(max_level, int) and max_level < 16:
+        offset = 16 - max_level
+        normalized["level"] = level + offset
+        normalized["maxLevel"] = 16
+    return normalized
+
+
+def normalize_deck(deck):
+    return [normalize_card_level(card) for card in deck]
+
+
 def deck_key(deck):
     return "|".join(sorted(card_id(card) for card in deck))
 
@@ -141,6 +156,7 @@ def build_insights(player, battlelog, meta=None):
     for battle in battles:
         category = battle_category(battle)
         for deck, won in observed_decks(battle, tag):
+            deck = normalize_deck(deck)
             key = (category, deck_key(deck))
             stats = deck_stats[key]
             stats["battles"] += 1
@@ -195,6 +211,7 @@ def build_insights(player, battlelog, meta=None):
 
     upgrade_candidates = []
     for card in player.get("cards", []) or []:
+        card = normalize_card_level(card)
         level = card.get("level")
         max_level = card.get("maxLevel")
         if isinstance(level, int) and isinstance(max_level, int) and level < max_level:
