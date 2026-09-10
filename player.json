@@ -1,24 +1,24 @@
 {
   "tag": "#URUQ09LVG",
   "name": "wisely",
-  "collectionLevel": 1725,
+  "collectionLevel": 1726,
   "kingTowerLevel": 16,
   "expLevel": 59,
-  "trophies": 12163,
+  "trophies": 12160,
   "bestTrophies": 12245,
-  "wins": 4616,
-  "losses": 5176,
-  "battleCount": 9792,
+  "wins": 4618,
+  "losses": 5177,
+  "battleCount": 9795,
   "threeCrownWins": 1606,
   "challengeCardsWon": 3,
   "challengeMaxWins": 0,
   "tournamentCardsWon": 0,
   "tournamentBattleCount": 39,
-  "currentWinLoseStreak": 1,
+  "currentWinLoseStreak": 2,
   "role": "coLeader",
-  "donations": 160,
-  "donationsReceived": 360,
-  "totalDonations": 26152,
+  "donations": 184,
+  "donationsReceived": 385,
+  "totalDonations": 26176,
   "warDayWins": 0,
   "clanCardsCollected": 0,
   "clan": {
@@ -56,7 +56,7 @@
       "name": "BattleWins",
       "level": 6,
       "maxLevel": 8,
-      "progress": 4616,
+      "progress": 4618,
       "target": 5000,
       "iconUrls": {
         "large": "https://api-assets.clashroyale.com/playerbadges/512/Hh18NG8LhvwZrcmtGR8rSKRezmhOxCilxqhroDLBnys.png"
@@ -66,7 +66,7 @@
       "name": "ClanWarWins",
       "level": 6,
       "maxLevel": 8,
-      "progress": 624,
+      "progress": 626,
       "target": 1000,
       "iconUrls": {
         "large": "https://api-assets.clashroyale.com/playerbadges/512/WgWS0A2vy4RHUYIFhvNu9AZPsQURS6XY5JySYfqPtAk.png"
@@ -86,7 +86,7 @@
       "name": "CollectionLevel",
       "level": 8,
       "maxLevel": 8,
-      "progress": 1725,
+      "progress": 1726,
       "iconUrls": {
         "large": "https://api-assets.clashroyale.com/playerbadges/512/vlnuFrtu6rT5pQSQjqjT6OW32K2gJmb8zYYG01UF1f4.png"
       }
@@ -193,19 +193,19 @@
     },
     {
       "name": "MasteryWallbreakers",
-      "level": 8,
+      "level": 9,
       "maxLevel": 10,
-      "progress": 8,
-      "target": 9,
+      "progress": 9,
+      "target": 10,
       "iconUrls": {
-        "large": "https://api-assets.clashroyale.com/playerbadges/512/tsnzzeBgs1-jstz380QpWqUzyh5AIdXdzriZ_pXg7Lk.png"
+        "large": "https://api-assets.clashroyale.com/playerbadges/512/tAL-Zc1SZvOKgdATIij1xVjlWFVeoZrhsS0yIc9WO7Q.png"
       }
     },
     {
       "name": "ClanDonations",
       "level": 6,
       "maxLevel": 8,
-      "progress": 26152,
+      "progress": 26176,
       "target": 50000,
       "iconUrls": {
         "large": "https://api-assets.clashroyale.com/playerbadges/512/vPTwqJDRx-UyJSQWddV6oUkkyl7Ymgi9w5jshyuTgpM.png"
@@ -1161,7 +1161,7 @@
     {
       "name": "Friend in Need",
       "stars": 3,
-      "value": 26152,
+      "value": 26176,
       "target": 2500,
       "info": "Donate 2500 cards",
       "completionInfo": null
@@ -1241,7 +1241,7 @@
     {
       "name": "Friend in Need II",
       "stars": 3,
-      "value": 26152,
+      "value": 26176,
       "target": 25000,
       "info": "Donate 25000 cards",
       "completionInfo": null
@@ -1266,7 +1266,7 @@
       "level": 10,
       "maxLevel": 14,
       "rarity": "rare",
-      "count": 625,
+      "count": 653,
       "elixirCost": 4,
       "iconUrls": {
         "medium": "https://api-assets.clashroyale.com/cards/300/KdwXcoigS2Kg-cgA7BJJIANbUJG6SNgjetRQ-MegZ08.png"
@@ -1473,7 +1473,7 @@
       "maxLevel": 14,
       "maxEvolutionLevel": 2,
       "rarity": "rare",
-      "count": 2396,
+      "count": 2403,
       "elixirCost": 3,
       "iconUrls": {
         "medium": "https://api-assets.clashroyale.com/cards/300/-T_e4YLbuhPBKbYnBwQfXgynNpp5eOIN_0RracYwL9c.png",
@@ -2028,7 +2028,7 @@
       "maxLevel": 16,
       "maxEvolutionLevel": 1,
       "rarity": "common",
-      "count": 668,
+      "count": 660,
       "elixirCost": 4,
       "iconUrls": {
         "medium": "https://api-assets.clashroyale.com/cards/300/OiwnGrxFMNiHetYEerE-UZt0L_uYNzFY7qV_CA_OxR4.png",
@@ -2137,7 +2137,7 @@
       "maxLevel": 16,
       "maxEvolutionLevel": 1,
       "rarity": "common",
-      "count": 438,
+      "count": 430,
       "elixirCost": 2,
       "iconUrls": {
         "medium": "https://api-assets.clashroyale.com/cards/300/7MaJLa6hK9WN2_VIshuh5DIDfGwm0wEv98gXtAxLDPs.png",
@@ -2206,7 +2206,7 @@
       "maxLevel": 16,
       "maxEvolutionLevel": 1,
       "rarity": "common",
-      "count": 1674,
+      "count": 1666,
       "elixirCost": 3,
       "iconUrls": {
         "medium": "https://api-assets.clashroyale.com/cards/300/nZK1y-beLxO5vnlyUhK6-2zH2NzXJwqykcosqQ1cmZ8.png",
@@ -2486,7 +2486,7 @@
       "level": 14,
       "maxLevel": 16,
       "rarity": "common",
-      "count": 2936,
+      "count": 2953,
       "elixirCost": 3,
       "iconUrls": {
         "medium": "https://api-assets.clashroyale.com/cards/300/NHflxzVAQT4oAz7eDfdueqpictb5vrWezn1nuqFhE4w.png"
@@ -2495,13 +2495,13 @@
     {
       "name": "Firecracker",
       "id": 26000064,
-      "level": 15,
+      "level": 16,
       "starLevel": 1,
       "evolutionLevel": 1,
       "maxLevel": 16,
       "maxEvolutionLevel": 1,
       "rarity": "common",
-      "count": 3748,
+      "count": 0,
       "elixirCost": 3,
       "iconUrls": {
         "medium": "https://api-assets.clashroyale.com/cards/300/c1rL3LO1U2D9-TkeFfAC18gP3AO8ztSwrcHMZplwL2Q.png",
@@ -2915,35 +2915,33 @@
   ],
   "currentDeck": [
     {
-      "name": "Witch",
-      "id": 26000007,
-      "level": 11,
-      "starLevel": 2,
+      "name": "Firecracker",
+      "id": 26000064,
+      "level": 16,
+      "starLevel": 1,
       "evolutionLevel": 1,
-      "maxLevel": 11,
+      "maxLevel": 16,
       "maxEvolutionLevel": 1,
-      "rarity": "epic",
-      "count": 0,
-      "elixirCost": 5,
-      "iconUrls": {
-        "medium": "https://api-assets.clashroyale.com/cards/300/cfwk1vzehVyHC-uloEIH6NOI0hOdofCutR5PyhIgO6w.png",
-        "evolutionMedium": "https://api-assets.clashroyale.com/cardevolutions/300/cfwk1vzehVyHC-uloEIH6NOI0hOdofCutR5PyhIgO6w.png"
-      }
-    },
-    {
-      "name": "Tombstone",
-      "id": 27000009,
-      "level": 14,
-      "starLevel": 2,
-      "evolutionLevel": 2,
-      "maxLevel": 14,
-      "maxEvolutionLevel": 2,
-      "rarity": "rare",
+      "rarity": "common",
       "count": 0,
       "elixirCost": 3,
       "iconUrls": {
-        "medium": "https://api-assets.clashroyale.com/cards/300/LjSfSbwQfkZuRJY4pVxKspZ-a0iM5KAhU8w-a_N5Z7Y.png",
-        "heroMedium": "https://api-assets.clashroyale.com/cardheroes/300/LjSfSbwQfkZuRJY4pVxKspZ-a0iM5KAhU8w-a_N5Z7Y.png"
+        "medium": "https://api-assets.clashroyale.com/cards/300/c1rL3LO1U2D9-TkeFfAC18gP3AO8ztSwrcHMZplwL2Q.png",
+        "evolutionMedium": "https://api-assets.clashroyale.com/cardevolutions/300/c1rL3LO1U2D9-TkeFfAC18gP3AO8ztSwrcHMZplwL2Q.png"
+      }
+    },
+    {
+      "name": "Tesla",
+      "id": 27000006,
+      "level": 15,
+      "maxLevel": 16,
+      "maxEvolutionLevel": 1,
+      "rarity": "common",
+      "count": 660,
+      "elixirCost": 4,
+      "iconUrls": {
+        "medium": "https://api-assets.clashroyale.com/cards/300/OiwnGrxFMNiHetYEerE-UZt0L_uYNzFY7qV_CA_OxR4.png",
+        "evolutionMedium": "https://api-assets.clashroyale.com/cardevolutions/300/OiwnGrxFMNiHetYEerE-UZt0L_uYNzFY7qV_CA_OxR4.png"
       }
     },
     {
@@ -2962,28 +2960,33 @@
       }
     },
     {
-      "name": "Fireball",
-      "id": 28000000,
-      "level": 13,
+      "name": "Wall Breakers",
+      "id": 26000058,
+      "level": 11,
       "starLevel": 2,
-      "maxLevel": 14,
-      "rarity": "rare",
-      "count": 222,
-      "elixirCost": 4,
+      "maxLevel": 11,
+      "maxEvolutionLevel": 1,
+      "rarity": "epic",
+      "count": 0,
+      "elixirCost": 2,
       "iconUrls": {
-        "medium": "https://api-assets.clashroyale.com/cards/300/lZD9MILQv7O-P3XBr_xOLS5idwuz3_7Ws9G60U36yhc.png"
+        "medium": "https://api-assets.clashroyale.com/cards/300/_xPphEfC8eEwFNrfU3cMQG9-f5JaLQ31ARCA7l3XtW4.png",
+        "evolutionMedium": "https://api-assets.clashroyale.com/cardevolutions/300/_xPphEfC8eEwFNrfU3cMQG9-f5JaLQ31ARCA7l3XtW4.png"
       }
     },
     {
-      "name": "Ronin",
-      "id": 26000106,
-      "level": 5,
+      "name": "Mega Knight",
+      "id": 26000055,
+      "level": 8,
+      "starLevel": 2,
       "maxLevel": 8,
+      "maxEvolutionLevel": 1,
       "rarity": "legendary",
-      "count": 8,
-      "elixirCost": 5,
+      "count": 0,
+      "elixirCost": 7,
       "iconUrls": {
-        "medium": "https://api-assets.clashroyale.com/cards/300/X0dTFs7OGUavreDEzOtYd_YNZ8Zly6qgAE-dd-bNfWU.png"
+        "medium": "https://api-assets.clashroyale.com/cards/300/O2NycChSNhn_UK9nqBXUhhC_lILkiANzPuJjtjoz0CE.png",
+        "evolutionMedium": "https://api-assets.clashroyale.com/cardevolutions/300/O2NycChSNhn_UK9nqBXUhhC_lILkiANzPuJjtjoz0CE.png"
       }
     },
     {
@@ -3002,31 +3005,30 @@
       }
     },
     {
-      "name": "Firecracker",
-      "id": 26000064,
-      "level": 15,
-      "starLevel": 1,
-      "evolutionLevel": 1,
-      "maxLevel": 16,
-      "maxEvolutionLevel": 1,
-      "rarity": "common",
-      "count": 3748,
-      "elixirCost": 3,
+      "name": "Barbarian Barrel",
+      "id": 28000015,
+      "level": 10,
+      "maxLevel": 11,
+      "maxEvolutionLevel": 2,
+      "rarity": "epic",
+      "count": 160,
+      "elixirCost": 2,
       "iconUrls": {
-        "medium": "https://api-assets.clashroyale.com/cards/300/c1rL3LO1U2D9-TkeFfAC18gP3AO8ztSwrcHMZplwL2Q.png",
-        "evolutionMedium": "https://api-assets.clashroyale.com/cardevolutions/300/c1rL3LO1U2D9-TkeFfAC18gP3AO8ztSwrcHMZplwL2Q.png"
+        "medium": "https://api-assets.clashroyale.com/cards/300/Gb0G1yNy0i5cIGUHin8uoFWxqntNtRPhY_jeMXg7HnA.png",
+        "heroMedium": "https://api-assets.clashroyale.com/cardheroes/300/Gb0G1yNy0i5cIGUHin8uoFWxqntNtRPhY_jeMXg7HnA.png"
       }
     },
     {
-      "name": "Rage",
-      "id": 28000002,
-      "level": 8,
-      "maxLevel": 11,
-      "rarity": "epic",
-      "count": 21,
-      "elixirCost": 2,
+      "name": "Fireball",
+      "id": 28000000,
+      "level": 13,
+      "starLevel": 2,
+      "maxLevel": 14,
+      "rarity": "rare",
+      "count": 222,
+      "elixirCost": 4,
       "iconUrls": {
-        "medium": "https://api-assets.clashroyale.com/cards/300/bGP21OOmcpHMJ5ZA79bHVV2D-NzPtDkvBskCNJb7pg0.png"
+        "medium": "https://api-assets.clashroyale.com/cards/300/lZD9MILQv7O-P3XBr_xOLS5idwuz3_7Ws9G60U36yhc.png"
       }
     }
   ],
@@ -3044,18 +3046,18 @@
     }
   ],
   "currentFavouriteCard": {
-    "name": "Witch",
-    "id": 26000007,
-    "maxLevel": 11,
+    "name": "Mega Knight",
+    "id": 26000055,
+    "maxLevel": 8,
     "maxEvolutionLevel": 1,
-    "elixirCost": 5,
+    "elixirCost": 7,
     "iconUrls": {
-      "medium": "https://api-assets.clashroyale.com/cards/300/cfwk1vzehVyHC-uloEIH6NOI0hOdofCutR5PyhIgO6w.png",
-      "evolutionMedium": "https://api-assets.clashroyale.com/cardevolutions/300/cfwk1vzehVyHC-uloEIH6NOI0hOdofCutR5PyhIgO6w.png"
+      "medium": "https://api-assets.clashroyale.com/cards/300/O2NycChSNhn_UK9nqBXUhhC_lILkiANzPuJjtjoz0CE.png",
+      "evolutionMedium": "https://api-assets.clashroyale.com/cardevolutions/300/O2NycChSNhn_UK9nqBXUhhC_lILkiANzPuJjtjoz0CE.png"
     },
-    "rarity": "epic"
+    "rarity": "legendary"
   },
-  "starPoints": 272712,
+  "starPoints": 272736,
   "expPoints": 63225,
   "legacyTrophyRoadHighScore": 3250,
   "currentPathOfLegendSeasonResult": {
