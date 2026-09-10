@@ -6,18 +6,18 @@
   "expLevel": 59,
   "trophies": 12160,
   "bestTrophies": 12245,
-  "wins": 4618,
+  "wins": 4619,
   "losses": 5177,
-  "battleCount": 9795,
+  "battleCount": 9796,
   "threeCrownWins": 1606,
   "challengeCardsWon": 3,
   "challengeMaxWins": 0,
   "tournamentCardsWon": 0,
   "tournamentBattleCount": 39,
-  "currentWinLoseStreak": 2,
+  "currentWinLoseStreak": 3,
   "role": "coLeader",
   "donations": 184,
-  "donationsReceived": 385,
+  "donationsReceived": 400,
   "totalDonations": 26176,
   "warDayWins": 0,
   "clanCardsCollected": 0,
@@ -56,7 +56,7 @@
       "name": "BattleWins",
       "level": 6,
       "maxLevel": 8,
-      "progress": 4618,
+      "progress": 4619,
       "target": 5000,
       "iconUrls": {
         "large": "https://api-assets.clashroyale.com/playerbadges/512/Hh18NG8LhvwZrcmtGR8rSKRezmhOxCilxqhroDLBnys.png"
@@ -66,7 +66,7 @@
       "name": "ClanWarWins",
       "level": 6,
       "maxLevel": 8,
-      "progress": 626,
+      "progress": 627,
       "target": 1000,
       "iconUrls": {
         "large": "https://api-assets.clashroyale.com/playerbadges/512/WgWS0A2vy4RHUYIFhvNu9AZPsQURS6XY5JySYfqPtAk.png"
@@ -76,7 +76,7 @@
       "name": "BannerCollection",
       "level": 6,
       "maxLevel": 8,
-      "progress": 253,
+      "progress": 254,
       "target": 300,
       "iconUrls": {
         "large": "https://api-assets.clashroyale.com/playerbadges/512/6o9UOH1z4y2kjsIXb498YWmxpSxaIa2xPnsj8nHYrL8.png"
@@ -2486,7 +2486,7 @@
       "level": 14,
       "maxLevel": 16,
       "rarity": "common",
-      "count": 2953,
+      "count": 2976,
       "elixirCost": 3,
       "iconUrls": {
         "medium": "https://api-assets.clashroyale.com/cards/300/NHflxzVAQT4oAz7eDfdueqpictb5vrWezn1nuqFhE4w.png"
