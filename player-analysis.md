@@ -3,15 +3,15 @@
 Use this data to analyze the player's current observed decks. Do not invent cards, battles, or conclusions beyond the supplied sample.
 
 Player: wisely (#URUQ09LVG)
-Trophies: 12129
+Trophies: 12160
 Observed battles: 34
 Meta data available: no
 Meta source: not supplied
 Meta fetched at: not supplied
 
 ## Regular decks
-- Bomber (level 16), Tesla (level 15), Royal Hogs (level 16), Wall Breakers (level 16), Mega Knight (level 16), Bats (level 15), Barbarian Barrel (level 15), Fireball (level 15) - 7/15 wins (46.7%)
-- Firecracker (level 16), Tesla (level 15), Royal Hogs (level 16), Wall Breakers (level 16), Mega Knight (level 16), Bats (level 15), Barbarian Barrel (level 15), Fireball (level 15) - 2/4 wins (50.0%)
+- Bomber (level 16), Tesla (level 15), Royal Hogs (level 16), Wall Breakers (level 16), Mega Knight (level 16), Bats (level 15), Barbarian Barrel (level 15), Fireball (level 15) - 5/12 wins (41.7%)
+- Firecracker (level 16), Tesla (level 15), Royal Hogs (level 16), Wall Breakers (level 16), Mega Knight (level 16), Bats (level 15), Barbarian Barrel (level 15), Fireball (level 15) - 4/7 wins (57.1%)
 - Witch (level 16), Tombstone (level 16), Royal Hogs (level 16), Fireball (level 15), Ronin (level 13), Bats (level 15), Firecracker (level 15), Rage (level 13) - 1/2 wins (50.0%)
 
 ## War decks
