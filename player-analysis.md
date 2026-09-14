@@ -3,16 +3,16 @@
 Use this data to analyze the player's current observed decks. Do not invent cards, battles, or conclusions beyond the supplied sample.
 
 Player: wisely (#URUQ09LVG)
-Trophies: 12251
+Trophies: 12222
 Observed battles: 36
 Meta data available: no
 Meta source: not supplied
 Meta fetched at: not supplied
 
 ## Regular decks
-- Firecracker (level 16), Tesla (level 15), Royal Hogs (level 16), Wall Breakers (level 16), Mega Knight (level 16), Bats (level 15), Barbarian Barrel (level 15), Fireball (level 15) - 9/14 wins (64.3%)
-- Bomber (level 16), Tesla (level 15), Royal Hogs (level 16), Wall Breakers (level 16), Mega Knight (level 16), Bats (level 15), Barbarian Barrel (level 15), Fireball (level 15) - 1/2 wins (50.0%)
-- Witch (level 16), Tombstone (level 16), Royal Hogs (level 16), Fireball (level 15), Ronin (level 13), Bats (level 15), Firecracker (level 15), Rage (level 13) - 1/2 wins (50.0%)
+- Firecracker (level 16), Tesla (level 15), Royal Hogs (level 16), Wall Breakers (level 16), Mega Knight (level 16), Bats (level 15), Barbarian Barrel (level 15), Fireball (level 15) - 10/16 wins (62.5%)
+- Firecracker (level 16), Tombstone (level 16), Mini P.E.K.K.A (level 15), Ice Golem (level 12), Fireball (level 15), Skeleton Barrel (level 12), Zap (level 14), Goblin Barrel (level 15) - 0/1 wins (0.0%)
+- Bomber (level 16), Tesla (level 15), Royal Hogs (level 16), Wall Breakers (level 16), Mega Knight (level 16), Bats (level 15), Barbarian Barrel (level 15), Fireball (level 15) - 0/1 wins (0.0%)
 
 ## War decks
 - Royal Hogs (level 16), Boss Bandit (level 15), Cannon (level 15), Vines (level 15), Archers (level 15), Giant Snowball (level 14), Wizard (level 15), Wall Breakers (level 16) - 3/5 wins (60.0%)
