@@ -3,19 +3,19 @@
 Use this data to analyze the player's current observed decks. Do not invent cards, battles, or conclusions beyond the supplied sample.
 
 Player: wisely (#URUQ09LVG)
-Trophies: 12171
+Trophies: 12231
 Observed battles: 34
 Meta data available: no
 Meta source: not supplied
 Meta fetched at: not supplied
 
 ## Regular decks
-- Firecracker (level 16), Tesla (level 15), Royal Hogs (level 16), Wall Breakers (level 16), Mega Knight (level 16), Bats (level 15), Barbarian Barrel (level 16), Fireball (level 15) - 11/15 wins (73.3%)
-- Firecracker (level 16), Tombstone (level 16), Mini P.E.K.K.A (level 15), Ice Golem (level 12), Fireball (level 15), Skeleton Barrel (level 12), Zap (level 14), Goblin Barrel (level 15) - 0/3 wins (0.0%)
+- Firecracker (level 16), Tesla (level 15), Royal Hogs (level 16), Wall Breakers (level 16), Mega Knight (level 16), Bats (level 15), Barbarian Barrel (level 16), Fireball (level 15) - 13/17 wins (76.5%)
 - Royal Hogs (level 16), Barbarian Barrel (level 16), Goblin Cage (level 13), Royal Recruits (level 13), Flying Machine (level 10), Fireball (level 15), Firecracker (level 16), Skeleton Army (level 14) - 0/2 wins (0.0%)
 - Minion Horde (level 16), Electro Spirit (level 14), Bomb Tower (level 14), Prince (level 14), Graveyard (level 15), Fireball (level 15), Tornado (level 12), Royal Giant (level 13) - 0/1 wins (0.0%)
 - Ice Wizard (level 16), Battle Ram (level 13), Royal Ghost (level 10), Bomber (level 16), Royal Delivery (level 12), Mini P.E.K.K.A (level 15), Earthquake (level 12), Phoenix (level 12) - 0/1 wins (0.0%)
 - Arrows (level 14), Three Musketeers (level 13), Inferno Dragon (level 13), Rascals (level 11), Freeze (level 12), Electro Spirit (level 14), Royal Hogs (level 16), Night Witch (level 11) - 0/1 wins (0.0%)
+- Firecracker (level 16), Tombstone (level 16), Mini P.E.K.K.A (level 15), Ice Golem (level 12), Fireball (level 15), Skeleton Barrel (level 12), Zap (level 14), Goblin Barrel (level 15) - 0/1 wins (0.0%)
 
 ## War decks
 - Royal Hogs (level 16), Boss Bandit (level 15), Cannon (level 15), Vines (level 15), Archers (level 15), Giant Snowball (level 14), Wizard (level 15), Wall Breakers (level 16) - 0/3 wins (0.0%)
