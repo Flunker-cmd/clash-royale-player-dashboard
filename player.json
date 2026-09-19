@@ -6,15 +6,15 @@
   "expLevel": 59,
   "trophies": 12260,
   "bestTrophies": 12306,
-  "wins": 4653,
+  "wins": 4654,
   "losses": 5209,
-  "battleCount": 9862,
+  "battleCount": 9863,
   "threeCrownWins": 1621,
   "challengeCardsWon": 3,
   "challengeMaxWins": 0,
   "tournamentCardsWon": 0,
   "tournamentBattleCount": 39,
-  "currentWinLoseStreak": 3,
+  "currentWinLoseStreak": 4,
   "role": "coLeader",
   "donations": 453,
   "donationsReceived": 640,
@@ -56,7 +56,7 @@
       "name": "BattleWins",
       "level": 6,
       "maxLevel": 8,
-      "progress": 4653,
+      "progress": 4654,
       "target": 5000,
       "iconUrls": {
         "large": "https://api-assets.clashroyale.com/playerbadges/512/Hh18NG8LhvwZrcmtGR8rSKRezmhOxCilxqhroDLBnys.png"
@@ -66,7 +66,7 @@
       "name": "ClanWarWins",
       "level": 6,
       "maxLevel": 8,
-      "progress": 637,
+      "progress": 639,
       "target": 1000,
       "iconUrls": {
         "large": "https://api-assets.clashroyale.com/playerbadges/512/WgWS0A2vy4RHUYIFhvNu9AZPsQURS6XY5JySYfqPtAk.png"
