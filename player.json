@@ -17,7 +17,7 @@
   "currentWinLoseStreak": 1,
   "role": "coLeader",
   "donations": 230,
-  "donationsReceived": 560,
+  "donationsReceived": 600,
   "totalDonations": 27125,
   "warDayWins": 0,
   "clanCardsCollected": 0,
@@ -2206,7 +2206,7 @@
       "maxLevel": 16,
       "maxEvolutionLevel": 1,
       "rarity": "common",
-      "count": 1746,
+      "count": 1786,
       "elixirCost": 3,
       "iconUrls": {
         "medium": "https://api-assets.clashroyale.com/cards/300/nZK1y-beLxO5vnlyUhK6-2zH2NzXJwqykcosqQ1cmZ8.png",
