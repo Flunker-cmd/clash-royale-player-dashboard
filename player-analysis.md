@@ -19,17 +19,17 @@ Meta fetched at: not supplied
 - Mortar (level 11), Knight (level 11), Archer Queen (level 11), Giant Snowball (level 11) - 0/1 wins (0.0%)
 
 ## War decks
-- Royal Hogs (level 16), Boss Bandit (level 15), Cannon (level 15), Vines (level 15), Archers (level 15), Giant Snowball (level 14), Wizard (level 15), Wall Breakers (level 16) - 2/3 wins (66.7%)
-- Witch (level 16), Tombstone (level 16), Mini P.E.K.K.A (level 15), Graveyard (level 15), Valkyrie (level 16), Barbarian Barrel (level 16), Balloon (level 15), Minion Horde (level 16) - 2/2 wins (100.0%)
+- Witch (level 16), Tombstone (level 16), Mini P.E.K.K.A (level 15), Graveyard (level 15), Valkyrie (level 16), Barbarian Barrel (level 16), Balloon (level 15), Minion Horde (level 16) - 2/3 wins (66.7%)
 - Goblin Barrel (level 15), Princess (level 15), Knight (level 15), Goblin Gang (level 14), Ronin (level 13), Inferno Tower (level 14), The Log (level 13), Prince (level 14) - 1/2 wins (50.0%)
-- Firecracker (level 16), Hog Rider (level 15), Bomber (level 16), Mega Knight (level 16), Tesla (level 15), Fireball (level 15), Bats (level 16), Skeletons (level 15) - 1/2 wins (50.0%)
+- Royal Hogs (level 16), Boss Bandit (level 15), Cannon (level 15), Vines (level 15), Archers (level 15), Giant Snowball (level 14), Wizard (level 15), Wall Breakers (level 16) - 1/2 wins (50.0%)
+- Firecracker (level 16), Hog Rider (level 15), Bomber (level 16), Mega Knight (level 16), Tesla (level 15), Fireball (level 15), Bats (level 16), Skeletons (level 15) - 0/2 wins (0.0%)
 - Witch (level 16), Tombstone (level 16), Mini P.E.K.K.A (level 14), Graveyard (level 15), Valkyrie (level 16), Barbarian Barrel (level 15), Baby Dragon (level 14), Minion Horde (level 14) - 1/1 wins (100.0%)
 
 ## Recommended four-deck war plan
-- Royal Hogs (level 16), Boss Bandit (level 15), Cannon (level 15), Vines (level 15), Archers (level 15), Giant Snowball (level 14), Wizard (level 15), Wall Breakers (level 16) - 2/3 wins (66.7%)
-- Witch (level 16), Tombstone (level 16), Mini P.E.K.K.A (level 15), Graveyard (level 15), Valkyrie (level 16), Barbarian Barrel (level 16), Balloon (level 15), Minion Horde (level 16) - 2/2 wins (100.0%)
 - Goblin Barrel (level 15), Princess (level 15), Knight (level 15), Goblin Gang (level 14), Ronin (level 13), Inferno Tower (level 14), The Log (level 13), Prince (level 14) - 1/2 wins (50.0%)
-- Firecracker (level 16), Hog Rider (level 15), Bomber (level 16), Mega Knight (level 16), Tesla (level 15), Fireball (level 15), Bats (level 16), Skeletons (level 15) - 1/2 wins (50.0%)
+- Royal Hogs (level 16), Boss Bandit (level 15), Cannon (level 15), Vines (level 15), Archers (level 15), Giant Snowball (level 14), Wizard (level 15), Wall Breakers (level 16) - 1/2 wins (50.0%)
+- Firecracker (level 16), Hog Rider (level 15), Bomber (level 16), Mega Knight (level 16), Tesla (level 15), Fireball (level 15), Bats (level 16), Skeletons (level 15) - 0/2 wins (0.0%)
+- Witch (level 16), Tombstone (level 16), Mini P.E.K.K.A (level 14), Graveyard (level 15), Valkyrie (level 16), Barbarian Barrel (level 15), Baby Dragon (level 14), Minion Horde (level 14) - 1/1 wins (100.0%)
 
 ## Upgrade candidates
 - Goblin Demolisher: level 9/16
