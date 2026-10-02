@@ -7,18 +7,18 @@
   "trophies": 12293,
   "bestTrophies": 12412,
   "wins": 4682,
-  "losses": 5238,
-  "battleCount": 9920,
+  "losses": 5241,
+  "battleCount": 9923,
   "threeCrownWins": 1627,
   "challengeCardsWon": 3,
   "challengeMaxWins": 0,
   "tournamentCardsWon": 0,
   "tournamentBattleCount": 39,
-  "currentWinLoseStreak": 1,
+  "currentWinLoseStreak": -3,
   "role": "coLeader",
-  "donations": 214,
-  "donationsReceived": 360,
-  "totalDonations": 27473,
+  "donations": 224,
+  "donationsReceived": 400,
+  "totalDonations": 27483,
   "warDayWins": 0,
   "clanCardsCollected": 0,
   "clan": {
@@ -205,7 +205,7 @@
       "name": "ClanDonations",
       "level": 6,
       "maxLevel": 8,
-      "progress": 27473,
+      "progress": 27483,
       "target": 50000,
       "iconUrls": {
         "large": "https://api-assets.clashroyale.com/playerbadges/512/vPTwqJDRx-UyJSQWddV6oUkkyl7Ymgi9w5jshyuTgpM.png"
@@ -1161,7 +1161,7 @@
     {
       "name": "Friend in Need",
       "stars": 3,
-      "value": 27473,
+      "value": 27483,
       "target": 2500,
       "info": "Donate 2500 cards",
       "completionInfo": null
@@ -1241,7 +1241,7 @@
     {
       "name": "Friend in Need II",
       "stars": 3,
-      "value": 27473,
+      "value": 27483,
       "target": 25000,
       "info": "Donate 25000 cards",
       "completionInfo": null
@@ -2028,7 +2028,7 @@
       "maxLevel": 16,
       "maxEvolutionLevel": 1,
       "rarity": "common",
-      "count": 796,
+      "count": 836,
       "elixirCost": 4,
       "iconUrls": {
         "medium": "https://api-assets.clashroyale.com/cards/300/OiwnGrxFMNiHetYEerE-UZt0L_uYNzFY7qV_CA_OxR4.png",
@@ -3060,16 +3060,18 @@
     }
   ],
   "currentFavouriteCard": {
-    "name": "Inferno Tower",
-    "id": 27000003,
-    "maxLevel": 14,
+    "name": "Minion Horde",
+    "id": 26000022,
+    "maxLevel": 16,
+    "maxEvolutionLevel": 1,
     "elixirCost": 5,
     "iconUrls": {
-      "medium": "https://api-assets.clashroyale.com/cards/300/GSHY_wrooMMLET6bG_WJB8redtwx66c4i80ipi4gYOM.png"
+      "medium": "https://api-assets.clashroyale.com/cards/300/Wyjq5l0IXHTkX9Rmpap6HaH08MvjbxFp1xBO9a47YSI.png",
+      "evolutionMedium": "https://api-assets.clashroyale.com/cardevolutions/300/Wyjq5l0IXHTkX9Rmpap6HaH08MvjbxFp1xBO9a47YSI.png"
     },
-    "rarity": "rare"
+    "rarity": "common"
   },
-  "starPoints": 281674,
+  "starPoints": 281684,
   "expPoints": 63225,
   "legacyTrophyRoadHighScore": 3250,
   "currentPathOfLegendSeasonResult": {
