@@ -4,20 +4,20 @@
   "collectionLevel": 1745,
   "kingTowerLevel": 16,
   "expLevel": 59,
-  "trophies": 12293,
+  "trophies": 12263,
   "bestTrophies": 12412,
   "wins": 4682,
-  "losses": 5241,
-  "battleCount": 9923,
+  "losses": 5242,
+  "battleCount": 9924,
   "threeCrownWins": 1627,
   "challengeCardsWon": 3,
   "challengeMaxWins": 0,
   "tournamentCardsWon": 0,
   "tournamentBattleCount": 39,
-  "currentWinLoseStreak": -3,
+  "currentWinLoseStreak": -4,
   "role": "coLeader",
   "donations": 224,
-  "donationsReceived": 440,
+  "donationsReceived": 470,
   "totalDonations": 27483,
   "warDayWins": 0,
   "clanCardsCollected": 0,
@@ -46,7 +46,7 @@
       "name": "YearsPlayed",
       "level": 4,
       "maxLevel": 11,
-      "progress": 1490,
+      "progress": 1491,
       "target": 1825,
       "iconUrls": {
         "large": "https://api-assets.clashroyale.com/playerbadges/512/DvW4PDPHJTEtm5zvENjX17xGuTvKAyqBr-QXP1jNEdI.png"
@@ -1386,7 +1386,7 @@
       "level": 8,
       "maxLevel": 11,
       "rarity": "epic",
-      "count": 57,
+      "count": 63,
       "elixirCost": 4,
       "iconUrls": {
         "medium": "https://api-assets.clashroyale.com/cards/300/98HDkG2189yOULcVG9jz2QbJKtfuhH21DIrIjkOjxI8.png"
@@ -1870,7 +1870,7 @@
       "maxLevel": 14,
       "maxEvolutionLevel": 2,
       "rarity": "rare",
-      "count": 1239,
+      "count": 1279,
       "elixirCost": 5,
       "iconUrls": {
         "medium": "https://api-assets.clashroyale.com/cards/300/Axr4ox5_b7edmLsoHxBX3vmgijAIibuF6RImTbqLlXE.png",
@@ -2206,7 +2206,7 @@
       "maxLevel": 16,
       "maxEvolutionLevel": 1,
       "rarity": "common",
-      "count": 1786,
+      "count": 1836,
       "elixirCost": 3,
       "iconUrls": {
         "medium": "https://api-assets.clashroyale.com/cards/300/nZK1y-beLxO5vnlyUhK6-2zH2NzXJwqykcosqQ1cmZ8.png",
@@ -2269,7 +2269,7 @@
       "level": 4,
       "maxLevel": 8,
       "rarity": "legendary",
-      "count": 4,
+      "count": 5,
       "elixirCost": 4,
       "iconUrls": {
         "medium": "https://api-assets.clashroyale.com/cards/300/i0RoY1fs6ay7VAxyFEfZGIPnD002nAKcne9FtJsWBHM.png"
@@ -2335,7 +2335,7 @@
       "maxLevel": 14,
       "maxEvolutionLevel": 3,
       "rarity": "rare",
-      "count": 534,
+      "count": 537,
       "elixirCost": 4,
       "iconUrls": {
         "medium": "https://api-assets.clashroyale.com/cards/300/Tex1C48UTq9FKtAX-3tzG0FJmc9jzncUZG3bb5Vf-Ds.png",
@@ -2350,7 +2350,7 @@
       "maxLevel": 11,
       "maxEvolutionLevel": 1,
       "rarity": "epic",
-      "count": 141,
+      "count": 146,
       "elixirCost": 5,
       "iconUrls": {
         "medium": "https://api-assets.clashroyale.com/cards/300/9XL5BP2mqzV8kza6KF8rOxrpCZTyuGLp2l413DTjEoM.png",
