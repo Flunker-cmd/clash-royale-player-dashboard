@@ -1,15 +1,15 @@
 {
   "tag": "#URUQ09LVG",
   "name": "wisely",
-  "collectionLevel": 1745,
+  "collectionLevel": 1746,
   "kingTowerLevel": 16,
   "expLevel": 59,
-  "trophies": 12381,
+  "trophies": 12358,
   "bestTrophies": 12412,
-  "wins": 4692,
-  "losses": 5248,
-  "battleCount": 9940,
-  "threeCrownWins": 1627,
+  "wins": 4694,
+  "losses": 5251,
+  "battleCount": 9945,
+  "threeCrownWins": 1628,
   "challengeCardsWon": 3,
   "challengeMaxWins": 0,
   "tournamentCardsWon": 0,
@@ -17,7 +17,7 @@
   "currentWinLoseStreak": 2,
   "role": "coLeader",
   "donations": 10,
-  "donationsReceived": 40,
+  "donationsReceived": 96,
   "totalDonations": 27571,
   "warDayWins": 0,
   "clanCardsCollected": 0,
@@ -56,7 +56,7 @@
       "name": "BattleWins",
       "level": 6,
       "maxLevel": 8,
-      "progress": 4692,
+      "progress": 4694,
       "target": 5000,
       "iconUrls": {
         "large": "https://api-assets.clashroyale.com/playerbadges/512/Hh18NG8LhvwZrcmtGR8rSKRezmhOxCilxqhroDLBnys.png"
@@ -86,7 +86,7 @@
       "name": "CollectionLevel",
       "level": 8,
       "maxLevel": 8,
-      "progress": 1745,
+      "progress": 1746,
       "iconUrls": {
         "large": "https://api-assets.clashroyale.com/playerbadges/512/vlnuFrtu6rT5pQSQjqjT6OW32K2gJmb8zYYG01UF1f4.png"
       }
@@ -1266,7 +1266,7 @@
       "level": 10,
       "maxLevel": 14,
       "rarity": "rare",
-      "count": 729,
+      "count": 736,
       "elixirCost": 4,
       "iconUrls": {
         "medium": "https://api-assets.clashroyale.com/cards/300/KdwXcoigS2Kg-cgA7BJJIANbUJG6SNgjetRQ-MegZ08.png"
@@ -1412,7 +1412,7 @@
       "level": 7,
       "maxLevel": 11,
       "rarity": "epic",
-      "count": 188,
+      "count": 202,
       "elixirCost": 6,
       "iconUrls": {
         "medium": "https://api-assets.clashroyale.com/cards/300/0p0gd0XaVRu1Hb1iSG1hTYbz2AN6aEiZnhaAib5O8Z8.png"
@@ -1739,7 +1739,7 @@
       "maxLevel": 14,
       "maxEvolutionLevel": 2,
       "rarity": "rare",
-      "count": 1022,
+      "count": 1136,
       "elixirCost": 2,
       "iconUrls": {
         "medium": "https://api-assets.clashroyale.com/cards/300/r05cmpwV1o7i7FHodtZwW3fmjbXCW34IJCsDEV5cZC4.png",
@@ -2093,7 +2093,7 @@
       "maxLevel": 16,
       "maxEvolutionLevel": 1,
       "rarity": "common",
-      "count": 6043,
+      "count": 6181,
       "elixirCost": 3,
       "iconUrls": {
         "medium": "https://api-assets.clashroyale.com/cards/300/vCB4DWCcrGbTkarjcOiVz4aNDx6GWLm0yUepg9E1MGo.png",
@@ -2335,7 +2335,7 @@
       "maxLevel": 14,
       "maxEvolutionLevel": 3,
       "rarity": "rare",
-      "count": 550,
+      "count": 554,
       "elixirCost": 4,
       "iconUrls": {
         "medium": "https://api-assets.clashroyale.com/cards/300/Tex1C48UTq9FKtAX-3tzG0FJmc9jzncUZG3bb5Vf-Ds.png",
@@ -2486,7 +2486,7 @@
       "level": 14,
       "maxLevel": 16,
       "rarity": "common",
-      "count": 4182,
+      "count": 4623,
       "elixirCost": 3,
       "iconUrls": {
         "medium": "https://api-assets.clashroyale.com/cards/300/NHflxzVAQT4oAz7eDfdueqpictb5vrWezn1nuqFhE4w.png"
@@ -2552,13 +2552,13 @@
     {
       "name": "Goblin Barrel",
       "id": 28000004,
-      "level": 10,
+      "level": 11,
       "starLevel": 3,
       "evolutionLevel": 1,
       "maxLevel": 11,
       "maxEvolutionLevel": 1,
       "rarity": "epic",
-      "count": 180,
+      "count": 0,
       "elixirCost": 3,
       "iconUrls": {
         "medium": "https://api-assets.clashroyale.com/cards/300/CoZdp5PpsTH858l212lAMeJxVJ0zxv9V-f5xC8Bvj5g.png",
@@ -2598,11 +2598,13 @@
       "id": 26000042,
       "level": 5,
       "maxLevel": 8,
+      "maxEvolutionLevel": 2,
       "rarity": "legendary",
       "count": 11,
       "elixirCost": 4,
       "iconUrls": {
-        "medium": "https://api-assets.clashroyale.com/cards/300/RsFaHgB3w6vXsTjXdPr3x8l_GbV9TbOUCvIx07prbrQ.png"
+        "medium": "https://api-assets.clashroyale.com/cards/300/RsFaHgB3w6vXsTjXdPr3x8l_GbV9TbOUCvIx07prbrQ.png",
+        "heroMedium": "https://api-assets.clashroyale.com/cardheroes/300/RsFaHgB3w6vXsTjXdPr3x8l_GbV9TbOUCvIx07prbrQ.png"
       }
     },
     {
@@ -2642,7 +2644,7 @@
       "maxLevel": 16,
       "maxEvolutionLevel": 2,
       "rarity": "common",
-      "count": 4532,
+      "count": 4540,
       "elixirCost": 2,
       "iconUrls": {
         "medium": "https://api-assets.clashroyale.com/cards/300/NA6W8S1JBYBlOPwD3dNvJLFvVDKq-UuBs_J3i3ewLFI.png",
@@ -2703,7 +2705,7 @@
       "level": 5,
       "maxLevel": 6,
       "rarity": "champion",
-      "count": 0,
+      "count": 15,
       "elixirCost": 6,
       "iconUrls": {
         "medium": "https://api-assets.clashroyale.com/cards/300/nuceG9o7rAyvyc7D3sp2QSiRYtSOEgraq0NJkDf729s.png"
@@ -2860,7 +2862,7 @@
       "level": 5,
       "maxLevel": 8,
       "rarity": "legendary",
-      "count": 9,
+      "count": 10,
       "elixirCost": 5,
       "iconUrls": {
         "medium": "https://api-assets.clashroyale.com/cards/300/X0dTFs7OGUavreDEzOtYd_YNZ8Zly6qgAE-dd-bNfWU.png"
@@ -3060,16 +3062,16 @@
     }
   ],
   "currentFavouriteCard": {
-    "name": "Royal Hogs",
-    "id": 26000059,
-    "maxLevel": 14,
+    "name": "Mega Knight",
+    "id": 26000055,
+    "maxLevel": 8,
     "maxEvolutionLevel": 1,
-    "elixirCost": 5,
+    "elixirCost": 7,
     "iconUrls": {
-      "medium": "https://api-assets.clashroyale.com/cards/300/ASSQJG_MoVq9e81HZzo4bynMnyLNpNJMfSLb3hqydOw.png",
-      "evolutionMedium": "https://api-assets.clashroyale.com/cardevolutions/300/ASSQJG_MoVq9e81HZzo4bynMnyLNpNJMfSLb3hqydOw.png"
+      "medium": "https://api-assets.clashroyale.com/cards/300/O2NycChSNhn_UK9nqBXUhhC_lILkiANzPuJjtjoz0CE.png",
+      "evolutionMedium": "https://api-assets.clashroyale.com/cardevolutions/300/O2NycChSNhn_UK9nqBXUhhC_lILkiANzPuJjtjoz0CE.png"
     },
-    "rarity": "rare"
+    "rarity": "legendary"
   },
   "starPoints": 281772,
   "expPoints": 63225,
@@ -3099,6 +3101,15 @@
       "trophies": 0,
       "bestTrophies": 0
     },
+    "AutoChess_2026_Season_11": {
+      "arena": {
+        "id": 168000180,
+        "name": "Bronze I",
+        "rawName": "AutoChessArena1_2026_Season_11"
+      },
+      "trophies": 30,
+      "bestTrophies": 30
+    },
     "SpookyChessTrail": {
       "arena": {
         "id": 168000199,
@@ -3113,24 +3124,6 @@
         "id": 168000197,
         "name": "Seasonal Arena I",
         "rawName": "SeasonalArenas_202610_Arena1"
-      },
-      "trophies": 14000,
-      "bestTrophies": 0
-    },
-    "AutoChess_2026_Season_11": {
-      "arena": {
-        "id": 168000180,
-        "name": "Bronze I",
-        "rawName": "AutoChessArena1_2026_Season_11"
-      },
-      "trophies": 30,
-      "bestTrophies": 30
-    },
-    "seasonal-trophy-road-202609": {
-      "arena": {
-        "id": 168000195,
-        "name": "Seasonal Arena I",
-        "rawName": "SeasonalArenas_202609_Arena1"
       },
       "trophies": 14000,
       "bestTrophies": 0
