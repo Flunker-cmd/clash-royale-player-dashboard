@@ -3,7 +3,7 @@
 Use this data to analyze the player's current observed decks. Do not invent cards, battles, or conclusions beyond the supplied sample.
 
 Player: wisely (#URUQ09LVG)
-Trophies: 12388
+Trophies: 12418
 Observed battles: 35
 Meta data available: no
 Meta source: not supplied
