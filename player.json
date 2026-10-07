@@ -4,21 +4,21 @@
   "collectionLevel": 1746,
   "kingTowerLevel": 16,
   "expLevel": 59,
-  "trophies": 12476,
+  "trophies": 12358,
   "bestTrophies": 12476,
   "wins": 4698,
-  "losses": 5251,
-  "battleCount": 9949,
+  "losses": 5255,
+  "battleCount": 9953,
   "threeCrownWins": 1630,
   "challengeCardsWon": 3,
   "challengeMaxWins": 0,
   "tournamentCardsWon": 0,
   "tournamentBattleCount": 39,
-  "currentWinLoseStreak": 6,
+  "currentWinLoseStreak": -4,
   "role": "coLeader",
-  "donations": 50,
-  "donationsReceived": 240,
-  "totalDonations": 27611,
+  "donations": 60,
+  "donationsReceived": 280,
+  "totalDonations": 27621,
   "warDayWins": 0,
   "clanCardsCollected": 0,
   "clan": {
@@ -205,7 +205,7 @@
       "name": "ClanDonations",
       "level": 6,
       "maxLevel": 8,
-      "progress": 27611,
+      "progress": 27621,
       "target": 50000,
       "iconUrls": {
         "large": "https://api-assets.clashroyale.com/playerbadges/512/vPTwqJDRx-UyJSQWddV6oUkkyl7Ymgi9w5jshyuTgpM.png"
@@ -1161,7 +1161,7 @@
     {
       "name": "Friend in Need",
       "stars": 3,
-      "value": 27611,
+      "value": 27621,
       "target": 2500,
       "info": "Donate 2500 cards",
       "completionInfo": null
@@ -1241,7 +1241,7 @@
     {
       "name": "Friend in Need II",
       "stars": 3,
-      "value": 27611,
+      "value": 27621,
       "target": 25000,
       "info": "Donate 25000 cards",
       "completionInfo": null
@@ -2041,7 +2041,7 @@
       "level": 7,
       "maxLevel": 11,
       "rarity": "epic",
-      "count": 66,
+      "count": 80,
       "elixirCost": 3,
       "iconUrls": {
         "medium": "https://api-assets.clashroyale.com/cards/300/QJB-QK1QJHdw4hjpAwVSyZBozc2ZWAR9pQ-SMUyKaT0.png"
@@ -2447,7 +2447,7 @@
       "maxLevel": 14,
       "maxEvolutionLevel": 3,
       "rarity": "rare",
-      "count": 902,
+      "count": 905,
       "elixirCost": 5,
       "iconUrls": {
         "medium": "https://api-assets.clashroyale.com/cards/300/Mej7vnv4H_3p_8qPs_N6_GKahy6HDr7pU7i9eTHS84U.png",
@@ -3064,18 +3064,18 @@
     }
   ],
   "currentFavouriteCard": {
-    "name": "Firecracker",
-    "id": 26000064,
-    "maxLevel": 16,
+    "name": "Mega Knight",
+    "id": 26000055,
+    "maxLevel": 8,
     "maxEvolutionLevel": 1,
-    "elixirCost": 3,
+    "elixirCost": 7,
     "iconUrls": {
-      "medium": "https://api-assets.clashroyale.com/cards/300/c1rL3LO1U2D9-TkeFfAC18gP3AO8ztSwrcHMZplwL2Q.png",
-      "evolutionMedium": "https://api-assets.clashroyale.com/cardevolutions/300/c1rL3LO1U2D9-TkeFfAC18gP3AO8ztSwrcHMZplwL2Q.png"
+      "medium": "https://api-assets.clashroyale.com/cards/300/O2NycChSNhn_UK9nqBXUhhC_lILkiANzPuJjtjoz0CE.png",
+      "evolutionMedium": "https://api-assets.clashroyale.com/cardevolutions/300/O2NycChSNhn_UK9nqBXUhhC_lILkiANzPuJjtjoz0CE.png"
     },
-    "rarity": "common"
+    "rarity": "legendary"
   },
-  "starPoints": 281812,
+  "starPoints": 281822,
   "expPoints": 63225,
   "legacyTrophyRoadHighScore": 3250,
   "currentPathOfLegendSeasonResult": {

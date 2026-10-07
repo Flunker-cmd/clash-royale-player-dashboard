@@ -2,11 +2,11 @@
   "player": {
     "tag": "#URUQ09LVG",
     "name": "wisely",
-    "trophies": 12476,
+    "trophies": 12358,
     "bestTrophies": 12476,
     "arena": "Magic Academy"
   },
-  "sampleSize": 34,
+  "sampleSize": 33,
   "regularDecks": [
     {
       "label": "Firecracker, Tombstone, Royal Hogs, Wall Breakers, Mega Knight, Bats, Barbarian Barrel, Fireball",
@@ -124,123 +124,12 @@
           }
         }
       ],
-      "battles": 20,
+      "battles": 24,
       "wins": 13,
-      "winRate": 65.0
+      "winRate": 54.2
     }
   ],
   "warDecks": [
-    {
-      "label": "Goblin Barrel, Princess, Knight, Goblin Gang, Ronin, Inferno Tower, The Log, Prince",
-      "category": "war",
-      "cards": [
-        {
-          "name": "Goblin Barrel",
-          "id": 28000004,
-          "level": 15,
-          "starLevel": 3,
-          "evolutionLevel": 1,
-          "maxLevel": 16,
-          "maxEvolutionLevel": 1,
-          "rarity": "epic",
-          "elixirCost": 3,
-          "iconUrls": {
-            "medium": "https://api-assets.clashroyale.com/cards/300/CoZdp5PpsTH858l212lAMeJxVJ0zxv9V-f5xC8Bvj5g.png",
-            "evolutionMedium": "https://api-assets.clashroyale.com/cardevolutions/300/CoZdp5PpsTH858l212lAMeJxVJ0zxv9V-f5xC8Bvj5g.png"
-          }
-        },
-        {
-          "name": "Princess",
-          "id": 26000026,
-          "level": 15,
-          "starLevel": 1,
-          "maxLevel": 16,
-          "maxEvolutionLevel": 1,
-          "rarity": "legendary",
-          "elixirCost": 3,
-          "iconUrls": {
-            "medium": "https://api-assets.clashroyale.com/cards/300/bAwMcqp9EKVIKH3ZLm_m0MqZFSG72zG-vKxpx8aKoVs.png",
-            "evolutionMedium": "https://api-assets.clashroyale.com/cardevolutions/300/bAwMcqp9EKVIKH3ZLm_m0MqZFSG72zG-vKxpx8aKoVs.png"
-          }
-        },
-        {
-          "name": "Knight",
-          "id": 26000000,
-          "level": 15,
-          "starLevel": 1,
-          "evolutionLevel": 2,
-          "maxLevel": 16,
-          "maxEvolutionLevel": 3,
-          "rarity": "common",
-          "elixirCost": 3,
-          "iconUrls": {
-            "medium": "https://api-assets.clashroyale.com/cards/300/jAj1Q5rclXxU9kVImGqSJxa4wEMfEhvwNQ_4jiGUuqg.png",
-            "heroMedium": "https://api-assets.clashroyale.com/cardheroes/300/jAj1Q5rclXxU9kVImGqSJxa4wEMfEhvwNQ_4jiGUuqg.png",
-            "evolutionMedium": "https://api-assets.clashroyale.com/cardevolutions/300/jAj1Q5rclXxU9kVImGqSJxa4wEMfEhvwNQ_4jiGUuqg.png"
-          }
-        },
-        {
-          "name": "Goblin Gang",
-          "id": 26000041,
-          "level": 14,
-          "maxLevel": 16,
-          "rarity": "common",
-          "elixirCost": 3,
-          "iconUrls": {
-            "medium": "https://api-assets.clashroyale.com/cards/300/NHflxzVAQT4oAz7eDfdueqpictb5vrWezn1nuqFhE4w.png"
-          }
-        },
-        {
-          "name": "Ronin",
-          "id": 26000106,
-          "level": 13,
-          "maxLevel": 16,
-          "rarity": "legendary",
-          "elixirCost": 5,
-          "iconUrls": {
-            "medium": "https://api-assets.clashroyale.com/cards/300/X0dTFs7OGUavreDEzOtYd_YNZ8Zly6qgAE-dd-bNfWU.png"
-          }
-        },
-        {
-          "name": "Inferno Tower",
-          "id": 27000003,
-          "level": 14,
-          "maxLevel": 16,
-          "rarity": "rare",
-          "elixirCost": 5,
-          "iconUrls": {
-            "medium": "https://api-assets.clashroyale.com/cards/300/GSHY_wrooMMLET6bG_WJB8redtwx66c4i80ipi4gYOM.png"
-          }
-        },
-        {
-          "name": "The Log",
-          "id": 28000011,
-          "level": 13,
-          "maxLevel": 16,
-          "rarity": "legendary",
-          "elixirCost": 2,
-          "iconUrls": {
-            "medium": "https://api-assets.clashroyale.com/cards/300/_iDwuDLexHPFZ_x4_a0eP-rxCS6vwWgTs6DLauwwoaY.png"
-          }
-        },
-        {
-          "name": "Prince",
-          "id": 26000016,
-          "level": 14,
-          "starLevel": 1,
-          "maxLevel": 16,
-          "rarity": "epic",
-          "elixirCost": 5,
-          "iconUrls": {
-            "medium": "https://api-assets.clashroyale.com/cards/300/3JntJV62aY0G1Qh6LIs-ek-0ayeYFY3VItpG7cb9I60.png"
-          }
-        }
-      ],
-      "battles": 4,
-      "wins": 2,
-      "winRate": 50.0,
-      "metaScore": 0.0
-    },
     {
       "label": "Royal Hogs, Boss Bandit, Cannon, Vines, Archers, Giant Snowball, Wizard, Wall Breakers",
       "category": "war",
@@ -352,9 +241,9 @@
           }
         }
       ],
-      "battles": 3,
+      "battles": 2,
       "wins": 1,
-      "winRate": 33.3,
+      "winRate": 50.0,
       "metaScore": 0.0
     },
     {
@@ -370,6 +259,7 @@
           "maxLevel": 16,
           "maxEvolutionLevel": 1,
           "rarity": "epic",
+          "used": true,
           "elixirCost": 5,
           "iconUrls": {
             "medium": "https://api-assets.clashroyale.com/cards/300/cfwk1vzehVyHC-uloEIH6NOI0hOdofCutR5PyhIgO6w.png",
@@ -385,6 +275,7 @@
           "maxLevel": 16,
           "maxEvolutionLevel": 2,
           "rarity": "rare",
+          "used": true,
           "elixirCost": 3,
           "iconUrls": {
             "medium": "https://api-assets.clashroyale.com/cards/300/LjSfSbwQfkZuRJY4pVxKspZ-a0iM5KAhU8w-a_N5Z7Y.png",
@@ -400,6 +291,7 @@
           "maxLevel": 16,
           "maxEvolutionLevel": 2,
           "rarity": "rare",
+          "used": true,
           "elixirCost": 4,
           "iconUrls": {
             "medium": "https://api-assets.clashroyale.com/cards/300/Fmltc4j3Ve9vO_xhHHPEO3PRP3SmU2oKp2zkZQHRZT4.png",
@@ -412,6 +304,7 @@
           "level": 15,
           "maxLevel": 16,
           "rarity": "legendary",
+          "used": true,
           "elixirCost": 5,
           "iconUrls": {
             "medium": "https://api-assets.clashroyale.com/cards/300/Icp8BIyyfBTj1ncCJS7mb82SY7TPV-MAE-J2L2R48DI.png"
@@ -425,6 +318,7 @@
           "maxLevel": 16,
           "maxEvolutionLevel": 3,
           "rarity": "rare",
+          "used": true,
           "elixirCost": 4,
           "iconUrls": {
             "medium": "https://api-assets.clashroyale.com/cards/300/0lIoYf3Y_plFTzo95zZL93JVxpfb3MMgFDDhgSDGU9A.png",
@@ -439,6 +333,7 @@
           "maxLevel": 16,
           "maxEvolutionLevel": 2,
           "rarity": "epic",
+          "used": true,
           "elixirCost": 2,
           "iconUrls": {
             "medium": "https://api-assets.clashroyale.com/cards/300/Gb0G1yNy0i5cIGUHin8uoFWxqntNtRPhY_jeMXg7HnA.png",
@@ -453,6 +348,7 @@
           "maxLevel": 16,
           "maxEvolutionLevel": 2,
           "rarity": "epic",
+          "used": true,
           "elixirCost": 5,
           "iconUrls": {
             "medium": "https://api-assets.clashroyale.com/cards/300/qBipxLo-3hhCnPrApp2Nn3b2NgrSrvwzWytvREev0CY.png",
@@ -466,6 +362,7 @@
           "maxLevel": 16,
           "maxEvolutionLevel": 1,
           "rarity": "common",
+          "used": true,
           "elixirCost": 5,
           "iconUrls": {
             "medium": "https://api-assets.clashroyale.com/cards/300/Wyjq5l0IXHTkX9Rmpap6HaH08MvjbxFp1xBO9a47YSI.png",
@@ -473,9 +370,120 @@
           }
         }
       ],
-      "battles": 3,
+      "battles": 2,
       "wins": 1,
-      "winRate": 33.3,
+      "winRate": 50.0,
+      "metaScore": 0.0
+    },
+    {
+      "label": "Goblin Barrel, Princess, Knight, Goblin Gang, Ronin, Inferno Tower, The Log, Prince",
+      "category": "war",
+      "cards": [
+        {
+          "name": "Goblin Barrel",
+          "id": 28000004,
+          "level": 15,
+          "starLevel": 3,
+          "evolutionLevel": 1,
+          "maxLevel": 16,
+          "maxEvolutionLevel": 1,
+          "rarity": "epic",
+          "elixirCost": 3,
+          "iconUrls": {
+            "medium": "https://api-assets.clashroyale.com/cards/300/CoZdp5PpsTH858l212lAMeJxVJ0zxv9V-f5xC8Bvj5g.png",
+            "evolutionMedium": "https://api-assets.clashroyale.com/cardevolutions/300/CoZdp5PpsTH858l212lAMeJxVJ0zxv9V-f5xC8Bvj5g.png"
+          }
+        },
+        {
+          "name": "Princess",
+          "id": 26000026,
+          "level": 15,
+          "starLevel": 1,
+          "maxLevel": 16,
+          "maxEvolutionLevel": 1,
+          "rarity": "legendary",
+          "elixirCost": 3,
+          "iconUrls": {
+            "medium": "https://api-assets.clashroyale.com/cards/300/bAwMcqp9EKVIKH3ZLm_m0MqZFSG72zG-vKxpx8aKoVs.png",
+            "evolutionMedium": "https://api-assets.clashroyale.com/cardevolutions/300/bAwMcqp9EKVIKH3ZLm_m0MqZFSG72zG-vKxpx8aKoVs.png"
+          }
+        },
+        {
+          "name": "Knight",
+          "id": 26000000,
+          "level": 15,
+          "starLevel": 1,
+          "evolutionLevel": 2,
+          "maxLevel": 16,
+          "maxEvolutionLevel": 3,
+          "rarity": "common",
+          "elixirCost": 3,
+          "iconUrls": {
+            "medium": "https://api-assets.clashroyale.com/cards/300/jAj1Q5rclXxU9kVImGqSJxa4wEMfEhvwNQ_4jiGUuqg.png",
+            "heroMedium": "https://api-assets.clashroyale.com/cardheroes/300/jAj1Q5rclXxU9kVImGqSJxa4wEMfEhvwNQ_4jiGUuqg.png",
+            "evolutionMedium": "https://api-assets.clashroyale.com/cardevolutions/300/jAj1Q5rclXxU9kVImGqSJxa4wEMfEhvwNQ_4jiGUuqg.png"
+          }
+        },
+        {
+          "name": "Goblin Gang",
+          "id": 26000041,
+          "level": 14,
+          "maxLevel": 16,
+          "rarity": "common",
+          "elixirCost": 3,
+          "iconUrls": {
+            "medium": "https://api-assets.clashroyale.com/cards/300/NHflxzVAQT4oAz7eDfdueqpictb5vrWezn1nuqFhE4w.png"
+          }
+        },
+        {
+          "name": "Ronin",
+          "id": 26000106,
+          "level": 13,
+          "maxLevel": 16,
+          "rarity": "legendary",
+          "elixirCost": 5,
+          "iconUrls": {
+            "medium": "https://api-assets.clashroyale.com/cards/300/X0dTFs7OGUavreDEzOtYd_YNZ8Zly6qgAE-dd-bNfWU.png"
+          }
+        },
+        {
+          "name": "Inferno Tower",
+          "id": 27000003,
+          "level": 14,
+          "maxLevel": 16,
+          "rarity": "rare",
+          "elixirCost": 5,
+          "iconUrls": {
+            "medium": "https://api-assets.clashroyale.com/cards/300/GSHY_wrooMMLET6bG_WJB8redtwx66c4i80ipi4gYOM.png"
+          }
+        },
+        {
+          "name": "The Log",
+          "id": 28000011,
+          "level": 13,
+          "maxLevel": 16,
+          "rarity": "legendary",
+          "elixirCost": 2,
+          "iconUrls": {
+            "medium": "https://api-assets.clashroyale.com/cards/300/_iDwuDLexHPFZ_x4_a0eP-rxCS6vwWgTs6DLauwwoaY.png"
+          }
+        },
+        {
+          "name": "Prince",
+          "id": 26000016,
+          "level": 14,
+          "starLevel": 1,
+          "maxLevel": 16,
+          "rarity": "epic",
+          "elixirCost": 5,
+          "iconUrls": {
+            "medium": "https://api-assets.clashroyale.com/cards/300/3JntJV62aY0G1Qh6LIs-ek-0ayeYFY3VItpG7cb9I60.png"
+          }
+        }
+      ],
+      "battles": 2,
+      "wins": 1,
+      "winRate": 50.0,
       "metaScore": 0.0
     },
     {
@@ -599,9 +607,9 @@
           }
         }
       ],
-      "battles": 3,
+      "battles": 2,
       "wins": 1,
-      "winRate": 33.3,
+      "winRate": 50.0,
       "metaScore": 0.0
     },
     {
@@ -728,117 +736,6 @@
   ],
   "warDeckPlan": [
     {
-      "label": "Goblin Barrel, Princess, Knight, Goblin Gang, Ronin, Inferno Tower, The Log, Prince",
-      "category": "war",
-      "cards": [
-        {
-          "name": "Goblin Barrel",
-          "id": 28000004,
-          "level": 15,
-          "starLevel": 3,
-          "evolutionLevel": 1,
-          "maxLevel": 16,
-          "maxEvolutionLevel": 1,
-          "rarity": "epic",
-          "elixirCost": 3,
-          "iconUrls": {
-            "medium": "https://api-assets.clashroyale.com/cards/300/CoZdp5PpsTH858l212lAMeJxVJ0zxv9V-f5xC8Bvj5g.png",
-            "evolutionMedium": "https://api-assets.clashroyale.com/cardevolutions/300/CoZdp5PpsTH858l212lAMeJxVJ0zxv9V-f5xC8Bvj5g.png"
-          }
-        },
-        {
-          "name": "Princess",
-          "id": 26000026,
-          "level": 15,
-          "starLevel": 1,
-          "maxLevel": 16,
-          "maxEvolutionLevel": 1,
-          "rarity": "legendary",
-          "elixirCost": 3,
-          "iconUrls": {
-            "medium": "https://api-assets.clashroyale.com/cards/300/bAwMcqp9EKVIKH3ZLm_m0MqZFSG72zG-vKxpx8aKoVs.png",
-            "evolutionMedium": "https://api-assets.clashroyale.com/cardevolutions/300/bAwMcqp9EKVIKH3ZLm_m0MqZFSG72zG-vKxpx8aKoVs.png"
-          }
-        },
-        {
-          "name": "Knight",
-          "id": 26000000,
-          "level": 15,
-          "starLevel": 1,
-          "evolutionLevel": 2,
-          "maxLevel": 16,
-          "maxEvolutionLevel": 3,
-          "rarity": "common",
-          "elixirCost": 3,
-          "iconUrls": {
-            "medium": "https://api-assets.clashroyale.com/cards/300/jAj1Q5rclXxU9kVImGqSJxa4wEMfEhvwNQ_4jiGUuqg.png",
-            "heroMedium": "https://api-assets.clashroyale.com/cardheroes/300/jAj1Q5rclXxU9kVImGqSJxa4wEMfEhvwNQ_4jiGUuqg.png",
-            "evolutionMedium": "https://api-assets.clashroyale.com/cardevolutions/300/jAj1Q5rclXxU9kVImGqSJxa4wEMfEhvwNQ_4jiGUuqg.png"
-          }
-        },
-        {
-          "name": "Goblin Gang",
-          "id": 26000041,
-          "level": 14,
-          "maxLevel": 16,
-          "rarity": "common",
-          "elixirCost": 3,
-          "iconUrls": {
-            "medium": "https://api-assets.clashroyale.com/cards/300/NHflxzVAQT4oAz7eDfdueqpictb5vrWezn1nuqFhE4w.png"
-          }
-        },
-        {
-          "name": "Ronin",
-          "id": 26000106,
-          "level": 13,
-          "maxLevel": 16,
-          "rarity": "legendary",
-          "elixirCost": 5,
-          "iconUrls": {
-            "medium": "https://api-assets.clashroyale.com/cards/300/X0dTFs7OGUavreDEzOtYd_YNZ8Zly6qgAE-dd-bNfWU.png"
-          }
-        },
-        {
-          "name": "Inferno Tower",
-          "id": 27000003,
-          "level": 14,
-          "maxLevel": 16,
-          "rarity": "rare",
-          "elixirCost": 5,
-          "iconUrls": {
-            "medium": "https://api-assets.clashroyale.com/cards/300/GSHY_wrooMMLET6bG_WJB8redtwx66c4i80ipi4gYOM.png"
-          }
-        },
-        {
-          "name": "The Log",
-          "id": 28000011,
-          "level": 13,
-          "maxLevel": 16,
-          "rarity": "legendary",
-          "elixirCost": 2,
-          "iconUrls": {
-            "medium": "https://api-assets.clashroyale.com/cards/300/_iDwuDLexHPFZ_x4_a0eP-rxCS6vwWgTs6DLauwwoaY.png"
-          }
-        },
-        {
-          "name": "Prince",
-          "id": 26000016,
-          "level": 14,
-          "starLevel": 1,
-          "maxLevel": 16,
-          "rarity": "epic",
-          "elixirCost": 5,
-          "iconUrls": {
-            "medium": "https://api-assets.clashroyale.com/cards/300/3JntJV62aY0G1Qh6LIs-ek-0ayeYFY3VItpG7cb9I60.png"
-          }
-        }
-      ],
-      "battles": 4,
-      "wins": 2,
-      "winRate": 50.0,
-      "metaScore": 0.0
-    },
-    {
       "label": "Royal Hogs, Boss Bandit, Cannon, Vines, Archers, Giant Snowball, Wizard, Wall Breakers",
       "category": "war",
       "cards": [
@@ -949,9 +846,120 @@
           }
         }
       ],
-      "battles": 3,
+      "battles": 2,
       "wins": 1,
-      "winRate": 33.3,
+      "winRate": 50.0,
+      "metaScore": 0.0
+    },
+    {
+      "label": "Goblin Barrel, Princess, Knight, Goblin Gang, Ronin, Inferno Tower, The Log, Prince",
+      "category": "war",
+      "cards": [
+        {
+          "name": "Goblin Barrel",
+          "id": 28000004,
+          "level": 15,
+          "starLevel": 3,
+          "evolutionLevel": 1,
+          "maxLevel": 16,
+          "maxEvolutionLevel": 1,
+          "rarity": "epic",
+          "elixirCost": 3,
+          "iconUrls": {
+            "medium": "https://api-assets.clashroyale.com/cards/300/CoZdp5PpsTH858l212lAMeJxVJ0zxv9V-f5xC8Bvj5g.png",
+            "evolutionMedium": "https://api-assets.clashroyale.com/cardevolutions/300/CoZdp5PpsTH858l212lAMeJxVJ0zxv9V-f5xC8Bvj5g.png"
+          }
+        },
+        {
+          "name": "Princess",
+          "id": 26000026,
+          "level": 15,
+          "starLevel": 1,
+          "maxLevel": 16,
+          "maxEvolutionLevel": 1,
+          "rarity": "legendary",
+          "elixirCost": 3,
+          "iconUrls": {
+            "medium": "https://api-assets.clashroyale.com/cards/300/bAwMcqp9EKVIKH3ZLm_m0MqZFSG72zG-vKxpx8aKoVs.png",
+            "evolutionMedium": "https://api-assets.clashroyale.com/cardevolutions/300/bAwMcqp9EKVIKH3ZLm_m0MqZFSG72zG-vKxpx8aKoVs.png"
+          }
+        },
+        {
+          "name": "Knight",
+          "id": 26000000,
+          "level": 15,
+          "starLevel": 1,
+          "evolutionLevel": 2,
+          "maxLevel": 16,
+          "maxEvolutionLevel": 3,
+          "rarity": "common",
+          "elixirCost": 3,
+          "iconUrls": {
+            "medium": "https://api-assets.clashroyale.com/cards/300/jAj1Q5rclXxU9kVImGqSJxa4wEMfEhvwNQ_4jiGUuqg.png",
+            "heroMedium": "https://api-assets.clashroyale.com/cardheroes/300/jAj1Q5rclXxU9kVImGqSJxa4wEMfEhvwNQ_4jiGUuqg.png",
+            "evolutionMedium": "https://api-assets.clashroyale.com/cardevolutions/300/jAj1Q5rclXxU9kVImGqSJxa4wEMfEhvwNQ_4jiGUuqg.png"
+          }
+        },
+        {
+          "name": "Goblin Gang",
+          "id": 26000041,
+          "level": 14,
+          "maxLevel": 16,
+          "rarity": "common",
+          "elixirCost": 3,
+          "iconUrls": {
+            "medium": "https://api-assets.clashroyale.com/cards/300/NHflxzVAQT4oAz7eDfdueqpictb5vrWezn1nuqFhE4w.png"
+          }
+        },
+        {
+          "name": "Ronin",
+          "id": 26000106,
+          "level": 13,
+          "maxLevel": 16,
+          "rarity": "legendary",
+          "elixirCost": 5,
+          "iconUrls": {
+            "medium": "https://api-assets.clashroyale.com/cards/300/X0dTFs7OGUavreDEzOtYd_YNZ8Zly6qgAE-dd-bNfWU.png"
+          }
+        },
+        {
+          "name": "Inferno Tower",
+          "id": 27000003,
+          "level": 14,
+          "maxLevel": 16,
+          "rarity": "rare",
+          "elixirCost": 5,
+          "iconUrls": {
+            "medium": "https://api-assets.clashroyale.com/cards/300/GSHY_wrooMMLET6bG_WJB8redtwx66c4i80ipi4gYOM.png"
+          }
+        },
+        {
+          "name": "The Log",
+          "id": 28000011,
+          "level": 13,
+          "maxLevel": 16,
+          "rarity": "legendary",
+          "elixirCost": 2,
+          "iconUrls": {
+            "medium": "https://api-assets.clashroyale.com/cards/300/_iDwuDLexHPFZ_x4_a0eP-rxCS6vwWgTs6DLauwwoaY.png"
+          }
+        },
+        {
+          "name": "Prince",
+          "id": 26000016,
+          "level": 14,
+          "starLevel": 1,
+          "maxLevel": 16,
+          "rarity": "epic",
+          "elixirCost": 5,
+          "iconUrls": {
+            "medium": "https://api-assets.clashroyale.com/cards/300/3JntJV62aY0G1Qh6LIs-ek-0ayeYFY3VItpG7cb9I60.png"
+          }
+        }
+      ],
+      "battles": 2,
+      "wins": 1,
+      "winRate": 50.0,
       "metaScore": 0.0
     },
     {
@@ -1075,9 +1083,9 @@
           }
         }
       ],
-      "battles": 3,
+      "battles": 2,
       "wins": 1,
-      "winRate": 33.3,
+      "winRate": 50.0,
       "metaScore": 0.0
     },
     {
@@ -1209,6 +1217,486 @@
     "decks": []
   },
   "recentBattles": [
+    {
+      "deck": [
+        {
+          "name": "Firecracker",
+          "id": 26000064,
+          "level": 16,
+          "starLevel": 1,
+          "evolutionLevel": 1,
+          "maxLevel": 16,
+          "maxEvolutionLevel": 1,
+          "rarity": "common",
+          "elixirCost": 3,
+          "iconUrls": {
+            "medium": "https://api-assets.clashroyale.com/cards/300/c1rL3LO1U2D9-TkeFfAC18gP3AO8ztSwrcHMZplwL2Q.png",
+            "evolutionMedium": "https://api-assets.clashroyale.com/cardevolutions/300/c1rL3LO1U2D9-TkeFfAC18gP3AO8ztSwrcHMZplwL2Q.png"
+          }
+        },
+        {
+          "name": "Tombstone",
+          "id": 27000009,
+          "level": 16,
+          "starLevel": 2,
+          "evolutionLevel": 2,
+          "maxLevel": 16,
+          "maxEvolutionLevel": 2,
+          "rarity": "rare",
+          "elixirCost": 3,
+          "iconUrls": {
+            "medium": "https://api-assets.clashroyale.com/cards/300/LjSfSbwQfkZuRJY4pVxKspZ-a0iM5KAhU8w-a_N5Z7Y.png",
+            "heroMedium": "https://api-assets.clashroyale.com/cardheroes/300/LjSfSbwQfkZuRJY4pVxKspZ-a0iM5KAhU8w-a_N5Z7Y.png"
+          }
+        },
+        {
+          "name": "Royal Hogs",
+          "id": 26000059,
+          "level": 16,
+          "evolutionLevel": 1,
+          "maxLevel": 16,
+          "maxEvolutionLevel": 1,
+          "rarity": "rare",
+          "elixirCost": 5,
+          "iconUrls": {
+            "medium": "https://api-assets.clashroyale.com/cards/300/ASSQJG_MoVq9e81HZzo4bynMnyLNpNJMfSLb3hqydOw.png",
+            "evolutionMedium": "https://api-assets.clashroyale.com/cardevolutions/300/ASSQJG_MoVq9e81HZzo4bynMnyLNpNJMfSLb3hqydOw.png"
+          }
+        },
+        {
+          "name": "Wall Breakers",
+          "id": 26000058,
+          "level": 16,
+          "starLevel": 2,
+          "maxLevel": 16,
+          "maxEvolutionLevel": 1,
+          "rarity": "epic",
+          "elixirCost": 2,
+          "iconUrls": {
+            "medium": "https://api-assets.clashroyale.com/cards/300/_xPphEfC8eEwFNrfU3cMQG9-f5JaLQ31ARCA7l3XtW4.png",
+            "evolutionMedium": "https://api-assets.clashroyale.com/cardevolutions/300/_xPphEfC8eEwFNrfU3cMQG9-f5JaLQ31ARCA7l3XtW4.png"
+          }
+        },
+        {
+          "name": "Mega Knight",
+          "id": 26000055,
+          "level": 16,
+          "starLevel": 2,
+          "maxLevel": 16,
+          "maxEvolutionLevel": 1,
+          "rarity": "legendary",
+          "elixirCost": 7,
+          "iconUrls": {
+            "medium": "https://api-assets.clashroyale.com/cards/300/O2NycChSNhn_UK9nqBXUhhC_lILkiANzPuJjtjoz0CE.png",
+            "evolutionMedium": "https://api-assets.clashroyale.com/cardevolutions/300/O2NycChSNhn_UK9nqBXUhhC_lILkiANzPuJjtjoz0CE.png"
+          }
+        },
+        {
+          "name": "Bats",
+          "id": 26000049,
+          "level": 16,
+          "starLevel": 1,
+          "maxLevel": 16,
+          "maxEvolutionLevel": 1,
+          "rarity": "common",
+          "elixirCost": 2,
+          "iconUrls": {
+            "medium": "https://api-assets.clashroyale.com/cards/300/EnIcvO21hxiNpoI-zO6MDjLmzwPbq8Z4JPo2OKoVUjU.png",
+            "evolutionMedium": "https://api-assets.clashroyale.com/cardevolutions/300/EnIcvO21hxiNpoI-zO6MDjLmzwPbq8Z4JPo2OKoVUjU.png"
+          }
+        },
+        {
+          "name": "Barbarian Barrel",
+          "id": 28000015,
+          "level": 16,
+          "maxLevel": 16,
+          "maxEvolutionLevel": 2,
+          "rarity": "epic",
+          "elixirCost": 2,
+          "iconUrls": {
+            "medium": "https://api-assets.clashroyale.com/cards/300/Gb0G1yNy0i5cIGUHin8uoFWxqntNtRPhY_jeMXg7HnA.png",
+            "heroMedium": "https://api-assets.clashroyale.com/cardheroes/300/Gb0G1yNy0i5cIGUHin8uoFWxqntNtRPhY_jeMXg7HnA.png"
+          }
+        },
+        {
+          "name": "Fireball",
+          "id": 28000000,
+          "level": 15,
+          "starLevel": 2,
+          "maxLevel": 16,
+          "rarity": "rare",
+          "elixirCost": 4,
+          "iconUrls": {
+            "medium": "https://api-assets.clashroyale.com/cards/300/lZD9MILQv7O-P3XBr_xOLS5idwuz3_7Ws9G60U36yhc.png"
+          }
+        }
+      ],
+      "deckLabel": "Firecracker, Tombstone, Royal Hogs, Wall Breakers, Mega Knight, Bats, Barbarian Barrel, Fireball",
+      "category": "regular",
+      "won": false,
+      "type": "PvP",
+      "date": "20261007T164512.000Z"
+    },
+    {
+      "deck": [
+        {
+          "name": "Firecracker",
+          "id": 26000064,
+          "level": 16,
+          "starLevel": 1,
+          "evolutionLevel": 1,
+          "maxLevel": 16,
+          "maxEvolutionLevel": 1,
+          "rarity": "common",
+          "elixirCost": 3,
+          "iconUrls": {
+            "medium": "https://api-assets.clashroyale.com/cards/300/c1rL3LO1U2D9-TkeFfAC18gP3AO8ztSwrcHMZplwL2Q.png",
+            "evolutionMedium": "https://api-assets.clashroyale.com/cardevolutions/300/c1rL3LO1U2D9-TkeFfAC18gP3AO8ztSwrcHMZplwL2Q.png"
+          }
+        },
+        {
+          "name": "Tombstone",
+          "id": 27000009,
+          "level": 16,
+          "starLevel": 2,
+          "evolutionLevel": 2,
+          "maxLevel": 16,
+          "maxEvolutionLevel": 2,
+          "rarity": "rare",
+          "elixirCost": 3,
+          "iconUrls": {
+            "medium": "https://api-assets.clashroyale.com/cards/300/LjSfSbwQfkZuRJY4pVxKspZ-a0iM5KAhU8w-a_N5Z7Y.png",
+            "heroMedium": "https://api-assets.clashroyale.com/cardheroes/300/LjSfSbwQfkZuRJY4pVxKspZ-a0iM5KAhU8w-a_N5Z7Y.png"
+          }
+        },
+        {
+          "name": "Royal Hogs",
+          "id": 26000059,
+          "level": 16,
+          "evolutionLevel": 1,
+          "maxLevel": 16,
+          "maxEvolutionLevel": 1,
+          "rarity": "rare",
+          "elixirCost": 5,
+          "iconUrls": {
+            "medium": "https://api-assets.clashroyale.com/cards/300/ASSQJG_MoVq9e81HZzo4bynMnyLNpNJMfSLb3hqydOw.png",
+            "evolutionMedium": "https://api-assets.clashroyale.com/cardevolutions/300/ASSQJG_MoVq9e81HZzo4bynMnyLNpNJMfSLb3hqydOw.png"
+          }
+        },
+        {
+          "name": "Wall Breakers",
+          "id": 26000058,
+          "level": 16,
+          "starLevel": 2,
+          "maxLevel": 16,
+          "maxEvolutionLevel": 1,
+          "rarity": "epic",
+          "elixirCost": 2,
+          "iconUrls": {
+            "medium": "https://api-assets.clashroyale.com/cards/300/_xPphEfC8eEwFNrfU3cMQG9-f5JaLQ31ARCA7l3XtW4.png",
+            "evolutionMedium": "https://api-assets.clashroyale.com/cardevolutions/300/_xPphEfC8eEwFNrfU3cMQG9-f5JaLQ31ARCA7l3XtW4.png"
+          }
+        },
+        {
+          "name": "Mega Knight",
+          "id": 26000055,
+          "level": 16,
+          "starLevel": 2,
+          "maxLevel": 16,
+          "maxEvolutionLevel": 1,
+          "rarity": "legendary",
+          "elixirCost": 7,
+          "iconUrls": {
+            "medium": "https://api-assets.clashroyale.com/cards/300/O2NycChSNhn_UK9nqBXUhhC_lILkiANzPuJjtjoz0CE.png",
+            "evolutionMedium": "https://api-assets.clashroyale.com/cardevolutions/300/O2NycChSNhn_UK9nqBXUhhC_lILkiANzPuJjtjoz0CE.png"
+          }
+        },
+        {
+          "name": "Bats",
+          "id": 26000049,
+          "level": 16,
+          "starLevel": 1,
+          "maxLevel": 16,
+          "maxEvolutionLevel": 1,
+          "rarity": "common",
+          "elixirCost": 2,
+          "iconUrls": {
+            "medium": "https://api-assets.clashroyale.com/cards/300/EnIcvO21hxiNpoI-zO6MDjLmzwPbq8Z4JPo2OKoVUjU.png",
+            "evolutionMedium": "https://api-assets.clashroyale.com/cardevolutions/300/EnIcvO21hxiNpoI-zO6MDjLmzwPbq8Z4JPo2OKoVUjU.png"
+          }
+        },
+        {
+          "name": "Barbarian Barrel",
+          "id": 28000015,
+          "level": 16,
+          "maxLevel": 16,
+          "maxEvolutionLevel": 2,
+          "rarity": "epic",
+          "elixirCost": 2,
+          "iconUrls": {
+            "medium": "https://api-assets.clashroyale.com/cards/300/Gb0G1yNy0i5cIGUHin8uoFWxqntNtRPhY_jeMXg7HnA.png",
+            "heroMedium": "https://api-assets.clashroyale.com/cardheroes/300/Gb0G1yNy0i5cIGUHin8uoFWxqntNtRPhY_jeMXg7HnA.png"
+          }
+        },
+        {
+          "name": "Fireball",
+          "id": 28000000,
+          "level": 15,
+          "starLevel": 2,
+          "maxLevel": 16,
+          "rarity": "rare",
+          "elixirCost": 4,
+          "iconUrls": {
+            "medium": "https://api-assets.clashroyale.com/cards/300/lZD9MILQv7O-P3XBr_xOLS5idwuz3_7Ws9G60U36yhc.png"
+          }
+        }
+      ],
+      "deckLabel": "Firecracker, Tombstone, Royal Hogs, Wall Breakers, Mega Knight, Bats, Barbarian Barrel, Fireball",
+      "category": "regular",
+      "won": false,
+      "type": "PvP",
+      "date": "20261007T133432.000Z"
+    },
+    {
+      "deck": [
+        {
+          "name": "Firecracker",
+          "id": 26000064,
+          "level": 16,
+          "starLevel": 1,
+          "evolutionLevel": 1,
+          "maxLevel": 16,
+          "maxEvolutionLevel": 1,
+          "rarity": "common",
+          "elixirCost": 3,
+          "iconUrls": {
+            "medium": "https://api-assets.clashroyale.com/cards/300/c1rL3LO1U2D9-TkeFfAC18gP3AO8ztSwrcHMZplwL2Q.png",
+            "evolutionMedium": "https://api-assets.clashroyale.com/cardevolutions/300/c1rL3LO1U2D9-TkeFfAC18gP3AO8ztSwrcHMZplwL2Q.png"
+          }
+        },
+        {
+          "name": "Tombstone",
+          "id": 27000009,
+          "level": 16,
+          "starLevel": 2,
+          "evolutionLevel": 2,
+          "maxLevel": 16,
+          "maxEvolutionLevel": 2,
+          "rarity": "rare",
+          "elixirCost": 3,
+          "iconUrls": {
+            "medium": "https://api-assets.clashroyale.com/cards/300/LjSfSbwQfkZuRJY4pVxKspZ-a0iM5KAhU8w-a_N5Z7Y.png",
+            "heroMedium": "https://api-assets.clashroyale.com/cardheroes/300/LjSfSbwQfkZuRJY4pVxKspZ-a0iM5KAhU8w-a_N5Z7Y.png"
+          }
+        },
+        {
+          "name": "Royal Hogs",
+          "id": 26000059,
+          "level": 16,
+          "evolutionLevel": 1,
+          "maxLevel": 16,
+          "maxEvolutionLevel": 1,
+          "rarity": "rare",
+          "elixirCost": 5,
+          "iconUrls": {
+            "medium": "https://api-assets.clashroyale.com/cards/300/ASSQJG_MoVq9e81HZzo4bynMnyLNpNJMfSLb3hqydOw.png",
+            "evolutionMedium": "https://api-assets.clashroyale.com/cardevolutions/300/ASSQJG_MoVq9e81HZzo4bynMnyLNpNJMfSLb3hqydOw.png"
+          }
+        },
+        {
+          "name": "Wall Breakers",
+          "id": 26000058,
+          "level": 16,
+          "starLevel": 2,
+          "maxLevel": 16,
+          "maxEvolutionLevel": 1,
+          "rarity": "epic",
+          "elixirCost": 2,
+          "iconUrls": {
+            "medium": "https://api-assets.clashroyale.com/cards/300/_xPphEfC8eEwFNrfU3cMQG9-f5JaLQ31ARCA7l3XtW4.png",
+            "evolutionMedium": "https://api-assets.clashroyale.com/cardevolutions/300/_xPphEfC8eEwFNrfU3cMQG9-f5JaLQ31ARCA7l3XtW4.png"
+          }
+        },
+        {
+          "name": "Mega Knight",
+          "id": 26000055,
+          "level": 16,
+          "starLevel": 2,
+          "maxLevel": 16,
+          "maxEvolutionLevel": 1,
+          "rarity": "legendary",
+          "elixirCost": 7,
+          "iconUrls": {
+            "medium": "https://api-assets.clashroyale.com/cards/300/O2NycChSNhn_UK9nqBXUhhC_lILkiANzPuJjtjoz0CE.png",
+            "evolutionMedium": "https://api-assets.clashroyale.com/cardevolutions/300/O2NycChSNhn_UK9nqBXUhhC_lILkiANzPuJjtjoz0CE.png"
+          }
+        },
+        {
+          "name": "Bats",
+          "id": 26000049,
+          "level": 16,
+          "starLevel": 1,
+          "maxLevel": 16,
+          "maxEvolutionLevel": 1,
+          "rarity": "common",
+          "elixirCost": 2,
+          "iconUrls": {
+            "medium": "https://api-assets.clashroyale.com/cards/300/EnIcvO21hxiNpoI-zO6MDjLmzwPbq8Z4JPo2OKoVUjU.png",
+            "evolutionMedium": "https://api-assets.clashroyale.com/cardevolutions/300/EnIcvO21hxiNpoI-zO6MDjLmzwPbq8Z4JPo2OKoVUjU.png"
+          }
+        },
+        {
+          "name": "Barbarian Barrel",
+          "id": 28000015,
+          "level": 16,
+          "maxLevel": 16,
+          "maxEvolutionLevel": 2,
+          "rarity": "epic",
+          "elixirCost": 2,
+          "iconUrls": {
+            "medium": "https://api-assets.clashroyale.com/cards/300/Gb0G1yNy0i5cIGUHin8uoFWxqntNtRPhY_jeMXg7HnA.png",
+            "heroMedium": "https://api-assets.clashroyale.com/cardheroes/300/Gb0G1yNy0i5cIGUHin8uoFWxqntNtRPhY_jeMXg7HnA.png"
+          }
+        },
+        {
+          "name": "Fireball",
+          "id": 28000000,
+          "level": 15,
+          "starLevel": 2,
+          "maxLevel": 16,
+          "rarity": "rare",
+          "elixirCost": 4,
+          "iconUrls": {
+            "medium": "https://api-assets.clashroyale.com/cards/300/lZD9MILQv7O-P3XBr_xOLS5idwuz3_7Ws9G60U36yhc.png"
+          }
+        }
+      ],
+      "deckLabel": "Firecracker, Tombstone, Royal Hogs, Wall Breakers, Mega Knight, Bats, Barbarian Barrel, Fireball",
+      "category": "regular",
+      "won": false,
+      "type": "PvP",
+      "date": "20261007T115631.000Z"
+    },
+    {
+      "deck": [
+        {
+          "name": "Firecracker",
+          "id": 26000064,
+          "level": 16,
+          "starLevel": 1,
+          "evolutionLevel": 1,
+          "maxLevel": 16,
+          "maxEvolutionLevel": 1,
+          "rarity": "common",
+          "elixirCost": 3,
+          "iconUrls": {
+            "medium": "https://api-assets.clashroyale.com/cards/300/c1rL3LO1U2D9-TkeFfAC18gP3AO8ztSwrcHMZplwL2Q.png",
+            "evolutionMedium": "https://api-assets.clashroyale.com/cardevolutions/300/c1rL3LO1U2D9-TkeFfAC18gP3AO8ztSwrcHMZplwL2Q.png"
+          }
+        },
+        {
+          "name": "Tombstone",
+          "id": 27000009,
+          "level": 16,
+          "starLevel": 2,
+          "evolutionLevel": 2,
+          "maxLevel": 16,
+          "maxEvolutionLevel": 2,
+          "rarity": "rare",
+          "elixirCost": 3,
+          "iconUrls": {
+            "medium": "https://api-assets.clashroyale.com/cards/300/LjSfSbwQfkZuRJY4pVxKspZ-a0iM5KAhU8w-a_N5Z7Y.png",
+            "heroMedium": "https://api-assets.clashroyale.com/cardheroes/300/LjSfSbwQfkZuRJY4pVxKspZ-a0iM5KAhU8w-a_N5Z7Y.png"
+          }
+        },
+        {
+          "name": "Royal Hogs",
+          "id": 26000059,
+          "level": 16,
+          "evolutionLevel": 1,
+          "maxLevel": 16,
+          "maxEvolutionLevel": 1,
+          "rarity": "rare",
+          "elixirCost": 5,
+          "iconUrls": {
+            "medium": "https://api-assets.clashroyale.com/cards/300/ASSQJG_MoVq9e81HZzo4bynMnyLNpNJMfSLb3hqydOw.png",
+            "evolutionMedium": "https://api-assets.clashroyale.com/cardevolutions/300/ASSQJG_MoVq9e81HZzo4bynMnyLNpNJMfSLb3hqydOw.png"
+          }
+        },
+        {
+          "name": "Wall Breakers",
+          "id": 26000058,
+          "level": 16,
+          "starLevel": 2,
+          "maxLevel": 16,
+          "maxEvolutionLevel": 1,
+          "rarity": "epic",
+          "elixirCost": 2,
+          "iconUrls": {
+            "medium": "https://api-assets.clashroyale.com/cards/300/_xPphEfC8eEwFNrfU3cMQG9-f5JaLQ31ARCA7l3XtW4.png",
+            "evolutionMedium": "https://api-assets.clashroyale.com/cardevolutions/300/_xPphEfC8eEwFNrfU3cMQG9-f5JaLQ31ARCA7l3XtW4.png"
+          }
+        },
+        {
+          "name": "Mega Knight",
+          "id": 26000055,
+          "level": 16,
+          "starLevel": 2,
+          "maxLevel": 16,
+          "maxEvolutionLevel": 1,
+          "rarity": "legendary",
+          "elixirCost": 7,
+          "iconUrls": {
+            "medium": "https://api-assets.clashroyale.com/cards/300/O2NycChSNhn_UK9nqBXUhhC_lILkiANzPuJjtjoz0CE.png",
+            "evolutionMedium": "https://api-assets.clashroyale.com/cardevolutions/300/O2NycChSNhn_UK9nqBXUhhC_lILkiANzPuJjtjoz0CE.png"
+          }
+        },
+        {
+          "name": "Bats",
+          "id": 26000049,
+          "level": 16,
+          "starLevel": 1,
+          "maxLevel": 16,
+          "maxEvolutionLevel": 1,
+          "rarity": "common",
+          "elixirCost": 2,
+          "iconUrls": {
+            "medium": "https://api-assets.clashroyale.com/cards/300/EnIcvO21hxiNpoI-zO6MDjLmzwPbq8Z4JPo2OKoVUjU.png",
+            "evolutionMedium": "https://api-assets.clashroyale.com/cardevolutions/300/EnIcvO21hxiNpoI-zO6MDjLmzwPbq8Z4JPo2OKoVUjU.png"
+          }
+        },
+        {
+          "name": "Barbarian Barrel",
+          "id": 28000015,
+          "level": 16,
+          "maxLevel": 16,
+          "maxEvolutionLevel": 2,
+          "rarity": "epic",
+          "elixirCost": 2,
+          "iconUrls": {
+            "medium": "https://api-assets.clashroyale.com/cards/300/Gb0G1yNy0i5cIGUHin8uoFWxqntNtRPhY_jeMXg7HnA.png",
+            "heroMedium": "https://api-assets.clashroyale.com/cardheroes/300/Gb0G1yNy0i5cIGUHin8uoFWxqntNtRPhY_jeMXg7HnA.png"
+          }
+        },
+        {
+          "name": "Fireball",
+          "id": 28000000,
+          "level": 15,
+          "starLevel": 2,
+          "maxLevel": 16,
+          "rarity": "rare",
+          "elixirCost": 4,
+          "iconUrls": {
+            "medium": "https://api-assets.clashroyale.com/cards/300/lZD9MILQv7O-P3XBr_xOLS5idwuz3_7Ws9G60U36yhc.png"
+          }
+        }
+      ],
+      "deckLabel": "Firecracker, Tombstone, Royal Hogs, Wall Breakers, Mega Knight, Bats, Barbarian Barrel, Fireball",
+      "category": "regular",
+      "won": false,
+      "type": "PvP",
+      "date": "20261007T113945.000Z"
+    },
     {
       "deck": [
         {
@@ -3126,486 +3614,6 @@
       "won": true,
       "type": "PvP",
       "date": "20261004T143538.000Z"
-    },
-    {
-      "deck": [
-        {
-          "name": "Firecracker",
-          "id": 26000064,
-          "level": 16,
-          "starLevel": 1,
-          "evolutionLevel": 1,
-          "maxLevel": 16,
-          "maxEvolutionLevel": 1,
-          "rarity": "common",
-          "elixirCost": 3,
-          "iconUrls": {
-            "medium": "https://api-assets.clashroyale.com/cards/300/c1rL3LO1U2D9-TkeFfAC18gP3AO8ztSwrcHMZplwL2Q.png",
-            "evolutionMedium": "https://api-assets.clashroyale.com/cardevolutions/300/c1rL3LO1U2D9-TkeFfAC18gP3AO8ztSwrcHMZplwL2Q.png"
-          }
-        },
-        {
-          "name": "Tombstone",
-          "id": 27000009,
-          "level": 16,
-          "starLevel": 2,
-          "evolutionLevel": 2,
-          "maxLevel": 16,
-          "maxEvolutionLevel": 2,
-          "rarity": "rare",
-          "elixirCost": 3,
-          "iconUrls": {
-            "medium": "https://api-assets.clashroyale.com/cards/300/LjSfSbwQfkZuRJY4pVxKspZ-a0iM5KAhU8w-a_N5Z7Y.png",
-            "heroMedium": "https://api-assets.clashroyale.com/cardheroes/300/LjSfSbwQfkZuRJY4pVxKspZ-a0iM5KAhU8w-a_N5Z7Y.png"
-          }
-        },
-        {
-          "name": "Royal Hogs",
-          "id": 26000059,
-          "level": 16,
-          "evolutionLevel": 1,
-          "maxLevel": 16,
-          "maxEvolutionLevel": 1,
-          "rarity": "rare",
-          "elixirCost": 5,
-          "iconUrls": {
-            "medium": "https://api-assets.clashroyale.com/cards/300/ASSQJG_MoVq9e81HZzo4bynMnyLNpNJMfSLb3hqydOw.png",
-            "evolutionMedium": "https://api-assets.clashroyale.com/cardevolutions/300/ASSQJG_MoVq9e81HZzo4bynMnyLNpNJMfSLb3hqydOw.png"
-          }
-        },
-        {
-          "name": "Wall Breakers",
-          "id": 26000058,
-          "level": 16,
-          "starLevel": 2,
-          "maxLevel": 16,
-          "maxEvolutionLevel": 1,
-          "rarity": "epic",
-          "elixirCost": 2,
-          "iconUrls": {
-            "medium": "https://api-assets.clashroyale.com/cards/300/_xPphEfC8eEwFNrfU3cMQG9-f5JaLQ31ARCA7l3XtW4.png",
-            "evolutionMedium": "https://api-assets.clashroyale.com/cardevolutions/300/_xPphEfC8eEwFNrfU3cMQG9-f5JaLQ31ARCA7l3XtW4.png"
-          }
-        },
-        {
-          "name": "Mega Knight",
-          "id": 26000055,
-          "level": 16,
-          "starLevel": 2,
-          "maxLevel": 16,
-          "maxEvolutionLevel": 1,
-          "rarity": "legendary",
-          "elixirCost": 7,
-          "iconUrls": {
-            "medium": "https://api-assets.clashroyale.com/cards/300/O2NycChSNhn_UK9nqBXUhhC_lILkiANzPuJjtjoz0CE.png",
-            "evolutionMedium": "https://api-assets.clashroyale.com/cardevolutions/300/O2NycChSNhn_UK9nqBXUhhC_lILkiANzPuJjtjoz0CE.png"
-          }
-        },
-        {
-          "name": "Bats",
-          "id": 26000049,
-          "level": 16,
-          "starLevel": 1,
-          "maxLevel": 16,
-          "maxEvolutionLevel": 1,
-          "rarity": "common",
-          "elixirCost": 2,
-          "iconUrls": {
-            "medium": "https://api-assets.clashroyale.com/cards/300/EnIcvO21hxiNpoI-zO6MDjLmzwPbq8Z4JPo2OKoVUjU.png",
-            "evolutionMedium": "https://api-assets.clashroyale.com/cardevolutions/300/EnIcvO21hxiNpoI-zO6MDjLmzwPbq8Z4JPo2OKoVUjU.png"
-          }
-        },
-        {
-          "name": "Barbarian Barrel",
-          "id": 28000015,
-          "level": 16,
-          "maxLevel": 16,
-          "maxEvolutionLevel": 2,
-          "rarity": "epic",
-          "elixirCost": 2,
-          "iconUrls": {
-            "medium": "https://api-assets.clashroyale.com/cards/300/Gb0G1yNy0i5cIGUHin8uoFWxqntNtRPhY_jeMXg7HnA.png",
-            "heroMedium": "https://api-assets.clashroyale.com/cardheroes/300/Gb0G1yNy0i5cIGUHin8uoFWxqntNtRPhY_jeMXg7HnA.png"
-          }
-        },
-        {
-          "name": "Fireball",
-          "id": 28000000,
-          "level": 15,
-          "starLevel": 2,
-          "maxLevel": 16,
-          "rarity": "rare",
-          "elixirCost": 4,
-          "iconUrls": {
-            "medium": "https://api-assets.clashroyale.com/cards/300/lZD9MILQv7O-P3XBr_xOLS5idwuz3_7Ws9G60U36yhc.png"
-          }
-        }
-      ],
-      "deckLabel": "Firecracker, Tombstone, Royal Hogs, Wall Breakers, Mega Knight, Bats, Barbarian Barrel, Fireball",
-      "category": "regular",
-      "won": true,
-      "type": "PvP",
-      "date": "20261004T143200.000Z"
-    },
-    {
-      "deck": [
-        {
-          "name": "Firecracker",
-          "id": 26000064,
-          "level": 16,
-          "starLevel": 1,
-          "evolutionLevel": 1,
-          "maxLevel": 16,
-          "maxEvolutionLevel": 1,
-          "rarity": "common",
-          "elixirCost": 3,
-          "iconUrls": {
-            "medium": "https://api-assets.clashroyale.com/cards/300/c1rL3LO1U2D9-TkeFfAC18gP3AO8ztSwrcHMZplwL2Q.png",
-            "evolutionMedium": "https://api-assets.clashroyale.com/cardevolutions/300/c1rL3LO1U2D9-TkeFfAC18gP3AO8ztSwrcHMZplwL2Q.png"
-          }
-        },
-        {
-          "name": "Tombstone",
-          "id": 27000009,
-          "level": 16,
-          "starLevel": 2,
-          "evolutionLevel": 2,
-          "maxLevel": 16,
-          "maxEvolutionLevel": 2,
-          "rarity": "rare",
-          "elixirCost": 3,
-          "iconUrls": {
-            "medium": "https://api-assets.clashroyale.com/cards/300/LjSfSbwQfkZuRJY4pVxKspZ-a0iM5KAhU8w-a_N5Z7Y.png",
-            "heroMedium": "https://api-assets.clashroyale.com/cardheroes/300/LjSfSbwQfkZuRJY4pVxKspZ-a0iM5KAhU8w-a_N5Z7Y.png"
-          }
-        },
-        {
-          "name": "Royal Hogs",
-          "id": 26000059,
-          "level": 16,
-          "evolutionLevel": 1,
-          "maxLevel": 16,
-          "maxEvolutionLevel": 1,
-          "rarity": "rare",
-          "elixirCost": 5,
-          "iconUrls": {
-            "medium": "https://api-assets.clashroyale.com/cards/300/ASSQJG_MoVq9e81HZzo4bynMnyLNpNJMfSLb3hqydOw.png",
-            "evolutionMedium": "https://api-assets.clashroyale.com/cardevolutions/300/ASSQJG_MoVq9e81HZzo4bynMnyLNpNJMfSLb3hqydOw.png"
-          }
-        },
-        {
-          "name": "Wall Breakers",
-          "id": 26000058,
-          "level": 16,
-          "starLevel": 2,
-          "maxLevel": 16,
-          "maxEvolutionLevel": 1,
-          "rarity": "epic",
-          "elixirCost": 2,
-          "iconUrls": {
-            "medium": "https://api-assets.clashroyale.com/cards/300/_xPphEfC8eEwFNrfU3cMQG9-f5JaLQ31ARCA7l3XtW4.png",
-            "evolutionMedium": "https://api-assets.clashroyale.com/cardevolutions/300/_xPphEfC8eEwFNrfU3cMQG9-f5JaLQ31ARCA7l3XtW4.png"
-          }
-        },
-        {
-          "name": "Mega Knight",
-          "id": 26000055,
-          "level": 16,
-          "starLevel": 2,
-          "maxLevel": 16,
-          "maxEvolutionLevel": 1,
-          "rarity": "legendary",
-          "elixirCost": 7,
-          "iconUrls": {
-            "medium": "https://api-assets.clashroyale.com/cards/300/O2NycChSNhn_UK9nqBXUhhC_lILkiANzPuJjtjoz0CE.png",
-            "evolutionMedium": "https://api-assets.clashroyale.com/cardevolutions/300/O2NycChSNhn_UK9nqBXUhhC_lILkiANzPuJjtjoz0CE.png"
-          }
-        },
-        {
-          "name": "Bats",
-          "id": 26000049,
-          "level": 16,
-          "starLevel": 1,
-          "maxLevel": 16,
-          "maxEvolutionLevel": 1,
-          "rarity": "common",
-          "elixirCost": 2,
-          "iconUrls": {
-            "medium": "https://api-assets.clashroyale.com/cards/300/EnIcvO21hxiNpoI-zO6MDjLmzwPbq8Z4JPo2OKoVUjU.png",
-            "evolutionMedium": "https://api-assets.clashroyale.com/cardevolutions/300/EnIcvO21hxiNpoI-zO6MDjLmzwPbq8Z4JPo2OKoVUjU.png"
-          }
-        },
-        {
-          "name": "Barbarian Barrel",
-          "id": 28000015,
-          "level": 16,
-          "maxLevel": 16,
-          "maxEvolutionLevel": 2,
-          "rarity": "epic",
-          "elixirCost": 2,
-          "iconUrls": {
-            "medium": "https://api-assets.clashroyale.com/cards/300/Gb0G1yNy0i5cIGUHin8uoFWxqntNtRPhY_jeMXg7HnA.png",
-            "heroMedium": "https://api-assets.clashroyale.com/cardheroes/300/Gb0G1yNy0i5cIGUHin8uoFWxqntNtRPhY_jeMXg7HnA.png"
-          }
-        },
-        {
-          "name": "Fireball",
-          "id": 28000000,
-          "level": 15,
-          "starLevel": 2,
-          "maxLevel": 16,
-          "rarity": "rare",
-          "elixirCost": 4,
-          "iconUrls": {
-            "medium": "https://api-assets.clashroyale.com/cards/300/lZD9MILQv7O-P3XBr_xOLS5idwuz3_7Ws9G60U36yhc.png"
-          }
-        }
-      ],
-      "deckLabel": "Firecracker, Tombstone, Royal Hogs, Wall Breakers, Mega Knight, Bats, Barbarian Barrel, Fireball",
-      "category": "regular",
-      "won": false,
-      "type": "PvP",
-      "date": "20261004T105152.000Z"
-    },
-    {
-      "deck": [
-        {
-          "name": "Firecracker",
-          "id": 26000064,
-          "level": 16,
-          "starLevel": 1,
-          "evolutionLevel": 1,
-          "maxLevel": 16,
-          "maxEvolutionLevel": 1,
-          "rarity": "common",
-          "elixirCost": 3,
-          "iconUrls": {
-            "medium": "https://api-assets.clashroyale.com/cards/300/c1rL3LO1U2D9-TkeFfAC18gP3AO8ztSwrcHMZplwL2Q.png",
-            "evolutionMedium": "https://api-assets.clashroyale.com/cardevolutions/300/c1rL3LO1U2D9-TkeFfAC18gP3AO8ztSwrcHMZplwL2Q.png"
-          }
-        },
-        {
-          "name": "Tombstone",
-          "id": 27000009,
-          "level": 16,
-          "starLevel": 2,
-          "evolutionLevel": 2,
-          "maxLevel": 16,
-          "maxEvolutionLevel": 2,
-          "rarity": "rare",
-          "elixirCost": 3,
-          "iconUrls": {
-            "medium": "https://api-assets.clashroyale.com/cards/300/LjSfSbwQfkZuRJY4pVxKspZ-a0iM5KAhU8w-a_N5Z7Y.png",
-            "heroMedium": "https://api-assets.clashroyale.com/cardheroes/300/LjSfSbwQfkZuRJY4pVxKspZ-a0iM5KAhU8w-a_N5Z7Y.png"
-          }
-        },
-        {
-          "name": "Royal Hogs",
-          "id": 26000059,
-          "level": 16,
-          "evolutionLevel": 1,
-          "maxLevel": 16,
-          "maxEvolutionLevel": 1,
-          "rarity": "rare",
-          "elixirCost": 5,
-          "iconUrls": {
-            "medium": "https://api-assets.clashroyale.com/cards/300/ASSQJG_MoVq9e81HZzo4bynMnyLNpNJMfSLb3hqydOw.png",
-            "evolutionMedium": "https://api-assets.clashroyale.com/cardevolutions/300/ASSQJG_MoVq9e81HZzo4bynMnyLNpNJMfSLb3hqydOw.png"
-          }
-        },
-        {
-          "name": "Wall Breakers",
-          "id": 26000058,
-          "level": 16,
-          "starLevel": 2,
-          "maxLevel": 16,
-          "maxEvolutionLevel": 1,
-          "rarity": "epic",
-          "elixirCost": 2,
-          "iconUrls": {
-            "medium": "https://api-assets.clashroyale.com/cards/300/_xPphEfC8eEwFNrfU3cMQG9-f5JaLQ31ARCA7l3XtW4.png",
-            "evolutionMedium": "https://api-assets.clashroyale.com/cardevolutions/300/_xPphEfC8eEwFNrfU3cMQG9-f5JaLQ31ARCA7l3XtW4.png"
-          }
-        },
-        {
-          "name": "Mega Knight",
-          "id": 26000055,
-          "level": 16,
-          "starLevel": 2,
-          "maxLevel": 16,
-          "maxEvolutionLevel": 1,
-          "rarity": "legendary",
-          "elixirCost": 7,
-          "iconUrls": {
-            "medium": "https://api-assets.clashroyale.com/cards/300/O2NycChSNhn_UK9nqBXUhhC_lILkiANzPuJjtjoz0CE.png",
-            "evolutionMedium": "https://api-assets.clashroyale.com/cardevolutions/300/O2NycChSNhn_UK9nqBXUhhC_lILkiANzPuJjtjoz0CE.png"
-          }
-        },
-        {
-          "name": "Bats",
-          "id": 26000049,
-          "level": 16,
-          "starLevel": 1,
-          "maxLevel": 16,
-          "maxEvolutionLevel": 1,
-          "rarity": "common",
-          "elixirCost": 2,
-          "iconUrls": {
-            "medium": "https://api-assets.clashroyale.com/cards/300/EnIcvO21hxiNpoI-zO6MDjLmzwPbq8Z4JPo2OKoVUjU.png",
-            "evolutionMedium": "https://api-assets.clashroyale.com/cardevolutions/300/EnIcvO21hxiNpoI-zO6MDjLmzwPbq8Z4JPo2OKoVUjU.png"
-          }
-        },
-        {
-          "name": "Barbarian Barrel",
-          "id": 28000015,
-          "level": 16,
-          "maxLevel": 16,
-          "maxEvolutionLevel": 2,
-          "rarity": "epic",
-          "elixirCost": 2,
-          "iconUrls": {
-            "medium": "https://api-assets.clashroyale.com/cards/300/Gb0G1yNy0i5cIGUHin8uoFWxqntNtRPhY_jeMXg7HnA.png",
-            "heroMedium": "https://api-assets.clashroyale.com/cardheroes/300/Gb0G1yNy0i5cIGUHin8uoFWxqntNtRPhY_jeMXg7HnA.png"
-          }
-        },
-        {
-          "name": "Fireball",
-          "id": 28000000,
-          "level": 15,
-          "starLevel": 2,
-          "maxLevel": 16,
-          "rarity": "rare",
-          "elixirCost": 4,
-          "iconUrls": {
-            "medium": "https://api-assets.clashroyale.com/cards/300/lZD9MILQv7O-P3XBr_xOLS5idwuz3_7Ws9G60U36yhc.png"
-          }
-        }
-      ],
-      "deckLabel": "Firecracker, Tombstone, Royal Hogs, Wall Breakers, Mega Knight, Bats, Barbarian Barrel, Fireball",
-      "category": "regular",
-      "won": false,
-      "type": "PvP",
-      "date": "20261004T075151.000Z"
-    },
-    {
-      "deck": [
-        {
-          "name": "Firecracker",
-          "id": 26000064,
-          "level": 16,
-          "starLevel": 1,
-          "evolutionLevel": 1,
-          "maxLevel": 16,
-          "maxEvolutionLevel": 1,
-          "rarity": "common",
-          "elixirCost": 3,
-          "iconUrls": {
-            "medium": "https://api-assets.clashroyale.com/cards/300/c1rL3LO1U2D9-TkeFfAC18gP3AO8ztSwrcHMZplwL2Q.png",
-            "evolutionMedium": "https://api-assets.clashroyale.com/cardevolutions/300/c1rL3LO1U2D9-TkeFfAC18gP3AO8ztSwrcHMZplwL2Q.png"
-          }
-        },
-        {
-          "name": "Tombstone",
-          "id": 27000009,
-          "level": 16,
-          "starLevel": 2,
-          "evolutionLevel": 2,
-          "maxLevel": 16,
-          "maxEvolutionLevel": 2,
-          "rarity": "rare",
-          "elixirCost": 3,
-          "iconUrls": {
-            "medium": "https://api-assets.clashroyale.com/cards/300/LjSfSbwQfkZuRJY4pVxKspZ-a0iM5KAhU8w-a_N5Z7Y.png",
-            "heroMedium": "https://api-assets.clashroyale.com/cardheroes/300/LjSfSbwQfkZuRJY4pVxKspZ-a0iM5KAhU8w-a_N5Z7Y.png"
-          }
-        },
-        {
-          "name": "Royal Hogs",
-          "id": 26000059,
-          "level": 16,
-          "evolutionLevel": 1,
-          "maxLevel": 16,
-          "maxEvolutionLevel": 1,
-          "rarity": "rare",
-          "elixirCost": 5,
-          "iconUrls": {
-            "medium": "https://api-assets.clashroyale.com/cards/300/ASSQJG_MoVq9e81HZzo4bynMnyLNpNJMfSLb3hqydOw.png",
-            "evolutionMedium": "https://api-assets.clashroyale.com/cardevolutions/300/ASSQJG_MoVq9e81HZzo4bynMnyLNpNJMfSLb3hqydOw.png"
-          }
-        },
-        {
-          "name": "Wall Breakers",
-          "id": 26000058,
-          "level": 16,
-          "starLevel": 2,
-          "maxLevel": 16,
-          "maxEvolutionLevel": 1,
-          "rarity": "epic",
-          "elixirCost": 2,
-          "iconUrls": {
-            "medium": "https://api-assets.clashroyale.com/cards/300/_xPphEfC8eEwFNrfU3cMQG9-f5JaLQ31ARCA7l3XtW4.png",
-            "evolutionMedium": "https://api-assets.clashroyale.com/cardevolutions/300/_xPphEfC8eEwFNrfU3cMQG9-f5JaLQ31ARCA7l3XtW4.png"
-          }
-        },
-        {
-          "name": "Mega Knight",
-          "id": 26000055,
-          "level": 16,
-          "starLevel": 2,
-          "maxLevel": 16,
-          "maxEvolutionLevel": 1,
-          "rarity": "legendary",
-          "elixirCost": 7,
-          "iconUrls": {
-            "medium": "https://api-assets.clashroyale.com/cards/300/O2NycChSNhn_UK9nqBXUhhC_lILkiANzPuJjtjoz0CE.png",
-            "evolutionMedium": "https://api-assets.clashroyale.com/cardevolutions/300/O2NycChSNhn_UK9nqBXUhhC_lILkiANzPuJjtjoz0CE.png"
-          }
-        },
-        {
-          "name": "Bats",
-          "id": 26000049,
-          "level": 16,
-          "starLevel": 1,
-          "maxLevel": 16,
-          "maxEvolutionLevel": 1,
-          "rarity": "common",
-          "elixirCost": 2,
-          "iconUrls": {
-            "medium": "https://api-assets.clashroyale.com/cards/300/EnIcvO21hxiNpoI-zO6MDjLmzwPbq8Z4JPo2OKoVUjU.png",
-            "evolutionMedium": "https://api-assets.clashroyale.com/cardevolutions/300/EnIcvO21hxiNpoI-zO6MDjLmzwPbq8Z4JPo2OKoVUjU.png"
-          }
-        },
-        {
-          "name": "Barbarian Barrel",
-          "id": 28000015,
-          "level": 16,
-          "maxLevel": 16,
-          "maxEvolutionLevel": 2,
-          "rarity": "epic",
-          "elixirCost": 2,
-          "iconUrls": {
-            "medium": "https://api-assets.clashroyale.com/cards/300/Gb0G1yNy0i5cIGUHin8uoFWxqntNtRPhY_jeMXg7HnA.png",
-            "heroMedium": "https://api-assets.clashroyale.com/cardheroes/300/Gb0G1yNy0i5cIGUHin8uoFWxqntNtRPhY_jeMXg7HnA.png"
-          }
-        },
-        {
-          "name": "Fireball",
-          "id": 28000000,
-          "level": 15,
-          "starLevel": 2,
-          "maxLevel": 16,
-          "rarity": "rare",
-          "elixirCost": 4,
-          "iconUrls": {
-            "medium": "https://api-assets.clashroyale.com/cards/300/lZD9MILQv7O-P3XBr_xOLS5idwuz3_7Ws9G60U36yhc.png"
-          }
-        }
-      ],
-      "deckLabel": "Firecracker, Tombstone, Royal Hogs, Wall Breakers, Mega Knight, Bats, Barbarian Barrel, Fireball",
-      "category": "regular",
-      "won": false,
-      "type": "PvP",
-      "date": "20261004T054518.000Z"
     }
   ],
   "upgradeCandidates": [
