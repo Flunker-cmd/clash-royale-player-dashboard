@@ -17,7 +17,7 @@
   "currentWinLoseStreak": -1,
   "role": "coLeader",
   "donations": 186,
-  "donationsReceived": 600,
+  "donationsReceived": 640,
   "totalDonations": 27747,
   "warDayWins": 0,
   "clanCardsCollected": 0,
@@ -76,7 +76,7 @@
       "name": "BannerCollection",
       "level": 6,
       "maxLevel": 8,
-      "progress": 269,
+      "progress": 271,
       "target": 300,
       "iconUrls": {
         "large": "https://api-assets.clashroyale.com/playerbadges/512/6o9UOH1z4y2kjsIXb498YWmxpSxaIa2xPnsj8nHYrL8.png"
@@ -2123,7 +2123,7 @@
       "maxLevel": 16,
       "maxEvolutionLevel": 1,
       "rarity": "common",
-      "count": 1435,
+      "count": 1475,
       "elixirCost": 2,
       "iconUrls": {
         "medium": "https://api-assets.clashroyale.com/cards/300/7dxh2-yCBy1x44GrBaL29vjqnEEeJXHEAlsi5g6D1eY.png",
@@ -2463,7 +2463,7 @@
       "maxLevel": 8,
       "maxEvolutionLevel": 1,
       "rarity": "legendary",
-      "count": 7,
+      "count": 9,
       "elixirCost": 3,
       "iconUrls": {
         "medium": "https://api-assets.clashroyale.com/cards/300/bAwMcqp9EKVIKH3ZLm_m0MqZFSG72zG-vKxpx8aKoVs.png",
