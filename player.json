@@ -1,7 +1,7 @@
 {
   "tag": "#URUQ09LVG",
   "name": "wisely",
-  "collectionLevel": 1746,
+  "collectionLevel": 1747,
   "kingTowerLevel": 16,
   "expLevel": 59,
   "trophies": 12479,
@@ -16,9 +16,9 @@
   "tournamentBattleCount": 39,
   "currentWinLoseStreak": 4,
   "role": "coLeader",
-  "donations": 89,
-  "donationsReceived": 168,
-  "totalDonations": 27936,
+  "donations": 105,
+  "donationsReceived": 208,
+  "totalDonations": 27952,
   "warDayWins": 0,
   "clanCardsCollected": 0,
   "clan": {
@@ -86,7 +86,7 @@
       "name": "CollectionLevel",
       "level": 8,
       "maxLevel": 8,
-      "progress": 1746,
+      "progress": 1747,
       "iconUrls": {
         "large": "https://api-assets.clashroyale.com/playerbadges/512/vlnuFrtu6rT5pQSQjqjT6OW32K2gJmb8zYYG01UF1f4.png"
       }
@@ -204,7 +204,7 @@
       "name": "ClanDonations",
       "level": 6,
       "maxLevel": 8,
-      "progress": 27936,
+      "progress": 27952,
       "target": 50000,
       "iconUrls": {
         "large": "https://api-assets.clashroyale.com/playerbadges/512/vPTwqJDRx-UyJSQWddV6oUkkyl7Ymgi9w5jshyuTgpM.png"
@@ -1160,7 +1160,7 @@
     {
       "name": "Friend in Need",
       "stars": 3,
-      "value": 27936,
+      "value": 27952,
       "target": 2500,
       "info": "Donate 2500 cards",
       "completionInfo": null
@@ -1240,7 +1240,7 @@
     {
       "name": "Friend in Need II",
       "stars": 3,
-      "value": 27936,
+      "value": 27952,
       "target": 25000,
       "info": "Donate 25000 cards",
       "completionInfo": null
@@ -1423,7 +1423,7 @@
       "level": 11,
       "maxLevel": 16,
       "rarity": "common",
-      "count": 8327,
+      "count": 8319,
       "elixirCost": 4,
       "iconUrls": {
         "medium": "https://api-assets.clashroyale.com/cards/300/qPOtg9uONh47_NLxGhhFc_ww9PlZ6z3Ry507q1NZUXs.png"
@@ -1829,7 +1829,7 @@
       "level": 11,
       "maxLevel": 16,
       "rarity": "common",
-      "count": 14821,
+      "count": 14813,
       "elixirCost": 5,
       "iconUrls": {
         "medium": "https://api-assets.clashroyale.com/cards/300/KV48DfwVHKx9XCjzBdk3daT_Eb52Me4VgjVO7WctRc4.png"
@@ -2336,7 +2336,7 @@
       "maxLevel": 14,
       "maxEvolutionLevel": 3,
       "rarity": "rare",
-      "count": 655,
+      "count": 659,
       "elixirCost": 4,
       "iconUrls": {
         "medium": "https://api-assets.clashroyale.com/cards/300/Tex1C48UTq9FKtAX-3tzG0FJmc9jzncUZG3bb5Vf-Ds.png",
@@ -2525,10 +2525,10 @@
     {
       "name": "X-Bow",
       "id": 27000008,
-      "level": 9,
+      "level": 10,
       "maxLevel": 11,
       "rarity": "epic",
-      "count": 146,
+      "count": 16,
       "elixirCost": 6,
       "iconUrls": {
         "medium": "https://api-assets.clashroyale.com/cards/300/zVQ9Hme1hlj9Dc6e1ORl9xWwglcSrP7ejow5mAhLUJc.png"
@@ -3074,7 +3074,7 @@
     },
     "rarity": "legendary"
   },
-  "starPoints": 282137,
+  "starPoints": 282153,
   "expPoints": 63225,
   "legacyTrophyRoadHighScore": 3250,
   "currentPathOfLegendSeasonResult": {
