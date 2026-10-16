@@ -4,21 +4,21 @@
   "collectionLevel": 1747,
   "kingTowerLevel": 16,
   "expLevel": 59,
-  "trophies": 12615,
-  "bestTrophies": 12621,
-  "wins": 4727,
-  "losses": 5275,
-  "battleCount": 10002,
+  "trophies": 12645,
+  "bestTrophies": 12645,
+  "wins": 4728,
+  "losses": 5276,
+  "battleCount": 10004,
   "threeCrownWins": 1635,
   "challengeCardsWon": 3,
   "challengeMaxWins": 0,
   "tournamentCardsWon": 0,
   "tournamentBattleCount": 39,
-  "currentWinLoseStreak": 2,
+  "currentWinLoseStreak": -1,
   "role": "coLeader",
-  "donations": 327,
-  "donationsReceived": 488,
-  "totalDonations": 28174,
+  "donations": 335,
+  "donationsReceived": 528,
+  "totalDonations": 28182,
   "warDayWins": 0,
   "clanCardsCollected": 0,
   "clan": {
@@ -36,7 +36,7 @@
       "name": "EmoteCollection",
       "level": 4,
       "maxLevel": 8,
-      "progress": 120,
+      "progress": 121,
       "target": 150,
       "iconUrls": {
         "large": "https://api-assets.clashroyale.com/playerbadges/512/UmVFyz9HgRouVrRdWGTa2o4iEPLSR49NVEB1xDOyYDI.png"
@@ -56,7 +56,7 @@
       "name": "BattleWins",
       "level": 6,
       "maxLevel": 8,
-      "progress": 4727,
+      "progress": 4728,
       "target": 5000,
       "iconUrls": {
         "large": "https://api-assets.clashroyale.com/playerbadges/512/Hh18NG8LhvwZrcmtGR8rSKRezmhOxCilxqhroDLBnys.png"
@@ -204,7 +204,7 @@
       "name": "ClanDonations",
       "level": 6,
       "maxLevel": 8,
-      "progress": 28174,
+      "progress": 28182,
       "target": 50000,
       "iconUrls": {
         "large": "https://api-assets.clashroyale.com/playerbadges/512/vPTwqJDRx-UyJSQWddV6oUkkyl7Ymgi9w5jshyuTgpM.png"
@@ -1160,7 +1160,7 @@
     {
       "name": "Friend in Need",
       "stars": 3,
-      "value": 28174,
+      "value": 28182,
       "target": 2500,
       "info": "Donate 2500 cards",
       "completionInfo": null
@@ -1240,7 +1240,7 @@
     {
       "name": "Friend in Need II",
       "stars": 3,
-      "value": 28174,
+      "value": 28182,
       "target": 25000,
       "info": "Donate 25000 cards",
       "completionInfo": null
@@ -1361,7 +1361,7 @@
       "level": 12,
       "maxLevel": 14,
       "rarity": "rare",
-      "count": 903,
+      "count": 931,
       "elixirCost": 4,
       "iconUrls": {
         "medium": "https://api-assets.clashroyale.com/cards/300/rirYRyHPc97emRjoH-c1O8uZCBzPVnToaGuNGusF3TQ.png"
@@ -1423,7 +1423,7 @@
       "level": 11,
       "maxLevel": 16,
       "rarity": "common",
-      "count": 8303,
+      "count": 8295,
       "elixirCost": 4,
       "iconUrls": {
         "medium": "https://api-assets.clashroyale.com/cards/300/qPOtg9uONh47_NLxGhhFc_ww9PlZ6z3Ry507q1NZUXs.png"
@@ -2244,7 +2244,7 @@
       "level": 7,
       "maxLevel": 11,
       "rarity": "epic",
-      "count": 191,
+      "count": 246,
       "elixirCost": 6,
       "iconUrls": {
         "medium": "https://api-assets.clashroyale.com/cards/300/fpnESbYqe5GyZmaVVYe-SEu7tE0Kxh_HZyVigzvLjks.png"
@@ -2336,7 +2336,7 @@
       "maxLevel": 14,
       "maxEvolutionLevel": 3,
       "rarity": "rare",
-      "count": 667,
+      "count": 671,
       "elixirCost": 4,
       "iconUrls": {
         "medium": "https://api-assets.clashroyale.com/cards/300/Tex1C48UTq9FKtAX-3tzG0FJmc9jzncUZG3bb5Vf-Ds.png",
@@ -3063,18 +3063,18 @@
     }
   ],
   "currentFavouriteCard": {
-    "name": "Mega Knight",
-    "id": 26000055,
-    "maxLevel": 8,
+    "name": "Royal Hogs",
+    "id": 26000059,
+    "maxLevel": 14,
     "maxEvolutionLevel": 1,
-    "elixirCost": 7,
+    "elixirCost": 5,
     "iconUrls": {
-      "medium": "https://api-assets.clashroyale.com/cards/300/O2NycChSNhn_UK9nqBXUhhC_lILkiANzPuJjtjoz0CE.png",
-      "evolutionMedium": "https://api-assets.clashroyale.com/cardevolutions/300/O2NycChSNhn_UK9nqBXUhhC_lILkiANzPuJjtjoz0CE.png"
+      "medium": "https://api-assets.clashroyale.com/cards/300/ASSQJG_MoVq9e81HZzo4bynMnyLNpNJMfSLb3hqydOw.png",
+      "evolutionMedium": "https://api-assets.clashroyale.com/cardevolutions/300/ASSQJG_MoVq9e81HZzo4bynMnyLNpNJMfSLb3hqydOw.png"
     },
-    "rarity": "legendary"
+    "rarity": "rare"
   },
-  "starPoints": 282375,
+  "starPoints": 282383,
   "expPoints": 63225,
   "legacyTrophyRoadHighScore": 3250,
   "currentPathOfLegendSeasonResult": {
