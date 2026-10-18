@@ -6,18 +6,18 @@
   "expLevel": 59,
   "trophies": 12616,
   "bestTrophies": 12645,
-  "wins": 4730,
+  "wins": 4731,
   "losses": 5282,
-  "battleCount": 10012,
+  "battleCount": 10013,
   "threeCrownWins": 1635,
   "challengeCardsWon": 3,
   "challengeMaxWins": 0,
   "tournamentCardsWon": 0,
   "tournamentBattleCount": 39,
-  "currentWinLoseStreak": -1,
+  "currentWinLoseStreak": 1,
   "role": "coLeader",
   "donations": 433,
-  "donationsReceived": 728,
+  "donationsReceived": 752,
   "totalDonations": 28280,
   "warDayWins": 0,
   "clanCardsCollected": 0,
@@ -56,7 +56,7 @@
       "name": "BattleWins",
       "level": 6,
       "maxLevel": 8,
-      "progress": 4730,
+      "progress": 4731,
       "target": 5000,
       "iconUrls": {
         "large": "https://api-assets.clashroyale.com/playerbadges/512/Hh18NG8LhvwZrcmtGR8rSKRezmhOxCilxqhroDLBnys.png"
@@ -66,7 +66,7 @@
       "name": "ClanWarWins",
       "level": 6,
       "maxLevel": 8,
-      "progress": 668,
+      "progress": 669,
       "target": 1000,
       "iconUrls": {
         "large": "https://api-assets.clashroyale.com/playerbadges/512/WgWS0A2vy4RHUYIFhvNu9AZPsQURS6XY5JySYfqPtAk.png"
@@ -76,7 +76,7 @@
       "name": "BannerCollection",
       "level": 6,
       "maxLevel": 8,
-      "progress": 275,
+      "progress": 276,
       "target": 300,
       "iconUrls": {
         "large": "https://api-assets.clashroyale.com/playerbadges/512/6o9UOH1z4y2kjsIXb498YWmxpSxaIa2xPnsj8nHYrL8.png"
@@ -2307,7 +2307,7 @@
       "maxLevel": 16,
       "maxEvolutionLevel": 1,
       "rarity": "common",
-      "count": 2025,
+      "count": 2049,
       "elixirCost": 5,
       "iconUrls": {
         "medium": "https://api-assets.clashroyale.com/cards/300/Wyjq5l0IXHTkX9Rmpap6HaH08MvjbxFp1xBO9a47YSI.png",
@@ -3063,16 +3063,16 @@
     }
   ],
   "currentFavouriteCard": {
-    "name": "Mega Knight",
-    "id": 26000055,
-    "maxLevel": 8,
+    "name": "Royal Hogs",
+    "id": 26000059,
+    "maxLevel": 14,
     "maxEvolutionLevel": 1,
-    "elixirCost": 7,
+    "elixirCost": 5,
     "iconUrls": {
-      "medium": "https://api-assets.clashroyale.com/cards/300/O2NycChSNhn_UK9nqBXUhhC_lILkiANzPuJjtjoz0CE.png",
-      "evolutionMedium": "https://api-assets.clashroyale.com/cardevolutions/300/O2NycChSNhn_UK9nqBXUhhC_lILkiANzPuJjtjoz0CE.png"
+      "medium": "https://api-assets.clashroyale.com/cards/300/ASSQJG_MoVq9e81HZzo4bynMnyLNpNJMfSLb3hqydOw.png",
+      "evolutionMedium": "https://api-assets.clashroyale.com/cardevolutions/300/ASSQJG_MoVq9e81HZzo4bynMnyLNpNJMfSLb3hqydOw.png"
     },
-    "rarity": "legendary"
+    "rarity": "rare"
   },
   "starPoints": 282481,
   "expPoints": 63225,
