@@ -3,14 +3,14 @@
 Use this data to analyze the player's current observed decks. Do not invent cards, battles, or conclusions beyond the supplied sample.
 
 Player: wisely (#URUQ09LVG)
-Trophies: 12591
+Trophies: 12561
 Observed battles: 36
 Meta data available: no
 Meta source: not supplied
 Meta fetched at: not supplied
 
 ## Regular decks
-- Firecracker (level 16), Tombstone (level 16), Royal Hogs (level 16), Wall Breakers (level 16), Mega Knight (level 16), Bats (level 16), Barbarian Barrel (level 16), Fireball (level 15) - 11/19 wins (57.9%)
+- Firecracker (level 16), Tombstone (level 16), Royal Hogs (level 16), Wall Breakers (level 16), Mega Knight (level 16), Bats (level 16), Barbarian Barrel (level 16), Fireball (level 15) - 10/19 wins (52.6%)
 
 ## War decks
 - Witch (level 16), Tombstone (level 16), Mini P.E.K.K.A (level 15), Graveyard (level 15), Valkyrie (level 16), Barbarian Barrel (level 16), Balloon (level 15), Minion Horde (level 15) - 2/5 wins (40.0%)
