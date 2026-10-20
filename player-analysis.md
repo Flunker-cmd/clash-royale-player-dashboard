@@ -10,8 +10,8 @@ Meta source: not supplied
 Meta fetched at: not supplied
 
 ## Regular decks
-- Firecracker (level 16), Tombstone (level 16), Royal Hogs (level 16), Wall Breakers (level 16), Mega Knight (level 16), Bats (level 16), Barbarian Barrel (level 16), Fireball (level 15) - 9/17 wins (52.9%)
-- Electro Giant (level 16), Electro Wizard (level 16), Electro Spirit (level 16), Sparky (level 13), Lightning (level 12), Electro Dragon (level 13), Tesla (level 15), Zap (level 14) - 0/1 wins (0.0%)
+- Firecracker (level 16), Tombstone (level 16), Royal Hogs (level 16), Wall Breakers (level 16), Mega Knight (level 16), Bats (level 16), Barbarian Barrel (level 16), Fireball (level 15) - 8/16 wins (50.0%)
+- Electro Giant (level 16), Electro Wizard (level 16), Electro Spirit (level 16), Sparky (level 13), Lightning (level 12), Electro Dragon (level 13), Tesla (level 15), Zap (level 14) - 0/2 wins (0.0%)
 
 ## War decks
 - Goblin Barrel (level 16), Princess (level 15), Knight (level 15), Goblin Gang (level 14), Ronin (level 13), Inferno Tower (level 14), The Log (level 13), Prince (level 14) - 2/5 wins (40.0%)
