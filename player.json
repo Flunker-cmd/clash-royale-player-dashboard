@@ -4,21 +4,21 @@
   "collectionLevel": 1747,
   "kingTowerLevel": 16,
   "expLevel": 59,
-  "trophies": 12530,
+  "trophies": 12561,
   "bestTrophies": 12646,
-  "wins": 4733,
+  "wins": 4734,
   "losses": 5287,
-  "battleCount": 10020,
+  "battleCount": 10021,
   "threeCrownWins": 1637,
   "challengeCardsWon": 3,
   "challengeMaxWins": 0,
   "tournamentCardsWon": 0,
   "tournamentBattleCount": 39,
-  "currentWinLoseStreak": 1,
+  "currentWinLoseStreak": 2,
   "role": "coLeader",
-  "donations": 62,
-  "donationsReceived": 136,
-  "totalDonations": 28342,
+  "donations": 70,
+  "donationsReceived": 208,
+  "totalDonations": 28350,
   "warDayWins": 0,
   "clanCardsCollected": 0,
   "clan": {
@@ -46,7 +46,7 @@
       "name": "YearsPlayed",
       "level": 4,
       "maxLevel": 11,
-      "progress": 1508,
+      "progress": 1509,
       "target": 1825,
       "iconUrls": {
         "large": "https://api-assets.clashroyale.com/playerbadges/512/DvW4PDPHJTEtm5zvENjX17xGuTvKAyqBr-QXP1jNEdI.png"
@@ -56,7 +56,7 @@
       "name": "BattleWins",
       "level": 6,
       "maxLevel": 8,
-      "progress": 4733,
+      "progress": 4734,
       "target": 5000,
       "iconUrls": {
         "large": "https://api-assets.clashroyale.com/playerbadges/512/Hh18NG8LhvwZrcmtGR8rSKRezmhOxCilxqhroDLBnys.png"
@@ -204,7 +204,7 @@
       "name": "ClanDonations",
       "level": 6,
       "maxLevel": 8,
-      "progress": 28342,
+      "progress": 28350,
       "target": 50000,
       "iconUrls": {
         "large": "https://api-assets.clashroyale.com/playerbadges/512/vPTwqJDRx-UyJSQWddV6oUkkyl7Ymgi9w5jshyuTgpM.png"
@@ -1160,7 +1160,7 @@
     {
       "name": "Friend in Need",
       "stars": 3,
-      "value": 28342,
+      "value": 28350,
       "target": 2500,
       "info": "Donate 2500 cards",
       "completionInfo": null
@@ -1240,7 +1240,7 @@
     {
       "name": "Friend in Need II",
       "stars": 3,
-      "value": 28342,
+      "value": 28350,
       "target": 25000,
       "info": "Donate 25000 cards",
       "completionInfo": null
@@ -1423,7 +1423,7 @@
       "level": 11,
       "maxLevel": 16,
       "rarity": "common",
-      "count": 8313,
+      "count": 8895,
       "elixirCost": 4,
       "iconUrls": {
         "medium": "https://api-assets.clashroyale.com/cards/300/qPOtg9uONh47_NLxGhhFc_ww9PlZ6z3Ry507q1NZUXs.png"
@@ -1459,7 +1459,7 @@
       "level": 10,
       "maxLevel": 14,
       "rarity": "rare",
-      "count": 726,
+      "count": 756,
       "elixirCost": 3,
       "iconUrls": {
         "medium": "https://api-assets.clashroyale.com/cards/300/XeQXcrUu59C52DslyZVwCnbi4yamID-WxfVZLShgZmE.png"
@@ -1687,7 +1687,7 @@
       "level": 3,
       "maxLevel": 8,
       "rarity": "legendary",
-      "count": 12,
+      "count": 13,
       "elixirCost": 5,
       "iconUrls": {
         "medium": "https://api-assets.clashroyale.com/cards/300/QaJyerT7f7oMyZ3Fv1glKymtLSvx7YUXisAulxl7zRI.png"
@@ -2392,7 +2392,7 @@
       "level": 14,
       "maxLevel": 16,
       "rarity": "common",
-      "count": 2762,
+      "count": 2862,
       "elixirCost": 3,
       "iconUrls": {
         "medium": "https://api-assets.clashroyale.com/cards/300/Flsoci-Y6y8ZFVi5uRFTmgkPnCmMyMVrU7YmmuPvSBo.png"
@@ -2487,7 +2487,7 @@
       "level": 14,
       "maxLevel": 16,
       "rarity": "common",
-      "count": 5303,
+      "count": 5343,
       "elixirCost": 3,
       "iconUrls": {
         "medium": "https://api-assets.clashroyale.com/cards/300/NHflxzVAQT4oAz7eDfdueqpictb5vrWezn1nuqFhE4w.png"
@@ -2588,7 +2588,7 @@
       "level": 14,
       "maxLevel": 16,
       "rarity": "common",
-      "count": 4888,
+      "count": 4968,
       "elixirCost": 3,
       "iconUrls": {
         "medium": "https://api-assets.clashroyale.com/cards/300/yHGpoEnmUWPGV_hBbhn-Kk-Bs838OjGzWzJJlQpQKQA.png"
@@ -2658,7 +2658,7 @@
       "level": 7,
       "maxLevel": 14,
       "rarity": "rare",
-      "count": 1727,
+      "count": 1747,
       "elixirCost": 4,
       "iconUrls": {
         "medium": "https://api-assets.clashroyale.com/cards/300/KVVOgdn40xasFLYuQv8Go_U_LCV7wSG9q9eE1H7f3Qk.png"
@@ -3063,16 +3063,18 @@
     }
   ],
   "currentFavouriteCard": {
-    "name": "Inferno Tower",
-    "id": 27000003,
+    "name": "Royal Hogs",
+    "id": 26000059,
     "maxLevel": 14,
+    "maxEvolutionLevel": 1,
     "elixirCost": 5,
     "iconUrls": {
-      "medium": "https://api-assets.clashroyale.com/cards/300/GSHY_wrooMMLET6bG_WJB8redtwx66c4i80ipi4gYOM.png"
+      "medium": "https://api-assets.clashroyale.com/cards/300/ASSQJG_MoVq9e81HZzo4bynMnyLNpNJMfSLb3hqydOw.png",
+      "evolutionMedium": "https://api-assets.clashroyale.com/cardevolutions/300/ASSQJG_MoVq9e81HZzo4bynMnyLNpNJMfSLb3hqydOw.png"
     },
     "rarity": "rare"
   },
-  "starPoints": 282543,
+  "starPoints": 282551,
   "expPoints": 63225,
   "legacyTrophyRoadHighScore": 3250,
   "currentPathOfLegendSeasonResult": {

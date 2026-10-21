@@ -3,14 +3,14 @@
 Use this data to analyze the player's current observed decks. Do not invent cards, battles, or conclusions beyond the supplied sample.
 
 Player: wisely (#URUQ09LVG)
-Trophies: 12530
-Observed battles: 36
+Trophies: 12561
+Observed battles: 37
 Meta data available: no
 Meta source: not supplied
 Meta fetched at: not supplied
 
 ## Regular decks
-- Firecracker (level 16), Tombstone (level 16), Royal Hogs (level 16), Wall Breakers (level 16), Mega Knight (level 16), Bats (level 16), Barbarian Barrel (level 16), Fireball (level 15) - 8/16 wins (50.0%)
+- Firecracker (level 16), Tombstone (level 16), Royal Hogs (level 16), Wall Breakers (level 16), Mega Knight (level 16), Bats (level 16), Barbarian Barrel (level 16), Fireball (level 15) - 9/17 wins (52.9%)
 - Electro Giant (level 16), Electro Wizard (level 16), Electro Spirit (level 16), Sparky (level 13), Lightning (level 12), Electro Dragon (level 13), Tesla (level 15), Zap (level 14) - 0/2 wins (0.0%)
 
 ## War decks
