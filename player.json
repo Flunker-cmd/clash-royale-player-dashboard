@@ -7,18 +7,18 @@
   "trophies": 12564,
   "bestTrophies": 12646,
   "wins": 4736,
-  "losses": 5289,
-  "battleCount": 10025,
+  "losses": 5291,
+  "battleCount": 10027,
   "threeCrownWins": 1637,
   "challengeCardsWon": 3,
   "challengeMaxWins": 0,
   "tournamentCardsWon": 0,
   "tournamentBattleCount": 39,
-  "currentWinLoseStreak": -1,
+  "currentWinLoseStreak": -3,
   "role": "coLeader",
-  "donations": 92,
-  "donationsReceived": 328,
-  "totalDonations": 28372,
+  "donations": 120,
+  "donationsReceived": 368,
+  "totalDonations": 28400,
   "warDayWins": 0,
   "clanCardsCollected": 0,
   "clan": {
@@ -66,7 +66,7 @@
       "name": "ClanWarWins",
       "level": 6,
       "maxLevel": 8,
-      "progress": 669,
+      "progress": 670,
       "target": 1000,
       "iconUrls": {
         "large": "https://api-assets.clashroyale.com/playerbadges/512/WgWS0A2vy4RHUYIFhvNu9AZPsQURS6XY5JySYfqPtAk.png"
@@ -204,7 +204,7 @@
       "name": "ClanDonations",
       "level": 6,
       "maxLevel": 8,
-      "progress": 28372,
+      "progress": 28400,
       "target": 50000,
       "iconUrls": {
         "large": "https://api-assets.clashroyale.com/playerbadges/512/vPTwqJDRx-UyJSQWddV6oUkkyl7Ymgi9w5jshyuTgpM.png"
@@ -1160,7 +1160,7 @@
     {
       "name": "Friend in Need",
       "stars": 3,
-      "value": 28372,
+      "value": 28400,
       "target": 2500,
       "info": "Donate 2500 cards",
       "completionInfo": null
@@ -1240,7 +1240,7 @@
     {
       "name": "Friend in Need II",
       "stars": 3,
-      "value": 28372,
+      "value": 28400,
       "target": 25000,
       "info": "Donate 25000 cards",
       "completionInfo": null
@@ -1265,7 +1265,7 @@
       "level": 10,
       "maxLevel": 14,
       "rarity": "rare",
-      "count": 736,
+      "count": 735,
       "elixirCost": 4,
       "iconUrls": {
         "medium": "https://api-assets.clashroyale.com/cards/300/KdwXcoigS2Kg-cgA7BJJIANbUJG6SNgjetRQ-MegZ08.png"
@@ -1398,7 +1398,7 @@
       "maxLevel": 16,
       "maxEvolutionLevel": 2,
       "rarity": "common",
-      "count": 4283,
+      "count": 4323,
       "elixirCost": 2,
       "iconUrls": {
         "medium": "https://api-assets.clashroyale.com/cards/300/X_DQUye_OaS3QN6VC9CPw05Fit7wvSm3XegXIXKP--0.png",
@@ -1423,7 +1423,7 @@
       "level": 11,
       "maxLevel": 16,
       "rarity": "common",
-      "count": 8891,
+      "count": 8883,
       "elixirCost": 4,
       "iconUrls": {
         "medium": "https://api-assets.clashroyale.com/cards/300/qPOtg9uONh47_NLxGhhFc_ww9PlZ6z3Ry507q1NZUXs.png"
@@ -1527,7 +1527,7 @@
       "level": 12,
       "maxLevel": 16,
       "rarity": "common",
-      "count": 5454,
+      "count": 6004,
       "elixirCost": 3,
       "iconUrls": {
         "medium": "https://api-assets.clashroyale.com/cards/300/LPg7AGjGI3_xmi7gLLgGC50yKM1jJ2teWkZfoHJcIZo.png"
@@ -2218,7 +2218,7 @@
       "level": 10,
       "maxLevel": 14,
       "rarity": "rare",
-      "count": 1647,
+      "count": 1646,
       "elixirCost": 3,
       "iconUrls": {
         "medium": "https://api-assets.clashroyale.com/cards/300/puhMsZjCIqy21HW3hYxjrk_xt8NIPyFqjRy-BeLKZwo.png"
@@ -3074,7 +3074,7 @@
     },
     "rarity": "legendary"
   },
-  "starPoints": 282573,
+  "starPoints": 282601,
   "expPoints": 63225,
   "legacyTrophyRoadHighScore": 3250,
   "currentPathOfLegendSeasonResult": {
