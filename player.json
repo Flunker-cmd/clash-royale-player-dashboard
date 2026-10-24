@@ -1,14 +1,14 @@
 {
   "tag": "#URUQ09LVG",
   "name": "wisely",
-  "collectionLevel": 1749,
+  "collectionLevel": 1750,
   "kingTowerLevel": 16,
   "expLevel": 59,
-  "trophies": 12558,
+  "trophies": 12559,
   "bestTrophies": 12646,
-  "wins": 4742,
-  "losses": 5299,
-  "battleCount": 10041,
+  "wins": 4743,
+  "losses": 5300,
+  "battleCount": 10043,
   "threeCrownWins": 1637,
   "challengeCardsWon": 3,
   "challengeMaxWins": 0,
@@ -16,8 +16,8 @@
   "tournamentBattleCount": 39,
   "currentWinLoseStreak": -1,
   "role": "coLeader",
-  "donations": 222,
-  "donationsReceived": 548,
+  "donations": 230,
+  "donationsReceived": 568,
   "totalDonations": 28502,
   "warDayWins": 0,
   "clanCardsCollected": 0,
@@ -56,7 +56,7 @@
       "name": "BattleWins",
       "level": 6,
       "maxLevel": 8,
-      "progress": 4742,
+      "progress": 4743,
       "target": 5000,
       "iconUrls": {
         "large": "https://api-assets.clashroyale.com/playerbadges/512/Hh18NG8LhvwZrcmtGR8rSKRezmhOxCilxqhroDLBnys.png"
@@ -86,7 +86,7 @@
       "name": "CollectionLevel",
       "level": 8,
       "maxLevel": 8,
-      "progress": 1749,
+      "progress": 1750,
       "iconUrls": {
         "large": "https://api-assets.clashroyale.com/playerbadges/512/vlnuFrtu6rT5pQSQjqjT6OW32K2gJmb8zYYG01UF1f4.png"
       }
@@ -2389,10 +2389,10 @@
     {
       "name": "Arrows",
       "id": 28000001,
-      "level": 14,
+      "level": 15,
       "maxLevel": 16,
       "rarity": "common",
-      "count": 2862,
+      "count": 0,
       "elixirCost": 3,
       "iconUrls": {
         "medium": "https://api-assets.clashroyale.com/cards/300/Flsoci-Y6y8ZFVi5uRFTmgkPnCmMyMVrU7YmmuPvSBo.png"
@@ -2431,7 +2431,7 @@
       "starLevel": 1,
       "maxLevel": 14,
       "rarity": "rare",
-      "count": 271,
+      "count": 273,
       "elixirCost": 4,
       "iconUrls": {
         "medium": "https://api-assets.clashroyale.com/cards/300/Ubu0oUl8tZkusnkZf8Xv9Vno5IO29Y-jbZ4fhoNJ5oc.png"
@@ -3022,17 +3022,15 @@
       }
     },
     {
-      "name": "Barbarian Barrel",
-      "id": 28000015,
-      "level": 11,
-      "maxLevel": 11,
-      "maxEvolutionLevel": 2,
-      "rarity": "epic",
+      "name": "Arrows",
+      "id": 28000001,
+      "level": 15,
+      "maxLevel": 16,
+      "rarity": "common",
       "count": 0,
-      "elixirCost": 2,
+      "elixirCost": 3,
       "iconUrls": {
-        "medium": "https://api-assets.clashroyale.com/cards/300/Gb0G1yNy0i5cIGUHin8uoFWxqntNtRPhY_jeMXg7HnA.png",
-        "heroMedium": "https://api-assets.clashroyale.com/cardheroes/300/Gb0G1yNy0i5cIGUHin8uoFWxqntNtRPhY_jeMXg7HnA.png"
+        "medium": "https://api-assets.clashroyale.com/cards/300/Flsoci-Y6y8ZFVi5uRFTmgkPnCmMyMVrU7YmmuPvSBo.png"
       }
     },
     {
