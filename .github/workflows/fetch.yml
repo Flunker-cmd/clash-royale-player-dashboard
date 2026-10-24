@@ -30,12 +30,9 @@ jobs:
           CLASH_ROYALE_PLAYER_TAG: '#URUQ09LVG'
         run: python fetch_data.py
 
-      - name: Generate insights
-        run: python generate_insights.py
-
       - name: Commit updated snapshots
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add player.json battlelog.json cards.json metadata.json insights.json player-analysis.json player-analysis.md meta.json
+          git add player.json battle-history.json metadata.json
           git diff --cached --quiet || (git commit -m "Auto-update player data" && git push)

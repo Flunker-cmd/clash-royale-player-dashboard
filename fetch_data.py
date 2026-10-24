@@ -9,7 +9,8 @@ from pathlib import Path
 
 API_BASE = "https://proxy.royaleapi.dev/v1"
 DEFAULT_PLAYER_TAG = "#URUQ09LVG"
-OUTPUT_FILES = ("player.json", "battlelog.json", "cards.json", "metadata.json")
+HISTORY_FILE = "battle-history.json"
+OUTPUT_FILES = ("player.json", HISTORY_FILE, "metadata.json")
 
 
 def player_tag():
@@ -37,6 +38,12 @@ def fetch_json(url, token):
         raise RuntimeError(f"Could not reach API: {error.reason}") from error
 
 
+def merge_battles(history, new_battles):
+    by_time = {battle["battleTime"]: battle for battle in history}
+    by_time.update((battle["battleTime"], battle) for battle in new_battles)
+    return sorted(by_time.values(), key=lambda battle: battle["battleTime"], reverse=True)
+
+
 def write_json_atomic(path, data):
     path = Path(path)
     path.parent.mkdir(parents=True, exist_ok=True)
@@ -59,10 +66,12 @@ def main():
         tag = f"#{tag}"
     encoded_tag = urllib.parse.quote(tag, safe="")
 
+    history_path = Path(HISTORY_FILE)
+    history = json.loads(history_path.read_text(encoding="utf-8")) if history_path.exists() else []
+    battlelog = fetch_json(f"{API_BASE}/players/{encoded_tag}/battlelog", token)
     snapshots = {
         "player.json": fetch_json(f"{API_BASE}/players/{encoded_tag}", token),
-        "battlelog.json": fetch_json(f"{API_BASE}/players/{encoded_tag}/battlelog", token),
-        "cards.json": fetch_json(f"{API_BASE}/cards", token),
+        HISTORY_FILE: merge_battles(history, battlelog),
     }
     snapshots["metadata.json"] = {
         "playerTag": tag,

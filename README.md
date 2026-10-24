@@ -1,31 +1,23 @@
 # clash-royale-player-dashboard
 
-Live dashboard: https://flunker-cmd.github.io/clash-royale-player-dashboard/
+Personal Clash Royale deck coaching for player `#URUQ09LVG`, done locally with Claude Code against the data in this repo. There is no web dashboard any more; see [docs/adr/0001-local-coaching-without-dashboard.md](docs/adr/0001-local-coaching-without-dashboard.md).
 
-Personal Clash Royale deck analytics for player `#URUQ09LVG`.
+## How it works
 
-## What it does
+- **GitHub Actions** fetches the player profile and battle log every two hours and appends new battles to `battle-history.json`. The API only returns the latest ~30 battles, so the history is what lets Experiments be judged over time.
+- **`coach.py`** computes everything that has a correct answer: deck records, Experiment Verdicts, card levels, elixir averages and War deck plan checks. Run `python coach.py status` for an overview.
+- **`coaching-log.json`** records the declared Main deck, started Experiments and the Active war deck plan.
+- **Claude Code** coaches through the project skill in `.claude/skills/deck-coach/`. Ask things like "how do I improve my main deck?" or "suggest four new war decks".
 
-- Fetches player profile, battle log, and card data through GitHub Actions.
-- Shows observed decks and win-rate signals from the available battle log.
-- Builds a four-deck war plan without reusing cards between war decks when the sample supports it.
-- Highlights cards that have room for upgrades.
-- Produces `player-analysis.json` and `player-analysis.md` for use with an external LLM or custom Gem/Agent.
-- Keeps API credentials out of the browser.
-
-Deck recommendations are intentionally cautious: the official API exposes a limited battle log, so a small sample cannot prove that one deck is better than another. War planning selects up to four observed eight-card decks without card reuse. Meta comparison is prepared as an optional reviewed `meta.json` data source and is not invented from the official API response.
-
-`meta.json` is intentionally empty in the starter project. Populate it only from a trusted, permitted data source before using meta-based suggestions.
+Domain terms are defined in [GLOSSARY.md](GLOSSARY.md).
 
 ## Setup
 
-1. Create a repository named `clash-royale-player-dashboard`.
-2. Add the repository secret `CLASH_ROYALE_TOKEN` under **Settings > Secrets and variables > Actions**.
-3. Ensure the API token's IP allowlist permits GitHub Actions.
-4. Enable GitHub Pages from the repository's `main` branch and root folder.
-5. Run **Actions > Fetch Player Data > Run workflow** once.
+1. Add the repository secret `CLASH_ROYALE_TOKEN` under **Settings > Secrets and variables > Actions**.
+2. Ensure the API token's IP allowlist permits the RoyaleAPI proxy.
+3. Run **Actions > Fetch Player Data > Run workflow** once.
 
-The scheduled workflow refreshes data every two hours. To use another player, change `CLASH_ROYALE_PLAYER_TAG` in `.github/workflows/fetch.yml`.
+To use another player, change `CLASH_ROYALE_PLAYER_TAG` in `.github/workflows/fetch.yml`.
 
 ## Local checks
 
@@ -33,8 +25,4 @@ The scheduled workflow refreshes data every two hours. To use another player, ch
 python -m unittest discover -s tests -v
 ```
 
-The live API fetch requires `CLASH_ROYALE_TOKEN`; never put that token in `index.html` or committed JSON fixtures.
-
-## LLM analysis export
-
-After the workflow runs, use `player-analysis.md` for a copy-ready prompt input or `player-analysis.json` for structured agent input. The exports include observed regular decks, war decks, recent battles, and upgrade candidates. They describe the available sample and do not claim that an observed deck is optimal.
+The live API fetch requires `CLASH_ROYALE_TOKEN`; never put that token in committed files.
