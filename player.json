@@ -4,20 +4,20 @@
   "collectionLevel": 1749,
   "kingTowerLevel": 16,
   "expLevel": 59,
-  "trophies": 12500,
+  "trophies": 12560,
   "bestTrophies": 12646,
-  "wins": 4739,
+  "wins": 4741,
   "losses": 5298,
-  "battleCount": 10037,
+  "battleCount": 10039,
   "threeCrownWins": 1637,
   "challengeCardsWon": 3,
   "challengeMaxWins": 0,
   "tournamentCardsWon": 0,
   "tournamentBattleCount": 39,
-  "currentWinLoseStreak": -2,
+  "currentWinLoseStreak": 2,
   "role": "coLeader",
   "donations": 202,
-  "donationsReceived": 488,
+  "donationsReceived": 528,
   "totalDonations": 28482,
   "warDayWins": 0,
   "clanCardsCollected": 0,
@@ -36,7 +36,7 @@
       "name": "EmoteCollection",
       "level": 4,
       "maxLevel": 8,
-      "progress": 122,
+      "progress": 123,
       "target": 150,
       "iconUrls": {
         "large": "https://api-assets.clashroyale.com/playerbadges/512/UmVFyz9HgRouVrRdWGTa2o4iEPLSR49NVEB1xDOyYDI.png"
@@ -46,7 +46,7 @@
       "name": "YearsPlayed",
       "level": 4,
       "maxLevel": 11,
-      "progress": 1511,
+      "progress": 1512,
       "target": 1825,
       "iconUrls": {
         "large": "https://api-assets.clashroyale.com/playerbadges/512/DvW4PDPHJTEtm5zvENjX17xGuTvKAyqBr-QXP1jNEdI.png"
@@ -56,7 +56,7 @@
       "name": "BattleWins",
       "level": 6,
       "maxLevel": 8,
-      "progress": 4739,
+      "progress": 4741,
       "target": 5000,
       "iconUrls": {
         "large": "https://api-assets.clashroyale.com/playerbadges/512/Hh18NG8LhvwZrcmtGR8rSKRezmhOxCilxqhroDLBnys.png"
@@ -1577,7 +1577,7 @@
       "level": 9,
       "maxLevel": 14,
       "rarity": "rare",
-      "count": 2625,
+      "count": 2653,
       "elixirCost": 6,
       "iconUrls": {
         "medium": "https://api-assets.clashroyale.com/cards/300/ho0nOG2y3Ch86elHHcocQs8Fv_QNe0cFJ2CijsxABZA.png"
@@ -2027,7 +2027,7 @@
       "maxLevel": 16,
       "maxEvolutionLevel": 1,
       "rarity": "common",
-      "count": 1178,
+      "count": 1218,
       "elixirCost": 4,
       "iconUrls": {
         "medium": "https://api-assets.clashroyale.com/cards/300/OiwnGrxFMNiHetYEerE-UZt0L_uYNzFY7qV_CA_OxR4.png",
@@ -3063,16 +3063,16 @@
     }
   ],
   "currentFavouriteCard": {
-    "name": "Mega Knight",
-    "id": 26000055,
-    "maxLevel": 8,
+    "name": "Royal Hogs",
+    "id": 26000059,
+    "maxLevel": 14,
     "maxEvolutionLevel": 1,
-    "elixirCost": 7,
+    "elixirCost": 5,
     "iconUrls": {
-      "medium": "https://api-assets.clashroyale.com/cards/300/O2NycChSNhn_UK9nqBXUhhC_lILkiANzPuJjtjoz0CE.png",
-      "evolutionMedium": "https://api-assets.clashroyale.com/cardevolutions/300/O2NycChSNhn_UK9nqBXUhhC_lILkiANzPuJjtjoz0CE.png"
+      "medium": "https://api-assets.clashroyale.com/cards/300/ASSQJG_MoVq9e81HZzo4bynMnyLNpNJMfSLb3hqydOw.png",
+      "evolutionMedium": "https://api-assets.clashroyale.com/cardevolutions/300/ASSQJG_MoVq9e81HZzo4bynMnyLNpNJMfSLb3hqydOw.png"
     },
-    "rarity": "legendary"
+    "rarity": "rare"
   },
   "starPoints": 282683,
   "expPoints": 63225,
