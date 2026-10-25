@@ -30,6 +30,8 @@ _Avoid_: War lineup, war set
 **Active war deck plan**:
 The War deck plan the player has declared they currently use in war. It is followed by its Decks' records, not by Experiments.
 
+Clan war rules let the player play each of their four war attacks with a different Deck, and each Deck only once per day — so a weak Deck can't be worked around by repeating a stronger one on the same day; it needs a replacement Deck instead.
+
 **Meta deck**:
 A Deck that a named external source reports as popular or strong at a stated date. It is a comparison point, never evidence about the player's own results.
 _Avoid_: Best deck, top deck
