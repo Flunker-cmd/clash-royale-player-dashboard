@@ -4,20 +4,20 @@
   "collectionLevel": 1753,
   "kingTowerLevel": 16,
   "expLevel": 59,
-  "trophies": 12597,
+  "trophies": 12628,
   "bestTrophies": 12646,
-  "wins": 4751,
-  "losses": 5309,
-  "battleCount": 10060,
+  "wins": 4753,
+  "losses": 5310,
+  "battleCount": 10063,
   "threeCrownWins": 1637,
   "challengeCardsWon": 3,
   "challengeMaxWins": 0,
   "tournamentCardsWon": 0,
   "tournamentBattleCount": 39,
-  "currentWinLoseStreak": 2,
+  "currentWinLoseStreak": 1,
   "role": "coLeader",
   "donations": 70,
-  "donationsReceived": 130,
+  "donationsReceived": 170,
   "totalDonations": 28640,
   "warDayWins": 0,
   "clanCardsCollected": 0,
@@ -56,7 +56,7 @@
       "name": "BattleWins",
       "level": 6,
       "maxLevel": 8,
-      "progress": 4751,
+      "progress": 4753,
       "target": 5000,
       "iconUrls": {
         "large": "https://api-assets.clashroyale.com/playerbadges/512/Hh18NG8LhvwZrcmtGR8rSKRezmhOxCilxqhroDLBnys.png"
@@ -1779,7 +1779,7 @@
       "level": 6,
       "maxLevel": 11,
       "rarity": "epic",
-      "count": 197,
+      "count": 211,
       "iconUrls": {
         "medium": "https://api-assets.clashroyale.com/cards/300/wC6Cm9rKLEOk72zTsukVwxewKIoO4ZcMJun54zCPWvA.png"
       }
@@ -2122,7 +2122,7 @@
       "maxLevel": 16,
       "maxEvolutionLevel": 1,
       "rarity": "common",
-      "count": 1589,
+      "count": 1629,
       "elixirCost": 2,
       "iconUrls": {
         "medium": "https://api-assets.clashroyale.com/cards/300/7dxh2-yCBy1x44GrBaL29vjqnEEeJXHEAlsi5g6D1eY.png",
