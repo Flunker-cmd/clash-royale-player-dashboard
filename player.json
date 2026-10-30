@@ -4,20 +4,20 @@
   "collectionLevel": 1753,
   "kingTowerLevel": 16,
   "expLevel": 59,
-  "trophies": 12692,
+  "trophies": 12691,
   "bestTrophies": 12692,
-  "wins": 4761,
-  "losses": 5316,
-  "battleCount": 10077,
-  "threeCrownWins": 1639,
+  "wins": 4764,
+  "losses": 5319,
+  "battleCount": 10083,
+  "threeCrownWins": 1641,
   "challengeCardsWon": 3,
   "challengeMaxWins": 0,
   "tournamentCardsWon": 0,
   "tournamentBattleCount": 39,
-  "currentWinLoseStreak": 6,
+  "currentWinLoseStreak": 1,
   "role": "coLeader",
   "donations": 232,
-  "donationsReceived": 410,
+  "donationsReceived": 450,
   "totalDonations": 28802,
   "warDayWins": 0,
   "clanCardsCollected": 0,
@@ -56,7 +56,7 @@
       "name": "BattleWins",
       "level": 6,
       "maxLevel": 8,
-      "progress": 4761,
+      "progress": 4764,
       "target": 5000,
       "iconUrls": {
         "large": "https://api-assets.clashroyale.com/playerbadges/512/Hh18NG8LhvwZrcmtGR8rSKRezmhOxCilxqhroDLBnys.png"
@@ -66,7 +66,7 @@
       "name": "ClanWarWins",
       "level": 6,
       "maxLevel": 8,
-      "progress": 678,
+      "progress": 681,
       "target": 1000,
       "iconUrls": {
         "large": "https://api-assets.clashroyale.com/playerbadges/512/WgWS0A2vy4RHUYIFhvNu9AZPsQURS6XY5JySYfqPtAk.png"
@@ -1725,7 +1725,7 @@
       "level": 6,
       "maxLevel": 11,
       "rarity": "epic",
-      "count": 231,
+      "count": 234,
       "elixirCost": 5,
       "iconUrls": {
         "medium": "https://api-assets.clashroyale.com/cards/300/aqwxRz8HXzqlMCO4WMXNA1txynjXTsLinknqsgZLbok.png"
@@ -1752,7 +1752,7 @@
       "maxLevel": 16,
       "maxEvolutionLevel": 1,
       "rarity": "common",
-      "count": 4434,
+      "count": 4474,
       "elixirCost": 3,
       "iconUrls": {
         "medium": "https://api-assets.clashroyale.com/cards/300/W4Hmp8MTSdXANN8KdblbtHwtsbt0o749BbxNqmJYfA8.png",
@@ -2827,7 +2827,7 @@
       "level": 2,
       "maxLevel": 6,
       "rarity": "champion",
-      "count": 1,
+      "count": 2,
       "elixirCost": 5,
       "iconUrls": {
         "medium": "https://api-assets.clashroyale.com/cards/300/2onG4t4-CxqwFVZAn6zpWxFz3_mG2ksSj4Q7zldo1SM.png"
