@@ -4,21 +4,21 @@
   "collectionLevel": 1755,
   "kingTowerLevel": 16,
   "expLevel": 59,
-  "trophies": 12698,
+  "trophies": 12669,
   "bestTrophies": 12778,
   "wins": 4779,
-  "losses": 5338,
-  "battleCount": 10117,
+  "losses": 5339,
+  "battleCount": 10118,
   "threeCrownWins": 1643,
   "challengeCardsWon": 3,
   "challengeMaxWins": 0,
   "tournamentCardsWon": 0,
   "tournamentBattleCount": 39,
-  "currentWinLoseStreak": 3,
+  "currentWinLoseStreak": -1,
   "role": "coLeader",
-  "donations": 103,
-  "donationsReceived": 160,
-  "totalDonations": 29093,
+  "donations": 111,
+  "donationsReceived": 200,
+  "totalDonations": 29101,
   "warDayWins": 0,
   "clanCardsCollected": 0,
   "clan": {
@@ -204,7 +204,7 @@
       "name": "ClanDonations",
       "level": 6,
       "maxLevel": 8,
-      "progress": 29093,
+      "progress": 29101,
       "target": 50000,
       "iconUrls": {
         "large": "https://api-assets.clashroyale.com/playerbadges/512/vPTwqJDRx-UyJSQWddV6oUkkyl7Ymgi9w5jshyuTgpM.png"
@@ -1160,7 +1160,7 @@
     {
       "name": "Friend in Need",
       "stars": 3,
-      "value": 29093,
+      "value": 29101,
       "target": 2500,
       "info": "Donate 2500 cards",
       "completionInfo": null
@@ -1240,7 +1240,7 @@
     {
       "name": "Friend in Need II",
       "stars": 3,
-      "value": 29093,
+      "value": 29101,
       "target": 25000,
       "info": "Donate 25000 cards",
       "completionInfo": null
@@ -2028,7 +2028,7 @@
       "maxLevel": 16,
       "maxEvolutionLevel": 1,
       "rarity": "common",
-      "count": 1698,
+      "count": 1738,
       "elixirCost": 4,
       "iconUrls": {
         "medium": "https://api-assets.clashroyale.com/cards/300/OiwnGrxFMNiHetYEerE-UZt0L_uYNzFY7qV_CA_OxR4.png",
@@ -3037,11 +3037,11 @@
     {
       "name": "Fireball",
       "id": 28000000,
-      "level": 13,
+      "level": 14,
       "starLevel": 2,
       "maxLevel": 14,
       "rarity": "rare",
-      "count": 1245,
+      "count": 0,
       "elixirCost": 4,
       "iconUrls": {
         "medium": "https://api-assets.clashroyale.com/cards/300/lZD9MILQv7O-P3XBr_xOLS5idwuz3_7Ws9G60U36yhc.png"
@@ -3073,7 +3073,7 @@
     },
     "rarity": "rare"
   },
-  "starPoints": 283294,
+  "starPoints": 283302,
   "expPoints": 63225,
   "legacyTrophyRoadHighScore": 3250,
   "currentPathOfLegendSeasonResult": {
