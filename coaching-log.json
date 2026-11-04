@@ -27,5 +27,20 @@
       "battles": 15,
       "winRate": 55
     }
+  },
+  {
+    "type": "experimentStarted",
+    "id": "skeletons-for-tombstone",
+    "at": "2026-11-04T20:50:28Z",
+    "out": [
+      "Tombstone"
+    ],
+    "in": [
+      "Skeletons"
+    ],
+    "criterion": {
+      "battles": 15,
+      "winRate": 55
+    }
   }
 ]
