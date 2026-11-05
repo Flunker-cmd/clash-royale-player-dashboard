@@ -6,19 +6,19 @@
   "expLevel": 59,
   "trophies": 12734,
   "bestTrophies": 12789,
-  "wins": 4784,
+  "wins": 4786,
   "losses": 5342,
-  "battleCount": 10126,
+  "battleCount": 10128,
   "threeCrownWins": 1645,
   "challengeCardsWon": 3,
   "challengeMaxWins": 0,
   "tournamentCardsWon": 0,
   "tournamentBattleCount": 39,
-  "currentWinLoseStreak": 1,
+  "currentWinLoseStreak": 3,
   "role": "coLeader",
-  "donations": 213,
-  "donationsReceived": 360,
-  "totalDonations": 29203,
+  "donations": 259,
+  "donationsReceived": 400,
+  "totalDonations": 29249,
   "warDayWins": 0,
   "clanCardsCollected": 0,
   "clan": {
@@ -56,7 +56,7 @@
       "name": "BattleWins",
       "level": 6,
       "maxLevel": 8,
-      "progress": 4784,
+      "progress": 4786,
       "target": 5000,
       "iconUrls": {
         "large": "https://api-assets.clashroyale.com/playerbadges/512/Hh18NG8LhvwZrcmtGR8rSKRezmhOxCilxqhroDLBnys.png"
@@ -66,7 +66,7 @@
       "name": "ClanWarWins",
       "level": 6,
       "maxLevel": 8,
-      "progress": 682,
+      "progress": 685,
       "target": 1000,
       "iconUrls": {
         "large": "https://api-assets.clashroyale.com/playerbadges/512/WgWS0A2vy4RHUYIFhvNu9AZPsQURS6XY5JySYfqPtAk.png"
@@ -204,7 +204,7 @@
       "name": "ClanDonations",
       "level": 6,
       "maxLevel": 8,
-      "progress": 29203,
+      "progress": 29249,
       "target": 50000,
       "iconUrls": {
         "large": "https://api-assets.clashroyale.com/playerbadges/512/vPTwqJDRx-UyJSQWddV6oUkkyl7Ymgi9w5jshyuTgpM.png"
@@ -1042,12 +1042,12 @@
     },
     {
       "name": "MasteryAxeMan",
-      "level": 1,
+      "level": 2,
       "maxLevel": 10,
-      "progress": 1,
-      "target": 2,
+      "progress": 2,
+      "target": 3,
       "iconUrls": {
-        "large": "https://api-assets.clashroyale.com/playerbadges/512/pOqek4eBFVkDgXpbdyn6A7IbT3ieyqDA7gyb_dPMSUk.png"
+        "large": "https://api-assets.clashroyale.com/playerbadges/512/SUYsjPlgmneIEj-eyJn5Pf3AqIxnxhetaHBBBP_XaW8.png"
       }
     },
     {
@@ -1160,7 +1160,7 @@
     {
       "name": "Friend in Need",
       "stars": 3,
-      "value": 29203,
+      "value": 29249,
       "target": 2500,
       "info": "Donate 2500 cards",
       "completionInfo": null
@@ -1240,7 +1240,7 @@
     {
       "name": "Friend in Need II",
       "stars": 3,
-      "value": 29203,
+      "value": 29249,
       "target": 25000,
       "info": "Donate 25000 cards",
       "completionInfo": null
@@ -1265,7 +1265,7 @@
       "level": 10,
       "maxLevel": 14,
       "rarity": "rare",
-      "count": 841,
+      "count": 950,
       "elixirCost": 4,
       "iconUrls": {
         "medium": "https://api-assets.clashroyale.com/cards/300/KdwXcoigS2Kg-cgA7BJJIANbUJG6SNgjetRQ-MegZ08.png"
@@ -2014,7 +2014,7 @@
       "maxLevel": 16,
       "maxEvolutionLevel": 1,
       "rarity": "common",
-      "count": 2068,
+      "count": 2108,
       "elixirCost": 1,
       "iconUrls": {
         "medium": "https://api-assets.clashroyale.com/cards/300/lv1budiafU9XmSdrDkk0NYyqASAFYyZ06CPysXKZXlA.png",
@@ -2137,7 +2137,7 @@
       "maxLevel": 16,
       "maxEvolutionLevel": 1,
       "rarity": "common",
-      "count": 10859,
+      "count": 10851,
       "elixirCost": 2,
       "iconUrls": {
         "medium": "https://api-assets.clashroyale.com/cards/300/7MaJLa6hK9WN2_VIshuh5DIDfGwm0wEv98gXtAxLDPs.png",
@@ -2517,7 +2517,7 @@
       "starLevel": 1,
       "maxLevel": 11,
       "rarity": "epic",
-      "count": 118,
+      "count": 132,
       "elixirCost": 5,
       "iconUrls": {
         "medium": "https://api-assets.clashroyale.com/cards/300/3JntJV62aY0G1Qh6LIs-ek-0ayeYFY3VItpG7cb9I60.png"
@@ -2840,7 +2840,7 @@
       "level": 2,
       "maxLevel": 6,
       "rarity": "champion",
-      "count": 4,
+      "count": 5,
       "elixirCost": 3,
       "iconUrls": {
         "medium": "https://api-assets.clashroyale.com/cards/300/dY-gSseki6KBpkIG17safHH5YlB8SErFZO9OXbJxf9w.png"
@@ -3071,7 +3071,7 @@
     },
     "rarity": "legendary"
   },
-  "starPoints": 285404,
+  "starPoints": 285450,
   "expPoints": 63225,
   "legacyTrophyRoadHighScore": 3250,
   "currentPathOfLegendSeasonResult": {
