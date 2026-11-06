@@ -17,7 +17,7 @@
   "currentWinLoseStreak": 4,
   "role": "coLeader",
   "donations": 279,
-  "donationsReceived": 424,
+  "donationsReceived": 440,
   "totalDonations": 29269,
   "warDayWins": 0,
   "clanCardsCollected": 0,
@@ -46,7 +46,7 @@
       "name": "YearsPlayed",
       "level": 4,
       "maxLevel": 11,
-      "progress": 1524,
+      "progress": 1525,
       "target": 1825,
       "iconUrls": {
         "large": "https://api-assets.clashroyale.com/playerbadges/512/DvW4PDPHJTEtm5zvENjX17xGuTvKAyqBr-QXP1jNEdI.png"
@@ -2014,7 +2014,7 @@
       "maxLevel": 16,
       "maxEvolutionLevel": 1,
       "rarity": "common",
-      "count": 2132,
+      "count": 2148,
       "elixirCost": 1,
       "iconUrls": {
         "medium": "https://api-assets.clashroyale.com/cards/300/lv1budiafU9XmSdrDkk0NYyqASAFYyZ06CPysXKZXlA.png",
