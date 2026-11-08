@@ -16,9 +16,9 @@
   "tournamentBattleCount": 39,
   "currentWinLoseStreak": -2,
   "role": "coLeader",
-  "donations": 469,
-  "donationsReceived": 640,
-  "totalDonations": 29459,
+  "donations": 487,
+  "donationsReceived": 680,
+  "totalDonations": 29477,
   "warDayWins": 0,
   "clanCardsCollected": 0,
   "clan": {
@@ -204,7 +204,7 @@
       "name": "ClanDonations",
       "level": 6,
       "maxLevel": 8,
-      "progress": 29459,
+      "progress": 29477,
       "target": 50000,
       "iconUrls": {
         "large": "https://api-assets.clashroyale.com/playerbadges/512/vPTwqJDRx-UyJSQWddV6oUkkyl7Ymgi9w5jshyuTgpM.png"
@@ -1160,7 +1160,7 @@
     {
       "name": "Friend in Need",
       "stars": 3,
-      "value": 29459,
+      "value": 29477,
       "target": 2500,
       "info": "Donate 2500 cards",
       "completionInfo": null
@@ -1240,7 +1240,7 @@
     {
       "name": "Friend in Need II",
       "stars": 3,
-      "value": 29459,
+      "value": 29477,
       "target": 25000,
       "info": "Donate 25000 cards",
       "completionInfo": null
@@ -2123,7 +2123,7 @@
       "maxLevel": 16,
       "maxEvolutionLevel": 1,
       "rarity": "common",
-      "count": 1669,
+      "count": 1709,
       "elixirCost": 2,
       "iconUrls": {
         "medium": "https://api-assets.clashroyale.com/cards/300/7dxh2-yCBy1x44GrBaL29vjqnEEeJXHEAlsi5g6D1eY.png",
@@ -3072,7 +3072,7 @@
     },
     "rarity": "legendary"
   },
-  "starPoints": 285660,
+  "starPoints": 285678,
   "expPoints": 63225,
   "legacyTrophyRoadHighScore": 3250,
   "currentPathOfLegendSeasonResult": {
