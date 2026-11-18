@@ -4,11 +4,11 @@
   "collectionLevel": 1774,
   "kingTowerLevel": 16,
   "expLevel": 59,
-  "trophies": 12532,
+  "trophies": 12530,
   "bestTrophies": 12795,
-  "wins": 4833,
-  "losses": 5397,
-  "battleCount": 10230,
+  "wins": 4834,
+  "losses": 5399,
+  "battleCount": 10233,
   "threeCrownWins": 1655,
   "challengeCardsWon": 3,
   "challengeMaxWins": 0,
@@ -56,7 +56,7 @@
       "name": "BattleWins",
       "level": 6,
       "maxLevel": 8,
-      "progress": 4833,
+      "progress": 4834,
       "target": 5000,
       "iconUrls": {
         "large": "https://api-assets.clashroyale.com/playerbadges/512/Hh18NG8LhvwZrcmtGR8rSKRezmhOxCilxqhroDLBnys.png"
@@ -76,7 +76,7 @@
       "name": "BannerCollection",
       "level": 6,
       "maxLevel": 8,
-      "progress": 282,
+      "progress": 283,
       "target": 300,
       "iconUrls": {
         "large": "https://api-assets.clashroyale.com/playerbadges/512/6o9UOH1z4y2kjsIXb498YWmxpSxaIa2xPnsj8nHYrL8.png"
