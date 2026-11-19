@@ -4,11 +4,11 @@
   "collectionLevel": 1774,
   "kingTowerLevel": 16,
   "expLevel": 59,
-  "trophies": 12560,
+  "trophies": 12505,
   "bestTrophies": 12795,
-  "wins": 4836,
-  "losses": 5400,
-  "battleCount": 10236,
+  "wins": 4837,
+  "losses": 5403,
+  "battleCount": 10240,
   "threeCrownWins": 1656,
   "challengeCardsWon": 3,
   "challengeMaxWins": 0,
@@ -16,9 +16,9 @@
   "tournamentBattleCount": 39,
   "currentWinLoseStreak": -1,
   "role": "coLeader",
-  "donations": 106,
-  "donationsReceived": 200,
-  "totalDonations": 30209,
+  "donations": 124,
+  "donationsReceived": 240,
+  "totalDonations": 30227,
   "warDayWins": 0,
   "clanCardsCollected": 0,
   "clan": {
@@ -56,7 +56,7 @@
       "name": "BattleWins",
       "level": 6,
       "maxLevel": 8,
-      "progress": 4836,
+      "progress": 4837,
       "target": 5000,
       "iconUrls": {
         "large": "https://api-assets.clashroyale.com/playerbadges/512/Hh18NG8LhvwZrcmtGR8rSKRezmhOxCilxqhroDLBnys.png"
@@ -204,7 +204,7 @@
       "name": "ClanDonations",
       "level": 6,
       "maxLevel": 8,
-      "progress": 30209,
+      "progress": 30227,
       "target": 50000,
       "iconUrls": {
         "large": "https://api-assets.clashroyale.com/playerbadges/512/vPTwqJDRx-UyJSQWddV6oUkkyl7Ymgi9w5jshyuTgpM.png"
@@ -1170,7 +1170,7 @@
     {
       "name": "Friend in Need",
       "stars": 3,
-      "value": 30209,
+      "value": 30227,
       "target": 2500,
       "info": "Donate 2500 cards",
       "completionInfo": null
@@ -1250,7 +1250,7 @@
     {
       "name": "Friend in Need II",
       "stars": 3,
-      "value": 30209,
+      "value": 30227,
       "target": 25000,
       "info": "Donate 25000 cards",
       "completionInfo": null
@@ -1866,7 +1866,7 @@
       "maxLevel": 14,
       "maxEvolutionLevel": 1,
       "rarity": "rare",
-      "count": 852,
+      "count": 856,
       "elixirCost": 3,
       "iconUrls": {
         "medium": "https://api-assets.clashroyale.com/cards/300/BmpK3bqEAviflqHCdxxnfm-_l3pRPJw3qxHkwS55nCY.png",
@@ -1942,7 +1942,7 @@
       "maxLevel": 14,
       "maxEvolutionLevel": 1,
       "rarity": "rare",
-      "count": 1390,
+      "count": 1397,
       "elixirCost": 4,
       "iconUrls": {
         "medium": "https://api-assets.clashroyale.com/cards/300/iqbDiG7yYRIzvCPXdt9zPb3IvMt7F7Gi4wIPnh2x4aI.png",
@@ -2891,7 +2891,7 @@
       "level": 8,
       "maxLevel": 14,
       "rarity": "rare",
-      "count": 154,
+      "count": 153,
       "elixirCost": 4,
       "iconUrls": {
         "medium": "https://api-assets.clashroyale.com/cards/300/VRjL0yVLzrnoe-IBh2l2fDHDok0L-UoM9cG-X_8xbMk.png"
@@ -2962,18 +2962,15 @@
       }
     },
     {
-      "name": "Royal Hogs",
-      "id": 26000059,
-      "level": 14,
-      "evolutionLevel": 1,
+      "name": "Three Musketeers",
+      "id": 26000028,
+      "level": 11,
       "maxLevel": 14,
-      "maxEvolutionLevel": 1,
       "rarity": "rare",
-      "count": 0,
-      "elixirCost": 5,
+      "count": 744,
+      "elixirCost": 9,
       "iconUrls": {
-        "medium": "https://api-assets.clashroyale.com/cards/300/ASSQJG_MoVq9e81HZzo4bynMnyLNpNJMfSLb3hqydOw.png",
-        "evolutionMedium": "https://api-assets.clashroyale.com/cardevolutions/300/ASSQJG_MoVq9e81HZzo4bynMnyLNpNJMfSLb3hqydOw.png"
+        "medium": "https://api-assets.clashroyale.com/cards/300/_J2GhbkX3vswaFk1wG-dopwiHyNc_YiPhwroiKF3Mek.png"
       }
     },
     {
@@ -3087,7 +3084,7 @@
     },
     "rarity": "legendary"
   },
-  "starPoints": 288810,
+  "starPoints": 288828,
   "expPoints": 63225,
   "legacyTrophyRoadHighScore": 3250,
   "currentPathOfLegendSeasonResult": {
