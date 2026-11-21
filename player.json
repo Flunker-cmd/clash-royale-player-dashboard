@@ -4,21 +4,21 @@
   "collectionLevel": 1774,
   "kingTowerLevel": 16,
   "expLevel": 59,
-  "trophies": 12571,
+  "trophies": 12573,
   "bestTrophies": 12795,
-  "wins": 4842,
-  "losses": 5411,
-  "battleCount": 10253,
-  "threeCrownWins": 1657,
+  "wins": 4845,
+  "losses": 5414,
+  "battleCount": 10259,
+  "threeCrownWins": 1658,
   "challengeCardsWon": 3,
   "challengeMaxWins": 0,
   "tournamentCardsWon": 0,
   "tournamentBattleCount": 39,
-  "currentWinLoseStreak": 3,
+  "currentWinLoseStreak": -2,
   "role": "coLeader",
-  "donations": 344,
+  "donations": 370,
   "donationsReceived": 480,
-  "totalDonations": 30447,
+  "totalDonations": 30473,
   "warDayWins": 0,
   "clanCardsCollected": 0,
   "clan": {
@@ -56,7 +56,7 @@
       "name": "BattleWins",
       "level": 6,
       "maxLevel": 8,
-      "progress": 4842,
+      "progress": 4845,
       "target": 5000,
       "iconUrls": {
         "large": "https://api-assets.clashroyale.com/playerbadges/512/Hh18NG8LhvwZrcmtGR8rSKRezmhOxCilxqhroDLBnys.png"
@@ -204,7 +204,7 @@
       "name": "ClanDonations",
       "level": 6,
       "maxLevel": 8,
-      "progress": 30447,
+      "progress": 30473,
       "target": 50000,
       "iconUrls": {
         "large": "https://api-assets.clashroyale.com/playerbadges/512/vPTwqJDRx-UyJSQWddV6oUkkyl7Ymgi9w5jshyuTgpM.png"
@@ -1156,6 +1156,16 @@
       "iconUrls": {
         "large": "https://api-assets.clashroyale.com/playerbadges/512/KBT6RZqjLac4bq5MJ0h1eAq0J8kzO4CTVgKTgxtWA1g.png"
       }
+    },
+    {
+      "name": "MasteryRoyalGiant",
+      "level": 1,
+      "maxLevel": 10,
+      "progress": 1,
+      "target": 2,
+      "iconUrls": {
+        "large": "https://api-assets.clashroyale.com/playerbadges/512/anvPZozzSlKn1L_qAk5Tyo3NbafAmEitWQD5PfAg8Lc.png"
+      }
     }
   ],
   "achievements": [
@@ -1170,7 +1180,7 @@
     {
       "name": "Friend in Need",
       "stars": 3,
-      "value": 30447,
+      "value": 30473,
       "target": 2500,
       "info": "Donate 2500 cards",
       "completionInfo": null
@@ -1250,7 +1260,7 @@
     {
       "name": "Friend in Need II",
       "stars": 3,
-      "value": 30447,
+      "value": 30473,
       "target": 25000,
       "info": "Donate 25000 cards",
       "completionInfo": null
@@ -1563,7 +1573,7 @@
       "level": 14,
       "maxLevel": 16,
       "rarity": "common",
-      "count": 7334,
+      "count": 7326,
       "elixirCost": 2,
       "iconUrls": {
         "medium": "https://api-assets.clashroyale.com/cards/300/FSDFotjaXidI4ku_WFpVCTWS1hKGnFh1sxX0lxM43_E.png"
@@ -2150,7 +2160,7 @@
       "maxLevel": 16,
       "maxEvolutionLevel": 1,
       "rarity": "common",
-      "count": 10827,
+      "count": 10861,
       "elixirCost": 2,
       "iconUrls": {
         "medium": "https://api-assets.clashroyale.com/cards/300/7MaJLa6hK9WN2_VIshuh5DIDfGwm0wEv98gXtAxLDPs.png",
@@ -2321,7 +2331,7 @@
       "maxLevel": 16,
       "maxEvolutionLevel": 1,
       "rarity": "common",
-      "count": 3134,
+      "count": 3168,
       "elixirCost": 5,
       "iconUrls": {
         "medium": "https://api-assets.clashroyale.com/cards/300/Wyjq5l0IXHTkX9Rmpap6HaH08MvjbxFp1xBO9a47YSI.png",
@@ -2351,7 +2361,7 @@
       "maxLevel": 14,
       "maxEvolutionLevel": 3,
       "rarity": "rare",
-      "count": 797,
+      "count": 825,
       "elixirCost": 4,
       "iconUrls": {
         "medium": "https://api-assets.clashroyale.com/cards/300/Tex1C48UTq9FKtAX-3tzG0FJmc9jzncUZG3bb5Vf-Ds.png",
@@ -2962,15 +2972,17 @@
       }
     },
     {
-      "name": "Three Musketeers",
-      "id": 26000028,
-      "level": 11,
-      "maxLevel": 14,
-      "rarity": "rare",
-      "count": 744,
-      "elixirCost": 9,
+      "name": "Royal Giant",
+      "id": 26000024,
+      "level": 13,
+      "maxLevel": 16,
+      "maxEvolutionLevel": 1,
+      "rarity": "common",
+      "count": 6576,
+      "elixirCost": 6,
       "iconUrls": {
-        "medium": "https://api-assets.clashroyale.com/cards/300/_J2GhbkX3vswaFk1wG-dopwiHyNc_YiPhwroiKF3Mek.png"
+        "medium": "https://api-assets.clashroyale.com/cards/300/mnlRaNtmfpQx2e6mp70sLd0ND-pKPF70Cf87_agEKg4.png",
+        "evolutionMedium": "https://api-assets.clashroyale.com/cardevolutions/300/mnlRaNtmfpQx2e6mp70sLd0ND-pKPF70Cf87_agEKg4.png"
       }
     },
     {
@@ -3073,16 +3085,18 @@
     }
   ],
   "currentFavouriteCard": {
-    "name": "Three Musketeers",
-    "id": 26000028,
-    "maxLevel": 14,
-    "elixirCost": 9,
+    "name": "Royal Giant",
+    "id": 26000024,
+    "maxLevel": 16,
+    "maxEvolutionLevel": 1,
+    "elixirCost": 6,
     "iconUrls": {
-      "medium": "https://api-assets.clashroyale.com/cards/300/_J2GhbkX3vswaFk1wG-dopwiHyNc_YiPhwroiKF3Mek.png"
+      "medium": "https://api-assets.clashroyale.com/cards/300/mnlRaNtmfpQx2e6mp70sLd0ND-pKPF70Cf87_agEKg4.png",
+      "evolutionMedium": "https://api-assets.clashroyale.com/cardevolutions/300/mnlRaNtmfpQx2e6mp70sLd0ND-pKPF70Cf87_agEKg4.png"
     },
-    "rarity": "rare"
+    "rarity": "common"
   },
-  "starPoints": 289048,
+  "starPoints": 289074,
   "expPoints": 63225,
   "legacyTrophyRoadHighScore": 3250,
   "currentPathOfLegendSeasonResult": {
