@@ -4,21 +4,21 @@
   "collectionLevel": 1777,
   "kingTowerLevel": 16,
   "expLevel": 59,
-  "trophies": 12572,
+  "trophies": 12515,
   "bestTrophies": 12795,
   "wins": 4868,
-  "losses": 5437,
-  "battleCount": 10305,
+  "losses": 5439,
+  "battleCount": 10307,
   "threeCrownWins": 1661,
   "challengeCardsWon": 3,
   "challengeMaxWins": 0,
   "tournamentCardsWon": 0,
   "tournamentBattleCount": 39,
-  "currentWinLoseStreak": -2,
+  "currentWinLoseStreak": -4,
   "role": "coLeader",
-  "donations": 152,
-  "donationsReceived": 128,
-  "totalDonations": 30773,
+  "donations": 160,
+  "donationsReceived": 168,
+  "totalDonations": 30781,
   "warDayWins": 0,
   "clanCardsCollected": 0,
   "clan": {
@@ -204,7 +204,7 @@
       "name": "ClanDonations",
       "level": 6,
       "maxLevel": 8,
-      "progress": 30773,
+      "progress": 30781,
       "target": 50000,
       "iconUrls": {
         "large": "https://api-assets.clashroyale.com/playerbadges/512/vPTwqJDRx-UyJSQWddV6oUkkyl7Ymgi9w5jshyuTgpM.png"
@@ -1180,7 +1180,7 @@
     {
       "name": "Friend in Need",
       "stars": 3,
-      "value": 30773,
+      "value": 30781,
       "target": 2500,
       "info": "Donate 2500 cards",
       "completionInfo": null
@@ -1260,7 +1260,7 @@
     {
       "name": "Friend in Need II",
       "stars": 3,
-      "value": 30773,
+      "value": 30781,
       "target": 25000,
       "info": "Donate 25000 cards",
       "completionInfo": null
@@ -1772,7 +1772,7 @@
       "maxLevel": 16,
       "maxEvolutionLevel": 1,
       "rarity": "common",
-      "count": 7581,
+      "count": 7573,
       "elixirCost": 3,
       "iconUrls": {
         "medium": "https://api-assets.clashroyale.com/cards/300/W4Hmp8MTSdXANN8KdblbtHwtsbt0o749BbxNqmJYfA8.png",
@@ -2331,7 +2331,7 @@
       "maxLevel": 16,
       "maxEvolutionLevel": 1,
       "rarity": "common",
-      "count": 3718,
+      "count": 3758,
       "elixirCost": 5,
       "iconUrls": {
         "medium": "https://api-assets.clashroyale.com/cards/300/Wyjq5l0IXHTkX9Rmpap6HaH08MvjbxFp1xBO9a47YSI.png",
@@ -2972,17 +2972,15 @@
       }
     },
     {
-      "name": "Skeleton Barrel",
-      "id": 26000056,
-      "level": 12,
-      "maxLevel": 16,
-      "maxEvolutionLevel": 1,
-      "rarity": "common",
-      "count": 6633,
-      "elixirCost": 3,
+      "name": "Golem",
+      "id": 26000009,
+      "level": 5,
+      "maxLevel": 11,
+      "rarity": "epic",
+      "count": 264,
+      "elixirCost": 8,
       "iconUrls": {
-        "medium": "https://api-assets.clashroyale.com/cards/300/vCB4DWCcrGbTkarjcOiVz4aNDx6GWLm0yUepg9E1MGo.png",
-        "evolutionMedium": "https://api-assets.clashroyale.com/cardevolutions/300/vCB4DWCcrGbTkarjcOiVz4aNDx6GWLm0yUepg9E1MGo.png"
+        "medium": "https://api-assets.clashroyale.com/cards/300/npdmCnET7jmVjJvjJQkFnNSNnDxYHDBigbvIAloFMds.png"
       }
     },
     {
@@ -3096,7 +3094,7 @@
     },
     "rarity": "legendary"
   },
-  "starPoints": 293774,
+  "starPoints": 293782,
   "expPoints": 63225,
   "legacyTrophyRoadHighScore": 3250,
   "currentPathOfLegendSeasonResult": {
