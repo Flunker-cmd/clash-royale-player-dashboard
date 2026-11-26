@@ -4,21 +4,21 @@
   "collectionLevel": 1777,
   "kingTowerLevel": 16,
   "expLevel": 59,
-  "trophies": 12563,
+  "trophies": 12597,
   "bestTrophies": 12795,
-  "wins": 4875,
-  "losses": 5449,
-  "battleCount": 10324,
-  "threeCrownWins": 1663,
+  "wins": 4878,
+  "losses": 5451,
+  "battleCount": 10329,
+  "threeCrownWins": 1664,
   "challengeCardsWon": 3,
   "challengeMaxWins": 0,
   "tournamentCardsWon": 0,
   "tournamentBattleCount": 39,
-  "currentWinLoseStreak": 2,
+  "currentWinLoseStreak": 1,
   "role": "coLeader",
-  "donations": 256,
-  "donationsReceived": 312,
-  "totalDonations": 30877,
+  "donations": 274,
+  "donationsReceived": 352,
+  "totalDonations": 30895,
   "warDayWins": 0,
   "clanCardsCollected": 0,
   "clan": {
@@ -56,7 +56,7 @@
       "name": "BattleWins",
       "level": 6,
       "maxLevel": 8,
-      "progress": 4875,
+      "progress": 4878,
       "target": 5000,
       "iconUrls": {
         "large": "https://api-assets.clashroyale.com/playerbadges/512/Hh18NG8LhvwZrcmtGR8rSKRezmhOxCilxqhroDLBnys.png"
@@ -204,7 +204,7 @@
       "name": "ClanDonations",
       "level": 6,
       "maxLevel": 8,
-      "progress": 30877,
+      "progress": 30895,
       "target": 50000,
       "iconUrls": {
         "large": "https://api-assets.clashroyale.com/playerbadges/512/vPTwqJDRx-UyJSQWddV6oUkkyl7Ymgi9w5jshyuTgpM.png"
@@ -1180,7 +1180,7 @@
     {
       "name": "Friend in Need",
       "stars": 3,
-      "value": 30877,
+      "value": 30895,
       "target": 2500,
       "info": "Donate 2500 cards",
       "completionInfo": null
@@ -1260,7 +1260,7 @@
     {
       "name": "Friend in Need II",
       "stars": 3,
-      "value": 30877,
+      "value": 30895,
       "target": 25000,
       "info": "Donate 25000 cards",
       "completionInfo": null
@@ -1626,7 +1626,7 @@
       "maxLevel": 16,
       "maxEvolutionLevel": 3,
       "rarity": "common",
-      "count": 2188,
+      "count": 2212,
       "elixirCost": 3,
       "iconUrls": {
         "medium": "https://api-assets.clashroyale.com/cards/300/jAj1Q5rclXxU9kVImGqSJxa4wEMfEhvwNQ_4jiGUuqg.png",
@@ -2051,7 +2051,7 @@
       "maxLevel": 16,
       "maxEvolutionLevel": 1,
       "rarity": "common",
-      "count": 2148,
+      "count": 2164,
       "elixirCost": 4,
       "iconUrls": {
         "medium": "https://api-assets.clashroyale.com/cards/300/OiwnGrxFMNiHetYEerE-UZt0L_uYNzFY7qV_CA_OxR4.png",
@@ -3085,18 +3085,18 @@
     }
   ],
   "currentFavouriteCard": {
-    "name": "Mega Knight",
-    "id": 26000055,
-    "maxLevel": 8,
+    "name": "Electro Giant",
+    "id": 26000085,
+    "maxLevel": 11,
     "maxEvolutionLevel": 1,
     "elixirCost": 7,
     "iconUrls": {
-      "medium": "https://api-assets.clashroyale.com/cards/300/O2NycChSNhn_UK9nqBXUhhC_lILkiANzPuJjtjoz0CE.png",
-      "evolutionMedium": "https://api-assets.clashroyale.com/cardevolutions/300/O2NycChSNhn_UK9nqBXUhhC_lILkiANzPuJjtjoz0CE.png"
+      "medium": "https://api-assets.clashroyale.com/cards/300/_uChZkNHAMq6tPb3v6A49xinOe3CnhjstOhG6OZbPYc.png",
+      "evolutionMedium": "https://api-assets.clashroyale.com/cardevolutions/300/_uChZkNHAMq6tPb3v6A49xinOe3CnhjstOhG6OZbPYc.png"
     },
-    "rarity": "legendary"
+    "rarity": "epic"
   },
-  "starPoints": 293878,
+  "starPoints": 293896,
   "expPoints": 63225,
   "legacyTrophyRoadHighScore": 3250,
   "currentPathOfLegendSeasonResult": {
